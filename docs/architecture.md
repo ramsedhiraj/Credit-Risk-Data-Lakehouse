@@ -15,14 +15,14 @@ The pipeline follows the Lakehouse Medallion pattern across three Delta Lake tie
 ```mermaid
 flowchart TD
     subgraph Ingestion ["Ingestion Tier"]
-        CSV["Raw Loan CSV Source<br/>(Lending Club / ADLS Gen2)"]
+        CSV["Raw Loan CSV Source<br/>(Lending Club Historical / ADLS Gen2)"]
     end
 
     subgraph BronzeLayer ["Bronze Layer (Raw Ingestion)"]
         Bronze["Delta Table: bronze_loans<br/>• Explicit StructType Schema<br/>• Ingestion Metadata (_batch_id, _timestamp)<br/>• PERMISSIVE parse (_corrupt_record)"]
     end
 
-    subgraph SilverLayer ["Silver Layer (Cleaning & Governance)"]
+    subgraph SilverLayer ["Silver Layer (Cleaning, Governance & Quarantine)"]
         Clean["Data Standardization Engine<br/>• Type Casting & Symbol Stripping<br/>• Window Deduplication on loan_id<br/>• Underwriting Policy Validations"]
         SilverAcc["Delta Table: silver_loans<br/>• Validated & Typed Records<br/>• Derived Flags (is_default, is_resolved)<br/>• Income Risk Tiers"]
         SilverQuar["Delta Table: silver_loans_quarantine<br/>• Rejected / Corrupt Records<br/>• Rejection Reason Audit Trails"]
@@ -59,9 +59,21 @@ flowchart TD
 
 ---
 
-## 3. Layer Specifications
+## 3. Data Strategy & Provenance
 
-### 3.1. Bronze Layer (Raw Ingestion)
+### 3.1. Dataset Provenance & Licensing
+The pipeline processes loan records from the canonical **Lending Club Loan Dataset** (`accepted_2007_to_2018Q4.csv`) sourced from Hugging Face Open Datasets (`codesignal/lending-club-loan-accepted` mirror) and Kaggle ([Lending Club Dataset](https://www.kaggle.com/c/lending-club/data)), published under the Creative Commons Public Domain Dedication (**CC0-1.0**). The full corpus consists of 2,260,701 loan origination and performance records across 151 underwriting attributes spanning 2007 through 2018Q4.
+
+### 3.2. Dual-Tier Data Strategy
+To ensure the project remains practical to run while demonstrating large-scale capabilities:
+1. **Tier 1 — Fast Developer Fixture (`loan_data_sample.csv`):** 995 rows (~220 KB) with 14 intentional duplicates and 21 controlled anomaly rows (negative income, invalid grades, out-of-range amounts). Executes the entire pytest test suite (20 unit tests) in **0.39s**.
+2. **Tier 2 — Large-Scale Historical Benchmark Dataset (`accepted_2007_to_2018_sample.csv`):** 200,000 genuine historical Lending Club records (134.06 MB raw CSV) projecting 28 core underwriting fields for integration testing, storage profiling, and empirical benchmarking.
+
+---
+
+## 4. Layer Specifications
+
+### 4.1. Bronze Layer (Raw Ingestion)
 - **Table Name:** `bronze_loans`
 - **Format:** Delta Lake
 - **Storage Target:** `data/delta/bronze/loans` (Local) / `abfss://lakehouse@<account>.dfs.core.windows.net/bronze/loans` (Azure)
@@ -72,9 +84,9 @@ flowchart TD
     - `_ingestion_timestamp`: UTC timestamp of execution.
     - `_source_file`: Fully-qualified URI of the source raw file (`input_file_name()`).
     - `_batch_id`: Unique ingestion execution identifier (`batch_YYYYMMDDHHMMSS_<uuid>`).
-- **Idempotency:** Reruns with identical batch configurations use partition replacement or deterministic table overwrites to prevent duplicate record accumulation.
+- **Idempotency:** Parameterized write modes (`overwrite` for full refresh or partition replace on batch ID) avoid duplicate row accumulation on retries.
 
-### 3.2. Silver Layer (Cleaning, Deduplication & Quarantine)
+### 4.2. Silver Layer (Cleaning, Deduplication & Quarantine)
 - **Table Names:** `silver_loans` (Accepted), `silver_loans_quarantine` (Rejected)
 - **Format:** Delta Lake
 - **Storage Target:** `data/delta/silver/loans` and `data/delta/silver/loans_quarantine`
@@ -104,7 +116,7 @@ flowchart TD
      - `is_resolved`: Binary indicator (`1` if `loan_status IN ('Fully Paid', 'Charged Off', 'Default')`, else `0`).
      - `income_band`: Binned into five risk tiers (`< $30k`, `$30k-$60k`, `$60k-$100k`, `$100k-$150k`, `> $150k`).
 
-### 3.3. Gold Layer (Credit Risk Marts)
+### 4.3. Gold Layer (Credit Risk Marts)
 - **Table Names:**
   - `gold_default_rate_by_grade`
   - `gold_default_rate_by_state`
@@ -126,47 +138,72 @@ flowchart TD
 
 ---
 
-## 4. Data Quality & Audit Framework
+## 5. Data Quality & Audit Framework
 
-The pipeline includes an enterprise Data Quality Engine that enforces 13 distinct assertions across all layers, logging results to `data/delta/audit/dq_validation_results`:
+The pipeline includes an enterprise Data Quality Engine that enforces **14 distinct assertions** across all layers, logging results to `data/delta/audit/dq_validation_results`:
 
-| Check Name | Target Table | Type | Severity | Validation Rule |
-| :--- | :--- | :--- | :--- | :--- |
-| `bronze_source_reconciliation` | `bronze_loans` | Reconciliation | CRITICAL | Raw CSV row count == Bronze row count |
-| `bronze_corrupt_records_threshold` | `bronze_loans` | Data Integrity | WARNING | Corrupt CSV lines <= 1.0% |
-| `silver_record_conservation_reconciliation` | `silver_loans` | Reconciliation | CRITICAL | Accepted + Quarantine == Bronze Count |
-| `silver_loan_id_uniqueness` | `silver_loans` | Uniqueness | CRITICAL | Zero duplicate `loan_id` values |
-| `silver_null_check_loan_id` | `silver_loans` | Null Check | CRITICAL | 0.0% nulls in `loan_id` |
-| `silver_null_check_loan_amount` | `silver_loans` | Null Check | CRITICAL | 0.0% nulls in `loan_amount` |
-| `silver_null_check_annual_income` | `silver_loans` | Null Check | CRITICAL | 0.0% nulls in `annual_income` |
-| `silver_null_check_interest_rate_pct` | `silver_loans` | Null Check | CRITICAL | 0.0% nulls in `interest_rate_pct` |
-| `silver_null_check_loan_grade` | `silver_loans` | Null Check | CRITICAL | 0.0% nulls in `loan_grade` |
-| `silver_null_check_loan_status` | `silver_loans` | Null Check | CRITICAL | 0.0% nulls in `loan_status` |
-| `silver_range_check_loan_amount` | `silver_loans` | Range Check | CRITICAL | Loan amounts within [$500, $100,000] |
-| `silver_domain_check_loan_grade` | `silver_loans` | Domain Check | CRITICAL | Grades strictly in {A, B, C, D, E, F, G} |
-| `gold_portfolio_default_rate_sanity` | `gold_analytics` | Sanity Check | WARNING | Overall default rate between 1.0% and 60.0% |
-| `gold_exposure_cross_table_consistency` | `gold_analytics` | Consistency | CRITICAL | Grade exposure sum == Portfolio exposure sum ($\Delta \le \$0.05$) |
+| Check Name | Target Table | Type | Severity | Validation Rule | Result |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| `bronze_source_reconciliation` | `bronze_loans` | Reconciliation | CRITICAL | Raw CSV row count == Bronze row count | **PASS** |
+| `bronze_corrupt_records_threshold` | `bronze_loans` | Data Integrity | WARNING | Corrupt CSV lines <= 1.0% | **PASS** |
+| `silver_record_conservation_reconciliation` | `silver_loans` | Reconciliation | CRITICAL | Accepted + Quarantine == Bronze Count | **PASS** |
+| `silver_loan_id_uniqueness` | `silver_loans` | Uniqueness | CRITICAL | Zero duplicate `loan_id` values | **PASS** |
+| `silver_null_check_loan_id` | `silver_loans` | Completeness | CRITICAL | 0.0% nulls in `loan_id` | **PASS** |
+| `silver_null_check_loan_amount` | `silver_loans` | Completeness | CRITICAL | 0.0% nulls in `loan_amount` | **PASS** |
+| `silver_null_check_annual_income` | `silver_loans` | Completeness | CRITICAL | 0.0% nulls in `annual_income` | **PASS** |
+| `silver_null_check_interest_rate_pct` | `silver_loans` | Completeness | CRITICAL | 0.0% nulls in `interest_rate_pct` | **PASS** |
+| `silver_null_check_loan_grade` | `silver_loans` | Completeness | CRITICAL | 0.0% nulls in `loan_grade` | **PASS** |
+| `silver_null_check_loan_status` | `silver_loans` | Completeness | CRITICAL | 0.0% nulls in `loan_status` | **PASS** |
+| `silver_range_check_loan_amount` | `silver_loans` | Validity | CRITICAL | Loan amounts within [$500, $100,000] | **PASS** |
+| `silver_domain_check_loan_grade` | `silver_loans` | Validity | CRITICAL | Grades strictly in {A, B, C, D, E, F, G} | **PASS** |
+| `gold_portfolio_default_rate_sanity` | `gold_analytics` | Sanity Check | WARNING | Overall default rate between 1.0% and 60.0% | **PASS** |
+| `gold_exposure_cross_table_consistency` | `gold_analytics` | Consistency | CRITICAL | Grade exposure sum == Portfolio exposure sum ($\Delta \le \$0.05$) | **PASS** |
 
 ---
 
-## 5. Performance and Reliability Best Practices
+## 6. Empirical Benchmarks & Storage Analysis
 
-1. **Explicit Schemas Everywhere:**
-   All reads and transformations avoid runtime schema inference scans over large CSV directories.
-2. **Delta Lake Transaction Log & ACID Semantics:**
-   Leverages Delta Lake's `_delta_log` for atomic commits, time-travel auditing, and concurrent write protection.
-3. **Optimized Deduplication & Shuffle Management:**
-   Window-based ranking avoids expensive self-joins. Partitions are tuned to prevent small file problems (`spark.sql.shuffle.partitions`).
-4. **Liquid Clustering & Z-Ordering (Databricks Production):**
-   In Azure Databricks production, Silver and Gold tables are clustered using:
-   ```sql
-   ALTER TABLE silver_loans CLUSTER BY (loan_grade, borrower_state);
-   ```
-   Or optimized via Z-Order:
-   ```sql
-   OPTIMIZE silver_loans ZORDER BY (loan_grade, issue_date);
-   ```
-5. **Cost-Conscious Cloud Execution:**
-   - Single-node cluster (`Standard_D4ds_v5` or `Standard_E4ds_v5`) for dev and integration testing.
-   - Autoscaling with Azure Spot instances (up to 70% cost reduction) for non-critical batch processing.
-   - Auto-termination set to 15-20 minutes of inactivity.
+All metrics below are empirical measurements from executing `src/benchmark_runner.py` on 200,000 genuine historical Lending Club loan records (persisted in `docs/benchmark_results.json`):
+
+### 6.1. Pipeline Throughput & Latency Summary
+- **Compute Setup:** Windows 10, 8 CPU cores, PySpark 3.5.1, Delta Lake 3.2.0.
+- **Bronze Ingestion:** 200,000 rows in **32.38s** (6,176.7 rows/s, 4.14 MB/s). Compressed 134 MB CSV into **19.74 MB** Delta storage (**6.8x compression**).
+- **Silver Processing & Deduplication:** 200,000 rows evaluated in **26.24s** (7,622.0 rows/s), yielding 199,997 accepted rows (17.54 MB) and 3 quarantined rows (0.03 MB).
+- **Gold Mart Computation:** 5 analytical Delta tables generated in **34.10s**.
+- **Data Quality Assertions:** 14 assertions executed and written to Delta audit log in **31.02s**.
+- **Total Pipeline Duration:** **123.74s** (2.06 minutes).
+
+### 6.2. Analytical Query Execution Plans on Delta
+- **Grade Aggregation:** Executed in **3.92s** across 199,997 rows.
+  - Physical Plan: `HashAggregate(keys=[loan_grade])` $\rightarrow$ `Exchange hashpartitioning(loan_grade)` $\rightarrow$ `HashAggregate` $\rightarrow$ `Scan parquet`.
+- **Filtered State Aggregation:** Executed in **1.75s**.
+  - Physical Plan: `HashAggregate(keys=[borrower_state])` $\rightarrow$ `Filter(borrower_state = 'CA')` $\rightarrow$ `Scan parquet` with predicate pushdown.
+
+### 6.3. Partitioning Strategy & Small File Avoidance
+- **Empirical Measurement:** At 200,000 records, the Silver table is stored in 10 Parquet files totaling 17.54 MB (average 1.75 MB/file).
+- **Anti-Pattern Evaluation:** Partitioning by high-cardinality fields such as `borrower_state` (50 states) would produce 50+ directories with sub-350 KB files. Partitioning by `issue_date` produces similar sub-megabyte fragmentation. This causes excessive file metadata requests, slows listing operations, and degrades scan throughput.
+- **Production Recommendation:** Keep tables unpartitioned at this volume and apply:
+  ```sql
+  OPTIMIZE silver_loans ZORDER BY (loan_grade, issue_date);
+  ```
+  Z-Ordering clusters data along multiple dimensions within existing Parquet files, allowing Delta's data skipping feature to prune files based on column min/max metadata without generating tiny partition directories.
+
+---
+
+## 7. Azure Databricks Compute Cost Estimation
+
+To demonstrate commercial awareness for production deployment:
+
+### 7.1. Single-Node Development Cluster (`Standard_D4ds_v5`)
+- **Specs:** 4 vCPUs, 16 GB RAM, 150 GB NVMe SSD.
+- **Azure VM:** ~$0.192 / hour.
+- **Databricks DBU:** 0.75 DBU / hour @ ~$0.15 / DBU = ~$0.113 / hour.
+- **Total Cluster Cost:** ~$0.305 / hour.
+- **Cost per 2.06-Minute Benchmark Run:** **~$0.0105** (~1 cent).
+
+### 7.2. Production Batch Job Cluster (Multi-Node with Spot Instances)
+- **Specs:** 1 Driver + 2 Workers (`Standard_D4ds_v5` — 12 vCPUs, 48 GB RAM).
+- **Job Compute Rate:** Discounted Databricks Job DBU rate (~$0.10 / DBU).
+- **Azure Spot Instances:** 60%–70% discount on worker node VMs.
+- **Blended Hourly Cluster Cost:** ~$0.53 / hour.
+- **Daily Batch Run Cost:** **~$0.026 / day** (**<$0.80 / month**).

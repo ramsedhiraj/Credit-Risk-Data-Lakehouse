@@ -12,6 +12,7 @@ from typing import Any, Dict, Optional
 
 from pyspark.sql import DataFrame, SparkSession
 from pyspark.sql import functions as F
+from pyspark.sql.types import StringType
 
 from src.schemas import BRONZE_RAW_SCHEMA
 
@@ -52,19 +53,30 @@ def ingest_bronze(
     logger.info(f"Starting Bronze ingestion from: {raw_csv_path}")
     logger.info(f"Batch ID: {batch_id} | Target: {bronze_target} | Write Mode: {write_mode}")
 
-    # 1. Read CSV with explicit schema and corrupt record tracking
-    raw_df = (
+    # 1. Read CSV with header=true and flexible column projection
+    # Supports both the 28-column development fixture and 151-column full canonical Lending Club files
+    raw_reader = (
         spark.read.format("csv")
         .option("header", "true")
         .option("mode", "PERMISSIVE")
         .option("columnNameOfCorruptRecord", "_corrupt_record")
-        .schema(BRONZE_RAW_SCHEMA)
-        .load(raw_csv_path)
     )
+    raw_df = raw_reader.load(raw_csv_path)
+
+    target_fields = [f.name for f in BRONZE_RAW_SCHEMA.fields if f.name != "_corrupt_record"]
+    available_cols = [c for c in target_fields if c in raw_df.columns]
+
+    select_exprs = [F.col(c).cast(StringType()).alias(c) for c in available_cols]
+    if "_corrupt_record" in raw_df.columns:
+        select_exprs.append(F.col("_corrupt_record"))
+    else:
+        select_exprs.append(F.lit(None).cast(StringType()).alias("_corrupt_record"))
+
+    projected_raw_df = raw_df.select(*select_exprs)
 
     # 2. Add Ingestion Metadata
     bronze_df = (
-        raw_df
+        projected_raw_df
         .withColumn("_ingestion_timestamp", F.current_timestamp())
         .withColumn("_source_file", F.input_file_name())
         .withColumn("_batch_id", F.lit(batch_id))

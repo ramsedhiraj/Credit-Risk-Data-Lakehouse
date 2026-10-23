@@ -1,0 +1,72 @@
+{
+  "environment": "local_large_scale",
+  "storage": {
+    "raw_data_path": "data/raw/accepted_2007_to_2018_sample.csv",
+    "delta_root_path": "data/delta",
+    "bronze_path": "data/delta/bronze/loans",
+    "silver_accepted_path": "data/delta/silver/loans",
+    "silver_quarantine_path": "data/delta/silver/loans_quarantine",
+    "gold_grade_path": "data/delta/gold/default_rate_by_grade",
+    "gold_state_path": "data/delta/gold/default_rate_by_state",
+    "gold_income_band_path": "data/delta/gold/default_rate_by_income_band",
+    "gold_portfolio_summary_path": "data/delta/gold/loan_portfolio_summary",
+    "gold_window_analytics_path": "data/delta/gold/loan_window_analytics",
+    "dq_results_path": "data/delta/audit/dq_validation_results"
+  },
+  "unity_catalog": {
+    "enabled": false,
+    "catalog_name": "credit_risk_catalog",
+    "bronze_schema": "bronze",
+    "silver_schema": "silver",
+    "gold_schema": "gold",
+    "tables": {
+      "bronze_loans": "credit_risk_catalog.bronze.loans",
+      "silver_loans": "credit_risk_catalog.silver.loans",
+      "silver_quarantine": "credit_risk_catalog.silver.loans_quarantine",
+      "gold_default_by_grade": "credit_risk_catalog.gold.default_rate_by_grade",
+      "gold_default_by_state": "credit_risk_catalog.gold.default_rate_by_state",
+      "gold_default_by_income_band": "credit_risk_catalog.gold.default_rate_by_income_band",
+      "gold_portfolio_summary": "credit_risk_catalog.gold.loan_portfolio_summary",
+      "gold_window_analytics": "credit_risk_catalog.gold.loan_window_analytics",
+      "dq_validation_results": "credit_risk_catalog.gold.dq_validation_results"
+    }
+  },
+  "business_rules": {
+    "valid_grades": ["A", "B", "C", "D", "E", "F", "G"],
+    "min_loan_amount": 500.0,
+    "max_loan_amount": 100000.0,
+    "min_annual_income": 1000.0,
+    "max_annual_income": 10000000.0,
+    "min_interest_rate_pct": 0.0,
+    "max_interest_rate_pct": 100.0,
+    "min_state_sample_size": 10,
+    "default_statuses": [
+      "Charged Off",
+      "Default"
+    ],
+    "resolved_statuses": [
+      "Fully Paid",
+      "Charged Off",
+      "Default"
+    ],
+    "active_statuses": [
+      "Current",
+      "In Grace Period",
+      "Late (16-30 days)",
+      "Late (31-120 days)"
+    ],
+    "income_bands": [
+      {"min": 0, "max": 30000, "label": "1. Low (<$30k)", "sort_order": 1},
+      {"min": 30000, "max": 60000, "label": "2. Lower-Middle ($30k-$60k)", "sort_order": 2},
+      {"min": 60000, "max": 100000, "label": "3. Upper-Middle ($60k-$100k)", "sort_order": 3},
+      {"min": 100000, "max": 150000, "label": "4. High ($100k-$150k)", "sort_order": 4},
+      {"min": 150000, "max": 999999999, "label": "5. Very High (>$150k)", "sort_order": 5}
+    ]
+  },
+  "data_quality": {
+    "max_critical_null_pct": 0.0,
+    "max_warning_null_pct": 20.0,
+    "min_expected_default_rate_pct": 1.0,
+    "max_expected_default_rate_pct": 60.0
+  }
+}

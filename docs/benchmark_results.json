@@ -1,0 +1,73 @@
+{
+  "compute_info": {
+    "os": "Windows 10",
+    "cpu_count": 8,
+    "python_version": "3.11.9",
+    "spark_version": "3.5.1",
+    "delta_version": "3.2.0",
+    "benchmark_timestamp": "2026-10-23T05:36:01.582962",
+    "raw_source_file": "data/raw/accepted_2007_to_2018_sample.csv",
+    "raw_file_size_mb": 134.06
+  },
+  "phases": {
+    "bronze_ingestion": {
+      "elapsed_seconds": 32.38,
+      "rows_ingested": 200000,
+      "corrupt_rows": 0,
+      "records_per_second": 6176.7,
+      "mb_per_second": 4.14,
+      "storage_stats": {
+        "parquet_file_count": 10,
+        "total_size_bytes": 20701322,
+        "total_size_mb": 19.74,
+        "avg_file_size_mb": 1.97
+      }
+    },
+    "silver_transformation": {
+      "elapsed_seconds": 26.24,
+      "accepted_rows": 199997,
+      "quarantined_rows": 3,
+      "duplicates_removed": 0,
+      "records_per_second": 7622.0,
+      "silver_accepted_storage": {
+        "parquet_file_count": 10,
+        "total_size_bytes": 18390736,
+        "total_size_mb": 17.54,
+        "avg_file_size_mb": 1.75
+      },
+      "silver_quarantine_storage": {
+        "parquet_file_count": 8,
+        "total_size_bytes": 28539,
+        "total_size_mb": 0.03,
+        "avg_file_size_mb": 0.0
+      }
+    },
+    "gold_analytics": {
+      "elapsed_seconds": 34.1,
+      "portfolio_metrics": {
+        "total_portfolio_loans": 199997,
+        "total_exposure_amount": 3055596950.0,
+        "avg_loan_amount": 15278.21,
+        "avg_interest_rate_pct": 12.36,
+        "overall_default_rate_pct": 17.54,
+        "resolved_cohort_default_rate_pct": 19.93,
+        "total_defaulted_loans": 35089,
+        "total_fully_paid_loans": 140991,
+        "total_active_loans": 23917
+      }
+    },
+    "data_quality": {
+      "elapsed_seconds": 31.02,
+      "total_assertions_executed": 14,
+      "failed_assertions": 0,
+      "reconciliation_passed": true
+    },
+    "query_performance": {
+      "grade_aggregation_latency_seconds": 3.92,
+      "filtered_state_latency_seconds": 1.747,
+      "q1_execution_plan_summary": "HashAggregate -> Exchange hashpartitioning(loan_grade) -> HashAggregate -> Scan parquet",
+      "q2_execution_plan_summary": "HashAggregate -> Filter(borrower_state=CA) -> HashAggregate -> Scan parquet"
+    }
+  },
+  "total_pipeline_duration_seconds": 123.74
+}

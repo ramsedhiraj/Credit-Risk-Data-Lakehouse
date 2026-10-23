@@ -48,6 +48,7 @@ _delta_log/
 data/delta/
 data/warehouse/
 data/output/
+data/raw/accepted_2007_to_2018*.csv
 
 # IDE files
 .idea/

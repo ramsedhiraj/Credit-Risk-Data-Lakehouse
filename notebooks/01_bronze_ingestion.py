@@ -86,17 +86,27 @@ BRONZE_RAW_SCHEMA = StructType([
 
 # COMMAND ----------
 
-raw_df = (
+raw_reader = (
     spark.read.format("csv")
     .option("header", "true")
     .option("mode", "PERMISSIVE")
     .option("columnNameOfCorruptRecord", "_corrupt_record")
-    .schema(BRONZE_RAW_SCHEMA)
-    .load(raw_data_path)
 )
+raw_df = raw_reader.load(raw_data_path)
+
+target_fields = [f.name for f in BRONZE_RAW_SCHEMA.fields if f.name != "_corrupt_record"]
+available_cols = [c for c in target_fields if c in raw_df.columns]
+
+select_exprs = [F.col(c).cast(StringType()).alias(c) for c in available_cols]
+if "_corrupt_record" in raw_df.columns:
+    select_exprs.append(F.col("_corrupt_record"))
+else:
+    select_exprs.append(F.lit(None).cast(StringType()).alias("_corrupt_record"))
+
+projected_raw_df = raw_df.select(*select_exprs)
 
 bronze_df = (
-    raw_df
+    projected_raw_df
     .withColumn("_ingestion_timestamp", F.current_timestamp())
     .withColumn("_source_file", F.input_file_name())
     .withColumn("_batch_id", F.lit(batch_id))
