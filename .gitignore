@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Spark / Hadoop / Delta Lake temporary & metastore files
+metastore_db/
+derby.log
+spark-warehouse/
+.sparkStaging/
+*.parquet
+checkpoint/
+_delta_log/
+
+# Local data & Delta tables output
+data/delta/
+data/warehouse/
+data/output/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment configs with sensitive tokens
+*.env
+*.secret.json
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+# Credit Risk Analytics Pipeline - Dependencies
+pyspark>=3.5.0
+delta-spark>=3.2.0
+pytest>=8.0.0

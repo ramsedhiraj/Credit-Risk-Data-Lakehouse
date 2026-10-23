@@ -1,0 +1,996 @@
+id,member_id,loan_amnt,funded_amnt,term,int_rate,installment,grade,sub_grade,emp_title,emp_length,home_ownership,annual_inc,verification_status,issue_d,loan_status,purpose,addr_state,dti,delinq_2yrs,earliest_cr_line,open_acc,pub_rec,revol_bal,revol_util,total_acc,total_pymnt,recoveries
+10908,510908,26800.0,26800.0, 36 months,12.14,891.94,B,B4,Teacher,7 years,RENT,72900.0,Verified,Jan-2016,Current,car,NC,31.43,0,Jan-1997,5,0,4997.85,68.9%,22,7969.17,0.0
+10675,510675,24600.0,24600.0, 60 months,10.48,528.51,B,B2,Driver,5 years,RENT,50900.0,Verified,Mar-2016,Late (31-120 days),home_improvement,CO,8.58,0,Jan-2004,8,0,23651.65,54.9%,26,23446.34,0.0
+10396,510396,6100.0,6100.0, 60 months,7.21%,121.39,A,A5,Director,n/a,RENT,31500.0,Source Verified,Aug-2016,Fully Paid,moving,AZ,17.35,0,Jan-2003,8,0,12491.93,94.0%,24,7283.4,0.0
+10345,510345,6800.0,6800.0, 60 months,19.12,176.85,D,D3,Manager,10+ years,MORTGAGE,69000.0,Source Verified,Jan-2016,Fully Paid,house,NV,26.7,0,Jan-1996,10,0,37665.28,82.3%,25,10611.0,0.0
+10448,510448,34200.0,34200.0, 36 months,27.64%,1407.99,F,F4,Teacher,1 year,RENT,57500.0,Verified,Aug-2017,Current,medical,MA,24.24,0,Jan-1993,10,0,2510.36,6.6%,21,15225.7,0.0
+10599,510599,32100.0,32100.0, 36 months,24.55,1268.66,E,E3,,2 years,MORTGAGE,122300.0,Not Verified,Apr-2017,Charged Off,debt_consolidation,VA,21.86,0,Jan-2001,7,0,4118.19,49.2%,17,8096.36,0.0
+10001,510001,6600.0,6600.0, 36 months,15.39%,230.05,C,C1,Accountant,9 years,OWN,104100.0,Verified,Jul-2017,Fully Paid,car,NY,5.98,0,Jan-1998,19,0,25475.41,69.4%,38,8281.8,0.0
+10006,510006,17000.0,17000.0, 60 months,16.99%,422.4,D,D3,Accountant,< 1 year,RENT,157600.0,Not Verified,Apr-2016,Fully Paid,small_business,MD,25.1,0,Jan-1993,8,0,35148.88,52.7%,10,25344.0,0.0
+10530,510530,2400.0,2400.0, 60 months,11.22%,52.45,B,B2,Accountant,10+ years,RENT,109500.0,Not Verified,Jan-2017,Fully Paid,moving,OR,34.7,2,Jan-1995,23,0,38441.17,33.3%,36,3147.0,0.0
+10435,510435,22300.0,22300.0, 36 months,8.97%,708.82,A,A3,Manager,1 year,RENT,56300.0,Verified,Jul-2016,Fully Paid,vacation,CA,22.69,0,Jan-1994,7,0,16737.63,85.9%,9,25517.52,0.0
+10317,510317,5800.0,5800.0, 36 months,5.86%,176.08,A,A4,,6 years,MORTGAGE,111800.0,Source Verified,Apr-2017,Fully Paid,debt_consolidation,MI,24.31,0,Jan-2003,21,0,17932.14,35.0%,26,6338.88,0.0
+10615,510615,26900.0,26900.0, 36 months,9.71,864.33,B,B4,Registered Nurse,1 year,OWN,136400.0,Verified,Apr-2017,Charged Off,home_improvement,TX,27.93,0,Jan-1998,15,0,9811.36,62.4%,23,4618.54,1164.1
+10021,510021,28500.0,28500.0, 60 months,15.51%,685.67,C,C1,Mechanic,7 years,MORTGAGE,42600.0,Verified,Mar-2017,Fully Paid,home_improvement,MI,27.03,3,Jan-1995,22,0,34108.63,44.8%,40,41140.2,0.0
+10628,510628,14400.0,14400.0, 60 months,20.48,385.37,D,D2,Accountant,8 years,MORTGAGE,84100.0,Not Verified,Mar-2017,Charged Off,house,VA,9.83,0,Jan-2008,11,0,17257.01,54.6%,25,10951.8,0.0
+10950,510950,20500.0,20500.0, 36 months,20.28%,764.78,D,D4,Sales Associate,2 years,MORTGAGE,66800.0,Verified,May-2017,Fully Paid,car,NC,7.09,0,Jan-1992,3,0,10607.58,83.7%,15,27532.08,0.0
+10146,510146,19100.0,19100.0, 36 months,11.11,626.3,B,B4,Director,6 years,RENT,118300.0,Not Verified,Feb-2017,Current,credit_card,CO,9.94,0,Jan-1998,21,0,42314.42,88.2%,41,16244.63,0.0
+10604,510604,5000.0,5000.0, 36 months,15.22,173.87,C,C4,Manager,2 years,MORTGAGE,80900.0,Source Verified,Aug-2016,Fully Paid,major_purchase,NY,26.28,0,Jan-1994,4,0,31529.31,48.1%,7,6259.32,0.0
+10762,510762,13800.0,13800.0, 36 months,23.67,539.03,E,E2,Director,3 years,MORTGAGE,144900.0,Verified,Nov-2017,Charged Off,car,NC,33.14,0,Jan-2003,16,0,33004.89,87.8%,19,7648.83,0.0
+10812,510812,9300.0,9300.0, 60 months,12.25,208.05,B,B3,Registered Nurse,< 1 year,MORTGAGE,82100.0,Source Verified,Jan-2017,Current,medical,CO,11.21,0,Jan-2001,6,0,3256.57,79.5%,19,9480.31,0.0
+10600,510600,2100.0,2100.0, 60 months,18.62%,54.04,D,D1,Software Engineer,n/a,RENT,124100.0,Verified,Sep-2016,Fully Paid,medical,MA,37.51,0,Jan-1996,20,0,36577.42,21.9%,25,3242.4,0.0
+10634,510634,14600.0,14600.0, 60 months,14.15%,340.85,C,C1,Manager,< 1 year,MORTGAGE,79800.0,Source Verified,Mar-2016,Fully Paid,car,NC,16.49,0,Jan-2002,11,0,8000.1,81.8%,29,20451.0,0.0
+10287,510287,3300.0,3300.0, 60 months,15.26,78.96,C,C3,Administrative Assistant,7 years,MORTGAGE,85000.0,Source Verified,Aug-2017,Current,small_business,MI,12.45,0,Jan-1993,16,0,3597.61,80.7%,33,983.86,0.0
+10570,510570,8000.0,8000.0, 36 months,17.34,286.58,D,D2,Registered Nurse,4 years,MORTGAGE,159200.0,Not Verified,May-2016,In Grace Period,vacation,WA,23.94,1,Jan-1999,8,0,36739.09,45.1%,11,6976.16,0.0
+11093,511093,14700.0,14700.0, 60 months,150.0%,373.68,D,D5,,9 years,RENT,40200.0,Not Verified,Dec-2016,Fully Paid,house,CA,16.36,0,Jan-2002,5,0,36445.34,33.9%,21,22420.8,0.0
+10379,510379,9700.0,9700.0, 60 months,16.17%,236.76,C,C5,Driver,8 years,MORTGAGE,51800.0,Verified,Nov-2016,Fully Paid,vacation,OH,29.57,0,Jan-1996,14,0,14445.07,39.2%,16,14205.6,0.0
+10373,510373,25200.0,25200.0, 36 months,13.39%,853.83,C,C4,Driver,1 year,RENT,84300.0,Verified,Mar-2017,Fully Paid,vacation,OH,11.13,0,Jan-2010,8,0,9038.88,93.5%,23,30737.88,0.0
+10455,510455,33600.0,33600.0, 60 months,26.0,1006.0,F,F4,Accountant,< 1 year,MORTGAGE,48400.0,Source Verified,Aug-2016,Charged Off,vacation,MD,17.31,0,Jan-1992,21,0,2882.35,81.1%,27,25531.82,0.0
+10627,510627,24100.0,24100.0, 36 months,13.76,820.87,C,C4,Manager,9 years,OWN,115700.0,Verified,Nov-2017,Charged Off,small_business,OH,27.67,0,Jan-2010,20,0,9598.67,46.6%,38,13311.64,0.0
+10528,510528,30000.0,30000.0, 36 months,15.55%,1048.06,C,C4,,7 years,MORTGAGE,109600.0,Not Verified,Nov-2016,Current,home_improvement,GA,31.25,0,Jan-2000,6,0,31370.36,46.2%,23,15298.29,0.0
+10947,510947,33800.0,33800.0, 60 months,6.27,657.7,A,A5,Accountant,6 years,MORTGAGE,54200.0,Verified,Jan-2017,Fully Paid,medical,NC,34.7,0,Jan-1991,9,0,21144.53,64.3%,23,39462.0,0.0
+10464,510464,17600.0,17600.0, 60 months,15.7,425.2,C,C2,Software Engineer,9 years,OWN,72900.0,Verified,Mar-2016,Fully Paid,moving,CO,25.64,1,Jan-2007,21,0,35316.24,31.8%,26,25512.0,0.0
+10919,510919,20100.0,20100.0, 36 months,12.2%,669.53,B,B5,Manager,8 years,MORTGAGE,29400.0,Verified,Sep-2016,Fully Paid,moving,CO,13.57,3,Jan-2000,18,0,36473.12,75.9%,23,24103.08,0.0
+10363,510363,20500.0,20500.0, 36 months,5.72%,621.05,A,A5,Registered Nurse,10+ years,OWN,98200.0,Source Verified,Feb-2017,Fully Paid,credit_card,GA,12.05,0,Jan-1998,8,0,29602.68,6.1%,16,22357.8,0.0
+10101,510101,10800.0,10800.0, 60 months,11.02,234.93,B,B5,Project Manager,8 years,OWN,47100.0,Source Verified,Jul-2017,Fully Paid,major_purchase,GA,14.9,1,Jan-2005,5,0,38690.75,73.4%,9,14095.8,0.0
+10233,510233,21100.0,21100.0, 36 months,13.41%,715.12,C,C5,Manager,n/a,MORTGAGE,49000.0,Source Verified,Jan-2017,Fully Paid,credit_card,CO,32.83,0,Jan-1996,18,0,31410.57,29.7%,36,25744.32,0.0
+10311,510311,31900.0,31900.0, 36 months,29.77,1350.19,F,F3,Sales Associate,10+ years,MORTGAGE,61200.0,Not Verified,Oct-2016,Charged Off,medical,NY,29.55,0,Jan-2010,22,0,18249.2,21.0%,36,8028.7,0.0
+10185,510185,20900.0,20900.0, 36 months,12.87%,702.9,C,C4,Accountant,7 years,RENT,53900.0,Not Verified,May-2016,Current,debt_consolidation,PA,13.52,0,Jan-1995,15,0,25580.41,6.7%,26,14269.54,0.0
+10688,510688,22200.0,22200.0, 60 months,20.79,597.97,D,D1,Project Manager,1 year,MORTGAGE,114400.0,Source Verified,Apr-2016,Current,moving,MD,33.33,0,Jan-2007,19,1,974.9,21.6%,21,9473.55,0.0
+10325,510325,27800.0,27800.0, 60 months,19.63,730.82,D,D4,Mechanic,5 years,OWN,116700.0,Verified,Feb-2016,Fully Paid,house,VA,17.87,0,Jan-2010,7,0,24565.16,24.2%,25,43849.2,0.0
+10705,510705,6600.0,6600.0, 60 months,15.82%,159.87,C,C2,Administrative Assistant,8 years,MORTGAGE,67800.0,Verified,Feb-2017,Charged Off,small_business,NJ,37.83,0,Jan-1995,9,0,37524.02,40.9%,28,2736.48,0.0
+10235,510235,11600.0,11600.0, 36 months,15.88%,407.13,C,C2,Sales Associate,1 year,MORTGAGE,28100.0,Not Verified,Apr-2016,Fully Paid,major_purchase,OR,37.97,0,Jan-1999,13,0,36368.94,24.1%,21,14656.68,0.0
+10798,510798,27300.0,27300.0, 36 months,20.62%,1023.21,D,D3,Mechanic,2 years,OWN,45400.0,Not Verified,May-2016,Fully Paid,house,NV,20.83,0,Jan-1995,19,0,43284.3,33.0%,22,36835.56,0.0
+10502,510502,10300.0,10300.0, 36 months,18.48,374.85,D,D5,Teacher,n/a,MORTGAGE,91200.0,Source Verified,Jun-2016,Fully Paid,debt_consolidation,WA,33.23,0,Jan-1990,14,0,10013.21,55.4%,22,13494.6,0.0
+10494,510494,25200.0,25200.0, 36 months,27.03%,1029.2,F,F5,Registered Nurse,10+ years,OTHER,75100.0,Not Verified,Jan-2017,Fully Paid,medical,MO,28.58,0,Jan-1999,21,1,18182.01,25.9%,34,37051.2,0.0
+10021,510021,28500.0,28500.0, 60 months,15.51%,685.67,C,C1,Mechanic,7 years,MORTGAGE,42600.0,Verified,Mar-2017,Fully Paid,home_improvement,MI,27.03,3,Jan-1995,22,0,34108.63,44.8%,40,41140.2,0.0
+10499,510499,21600.0,21600.0, 36 months,13.12,729.04,C,C3,Manager,1 year,RENT,72400.0,Verified,Dec-2016,Current,debt_consolidation,OH,14.06,1,Jan-2008,16,0,14105.89,61.2%,30,15352.52,0.0
+10123,510123,23300.0,23300.0, 36 months,13.45%,790.13,C,C5,Mechanic,10+ years,MORTGAGE,85100.0,Source Verified,Sep-2017,Fully Paid,vacation,TX,22.43,2,Jan-1995,14,1,6373.24,82.5%,34,28444.68,0.0
+10672,510672,6000.0,6000.0, 60 months,5.36,114.22,A,A3,,n/a,OWN,100200.0,Verified,Mar-2016,Charged Off,medical,GA,25.19,0,Jan-1990,11,0,24391.65,61.6%,20,2168.56,0.0
+10098,510098,8700.0,8700.0, 60 months,19.92%,230.11,D,D4,Manager,7 years,RENT,77800.0,Verified,Dec-2017,Fully Paid,home_improvement,CA,13.61,1,Jan-2007,21,0,13636.06,22.7%,30,13806.6,0.0
+10783,510783,11200.0,11200.0, 60 months,14.0,260.6,C,C4,Administrative Assistant,9 years,MORTGAGE,115400.0,Not Verified,Mar-2016,Charged Off,vacation,MD,35.55,2,Jan-2002,9,0,36586.69,12.4%,13,2525.08,0.0
+10088,510088,10600.0,10600.0, 36 months,31.86%,460.85,G,G4,,4 years,MORTGAGE,80700.0,Source Verified,Oct-2016,Fully Paid,vacation,NV,5.38,0,Jan-1993,10,0,5761.01,32.6%,24,16590.6,0.0
+10014,510014,8700.0,8700.0, 60 months,7.54,174.5,A,A3,,2 years,MORTGAGE,86100.0,Verified,Mar-2016,Current,car,NC,6.45,0,Jan-2007,7,0,12157.01,71.7%,26,2796.79,0.0
+10670,510670,17900.0,17900.0, 36 months,10.64%,582.98,B,B5,Director,7 years,MORTGAGE,50900.0,Source Verified,Sep-2016,Current,small_business,NV,11.58,0,Jan-1997,22,0,16381.49,39.2%,30,14999.14,0.0
+10533,510533,26500.0,26500.0, 36 months,6.3%,809.79,A,A5,Accountant,1 year,MORTGAGE,139100.0,Source Verified,Feb-2016,Current,major_purchase,GA,13.05,0,Jan-2005,18,0,24393.55,75.3%,30,14196.64,0.0
+10640,510640,23100.0,23100.0, 36 months,10.03%,745.7,B,B1,Software Engineer,1 year,MORTGAGE,67900.0,Source Verified,Jan-2017,Charged Off,car,TX,24.74,0,Jan-1994,19,0,2303.34,93.3%,36,6016.99,0.0
+10806,510806,13200.0,13200.0, 36 months,13.71%,449.29,C,C4,Director,10+ years,RENT,135200.0,Source Verified,Mar-2017,Current,home_improvement,WA,27.0,0,Jan-2006,10,0,12103.02,23.2%,13,3998.51,0.0
+10510,510510,17600.0,17600.0, 36 months,11.61,581.3,B,B5,Sales Associate,9 years,MORTGAGE,64600.0,Source Verified,Apr-2017,Fully Paid,car,NJ,6.32,1,Jan-2002,10,0,40588.52,50.6%,25,20926.8,0.0
+11072,511072,20000.0,20000.0, 36 months,20.27,746.03,D,D3,Project Manager,6 years,RENT,0,Source Verified,Apr-2017,Fully Paid,major_purchase,MD,17.19,1,Jan-2004,15,0,44958.29,91.5%,24,26857.08,0.0
+10092,510092,16800.0,16800.0, 60 months,27.43,517.32,F,F4,,8 years,RENT,74500.0,Not Verified,Jun-2017,Late (16-30 days),home_improvement,WA,8.91,3,Jan-2003,15,0,32889.69,25.0%,17,14830.6,0.0
+10081,510081,12900.0,12900.0, 36 months,14.45%,443.72,C,C3,,9 years,RENT,161100.0,Not Verified,Nov-2017,Fully Paid,debt_consolidation,OR,20.66,2,Jan-2002,21,0,32602.3,57.5%,28,15973.92,0.0
+10774,510774,3400.0,3400.0, 36 months,13.73,115.76,C,C5,Accountant,< 1 year,RENT,73800.0,Verified,Feb-2017,Fully Paid,car,MO,11.68,0,Jan-2006,15,0,25752.33,61.0%,22,4167.36,0.0
+10840,510840,22700.0,22700.0, 60 months,25.26%,669.74,E,E2,,9 years,OWN,92800.0,Verified,Apr-2016,Current,home_improvement,TX,7.84,0,Jan-1991,19,0,23351.32,26.2%,32,27502.42,0.0
+10254,510254,10000.0,10000.0, 36 months,14.4,343.72,C,C4,Sales Associate,4 years,RENT,87500.0,Verified,Nov-2016,Fully Paid,house,CA,27.2,1,Jan-1996,3,0,23874.26,66.7%,16,12373.92,0.0
+10691,510691,32800.0,32800.0, 60 months,10.64%,707.28,B,B3,Registered Nurse,1 year,RENT,53400.0,Not Verified,Feb-2016,Fully Paid,medical,CA,30.67,0,Jan-1994,18,1,19575.79,92.0%,21,42436.8,0.0
+10551,510551,15100.0,15100.0, 36 months,8.39%,475.9,A,A1,Sales Associate,5 years,RENT,92700.0,Source Verified,Jul-2016,Current,vacation,AZ,19.92,0,Jan-2005,22,0,20073.9,72.0%,40,12601.16,0.0
+10661,510661,2800.0,2800.0, 60 months,10.25%,59.84,B,B4,Manager,9 years,RENT,70500.0,Verified,May-2017,Fully Paid,vacation,OR,33.1,0,Jan-1992,6,1,34675.95,33.6%,11,3590.4,0.0
+10239,510239,27600.0,27600.0, 36 months,8.01,865.01,A,A4,Software Engineer,1 year,MORTGAGE,115900.0,Not Verified,Oct-2017,Fully Paid,home_improvement,OH,28.91,0,Jan-2006,19,0,14338.67,9.0%,23,31140.36,0.0
+10803,510803,34000.0,34000.0, 60 months,14.21,794.83,C,C3,Sales Associate,4 years,OWN,126800.0,Source Verified,Feb-2016,Fully Paid,car,GA,28.11,1,Jan-1999,5,0,36286.09,37.6%,8,47689.8,0.0
+10116,510116,26800.0,26800.0, 60 months,13.15,611.84,C,C4,Director,8 years,MORTGAGE,132800.0,Source Verified,Dec-2016,Charged Off,credit_card,MI,33.55,0,Jan-1998,10,0,33323.78,67.0%,25,6705.08,89.04
+10625,510625,27600.0,27600.0, 36 months,7.38,857.01,A,A1,Administrative Assistant,9 years,MORTGAGE,74000.0,Source Verified,Sep-2017,Fully Paid,medical,NJ,32.6,0,Jan-2009,12,0,21411.08,48.9%,32,30852.36,0.0
+10642,510642,23800.0,23800.0, 60 months,16.06%,579.53,C,C2,Manager,6 years,RENT,110800.0,Verified,May-2016,Fully Paid,major_purchase,TX,25.36,0,Jan-1994,10,0,13979.51,90.8%,18,34771.8,0.0
+10423,510423,5100.0,5100.0, 60 months,18.24%,130.17,D,D2,Driver,7 years,RENT,82700.0,Source Verified,Apr-2016,Fully Paid,credit_card,PA,29.15,1,Jan-1996,15,0,9376.46,34.6%,27,7810.2,0.0
+10042,510042,9900.0,9900.0, 36 months,8.52,312.61,A,A5,Project Manager,n/a,RENT,62900.0,Source Verified,Sep-2016,Fully Paid,debt_consolidation,MI,34.74,0,Jan-1998,8,0,42562.99,93.9%,19,11253.96,0.0
+10779,510779,18400.0,18400.0, 36 months,17.06,656.56,D,D2,Teacher,8 years,MORTGAGE,108100.0,Not Verified,Feb-2016,Current,credit_card,AZ,12.25,0,Jan-1995,13,0,42803.44,46.3%,21,16987.55,0.0
+10751,510751,12300.0,12300.0, 36 months,21.29%,465.24,E,E4,Software Engineer,8 years,MORTGAGE,80400.0,Source Verified,Apr-2016,Fully Paid,car,IL,10.27,1,Jan-2008,21,0,37235.63,41.6%,40,16748.64,0.0
+10487,510487,3200.0,3200.0, 36 months,7.75,99.91,A,A5,Software Engineer,6 years,RENT,64000.0,Verified,Oct-2017,In Grace Period,major_purchase,NC,20.51,0,Jan-1992,8,0,13075.69,22.9%,12,2336.7,0.0
+10496,510496,20000.0,20000.0, 60 months,11.83,443.17,B,B2,Teacher,3 years,MORTGAGE,153100.0,Source Verified,Nov-2017,Current,moving,MD,23.31,0,Jan-2004,5,1,19443.74,12.0%,11,17254.1,0.0
+10085,510085,3700.0,3700.0, 36 months,8.04%,116.01,A,A5,Manager,4 years,MORTGAGE,99700.0,Source Verified,Nov-2016,Fully Paid,moving,FL,27.48,0,Jan-2000,20,1,7528.38,63.8%,37,4176.36,0.0
+10095,510095,27900.0,27900.0, 60 months,8.78,576.18,A,A3,Project Manager,8 years,MORTGAGE,106400.0,Source Verified,Jan-2017,Fully Paid,home_improvement,MO,20.63,1,Jan-2006,12,0,6923.65,46.7%,15,34570.8,0.0
+10247,510247,8200.0,8200.0, 60 months,11.5%,180.34,B,B2,,9 years,MORTGAGE,127200.0,Source Verified,May-2016,Charged Off,small_business,IL,9.43,0,Jan-2003,3,0,39877.55,64.2%,9,2881.93,0.0
+10837,510837,7700.0,7700.0, 36 months,12.99,259.41,C,C2,Software Engineer,1 year,RENT,111200.0,Source Verified,Apr-2017,Current,home_improvement,GA,5.96,0,Jan-2004,7,0,24538.18,46.3%,27,7007.46,0.0
+10165,510165,16800.0,16800.0, 36 months,10.74,547.94,B,B5,Administrative Assistant,10+ years,RENT,161400.0,Verified,Apr-2016,Fully Paid,car,CO,6.18,0,Jan-2004,5,0,43361.12,62.4%,23,19725.84,0.0
+10342,510342,2800.0,2800.0, 60 months,12.89%,63.55,C,C1,Driver,1 year,MORTGAGE,126700.0,Source Verified,Aug-2016,Fully Paid,medical,NY,32.11,0,Jan-1992,10,1,35020.85,60.8%,15,3813.0,0.0
+10261,510261,31900.0,31900.0, 36 months,7.11%,986.58,A,A2,Driver,9 years,RENT,63800.0,Verified,Jun-2016,Fully Paid,debt_consolidation,NJ,32.08,0,Jan-1997,22,0,26801.39,78.6%,27,35516.88,0.0
+10151,510151,33100.0,33100.0, 60 months,13.57,762.82,C,C1,Driver,9 years,MORTGAGE,78700.0,Source Verified,Mar-2017,Fully Paid,small_business,OH,20.4,0,Jan-1999,22,0,5052.89,51.0%,35,45769.2,0.0
+10799,510799,20200.0,20200.0, 60 months,13.36%,463.34,C,C4,Director,9 years,RENT,89100.0,Verified,May-2016,Current,home_improvement,NY,13.31,0,Jan-2009,18,2,29640.1,70.8%,36,21805.6,0.0
+10641,510641,9200.0,9200.0, 60 months,17.7%,232.12,D,D5,,n/a,MORTGAGE,37200.0,Not Verified,Mar-2017,Current,medical,OR,15.78,0,Jan-2008,19,0,39817.22,73.3%,34,9297.59,0.0
+10179,510179,12900.0,12900.0, 36 months,11.72%,426.74,B,B2,Director,6 years,MORTGAGE,103500.0,Source Verified,Aug-2017,Fully Paid,credit_card,OH,15.49,0,Jan-1995,22,0,31358.89,18.7%,42,15362.64,0.0
+10854,510854,24200.0,24200.0, 36 months,11.69%,800.21,B,B2,Project Manager,10+ years,MORTGAGE,72300.0,Not Verified,Aug-2017,Fully Paid,credit_card,MD,20.74,0,Jan-2001,3,0,40356.56,49.4%,8,28807.56,0.0
+10500,510500,5400.0,5400.0, 60 months,6.35%,105.28,A,A2,Accountant,< 1 year,RENT,70700.0,Not Verified,Aug-2017,Fully Paid,small_business,OR,27.06,0,Jan-2000,8,0,10816.48,24.5%,14,6316.8,0.0
+10899,510899,5200.0,5200.0, 36 months,13.66%,176.87,C,C2,Manager,10+ years,MORTGAGE,151100.0,Verified,May-2017,Current,credit_card,VA,8.05,0,Jan-1998,23,0,12031.64,50.1%,43,4989.86,0.0
+10888,510888,3700.0,3700.0, 36 months,5.72,112.09,A,A1,Manager,6 years,RENT,68700.0,Verified,Nov-2017,Current,car,OH,6.66,0,Jan-2003,20,0,31403.41,20.3%,26,1618.67,0.0
+10125,510125,33500.0,33500.0, 36 months,10.25%,1084.89,B,B1,Director,8 years,MORTGAGE,43900.0,Source Verified,Apr-2016,Fully Paid,moving,OR,25.09,0,Jan-2006,24,0,5815.21,68.7%,26,39056.04,0.0
+10922,510922,9100.0,9100.0, 60 months,14.47,213.96,C,C2,Teacher,9 years,OWN,69700.0,Not Verified,Jan-2016,Fully Paid,home_improvement,MI,14.78,0,Jan-1995,12,0,14932.13,46.3%,19,12837.6,0.0
+10238,510238,3000.0,3000.0, 60 months,7.91%,60.7,A,A3,Accountant,8 years,RENT,48200.0,Source Verified,Mar-2017,Fully Paid,small_business,OH,22.33,0,Jan-1994,14,0,35111.67,87.2%,30,3642.0,0.0
+10864,510864,6100.0,6100.0, 36 months,21.97,232.87,E,E2,Manager,9 years,MORTGAGE,70900.0,Not Verified,Sep-2017,Fully Paid,small_business,MI,31.17,0,Jan-2003,12,0,17801.49,53.7%,24,8383.32,0.0
+10011,510011,34000.0,34000.0, 36 months,13.33%,1151.01,C,C4,Driver,3 years,MORTGAGE,113000.0,Not Verified,Apr-2017,Fully Paid,house,MD,10.2,2,Jan-2008,5,0,3549.2,11.1%,14,41436.36,0.0
+10477,510477,15500.0,15500.0, 60 months,8.21%,315.84,A,A5,,5 years,OWN,82900.0,Not Verified,Jan-2016,Current,home_improvement,WA,6.47,1,Jan-1996,21,0,27602.2,77.7%,39,12698.29,0.0
+10596,510596,28100.0,28100.0, 36 months,32.27%,1228.09,G,G2,Project Manager,2 years,OWN,55600.0,Verified,Apr-2016,Charged Off,debt_consolidation,AZ,20.59,0,Jan-2005,9,0,17954.32,32.3%,28,15152.52,0.0
+10667,510667,16300.0,16300.0, 36 months,14.32%,559.63,C,C3,Mechanic,1 year,OWN,44500.0,Verified,Dec-2017,Fully Paid,moving,MD,14.54,0,Jan-2008,12,0,12930.1,43.4%,14,20146.68,0.0
+10511,510511,31300.0,31300.0, 36 months,14.58,1078.6,C,C2,Manager,2 years,RENT,150600.0,Verified,May-2016,Fully Paid,medical,NY,37.02,0,Jan-1999,7,0,20912.75,19.9%,9,38829.6,0.0
+10721,510721,28500.0,28500.0, 60 months,24.98%,836.18,E,E1,Project Manager,8 years,RENT,99800.0,Verified,Mar-2016,Charged Off,major_purchase,IL,26.21,1,Jan-1995,6,0,39147.59,11.2%,8,15488.47,0.0
+10176,510176,16900.0,16900.0, 60 months,15.98%,410.8,C,C2,Accountant,6 years,MORTGAGE,79500.0,Not Verified,Apr-2016,Charged Off,house,CA,26.17,0,Jan-2002,21,0,38247.18,37.2%,39,5435.88,1147.91
+10382,510382,13100.0,13100.0, 60 months,35.45,468.7,G,G2,Sales Associate,7 years,RENT,166900.0,Source Verified,Mar-2016,Current,house,NJ,14.32,1,Jan-2010,20,0,6325.08,72.7%,40,21393.68,0.0
+10550,510550,8100.0,8100.0, 60 months,9.53%,170.23,B,B5,Manager,2 years,OWN,70600.0,Not Verified,Jul-2017,Current,house,MD,24.05,1,Jan-1990,7,0,17177.3,18.1%,10,5915.1,0.0
+10949,510949,12200.0,12200.0, 60 months,6.37%,237.96,A,A2,Sales Associate,8 years,RENT,47000.0,Verified,Sep-2016,Fully Paid,medical,CO,30.77,0,Jan-2001,19,0,25980.68,45.4%,21,14277.6,0.0
+10792,510792,25600.0,25600.0, 36 months,31.56,1108.75,G,G5,Accountant,3 years,RENT,102400.0,Source Verified,Oct-2016,Charged Off,vacation,WA,33.44,0,Jan-2002,15,0,17275.47,81.3%,22,6556.92,16.58
+10144,510144,9500.0,9500.0, 60 months,6.29%,184.95,A,A1,Accountant,9 years,MORTGAGE,91900.0,Not Verified,Oct-2017,Current,credit_card,TX,27.05,0,Jan-1997,16,1,26742.83,54.8%,30,5784.96,0.0
+10076,510076,18400.0,18400.0, 60 months,10.63,396.67,B,B5,,5 years,MORTGAGE,100100.0,Verified,Oct-2017,Fully Paid,car,NJ,19.97,0,Jan-2001,8,0,22049.18,23.4%,14,23800.2,0.0
+10160,510160,9700.0,9700.0, 36 months,15.2%,337.2,C,C2,Sales Associate,4 years,OWN,103500.0,Not Verified,Oct-2017,Fully Paid,moving,IL,36.33,0,Jan-2004,5,0,5007.43,28.0%,14,12139.2,0.0
+10532,510532,12900.0,12900.0, 36 months,10.57%,419.71,B,B1,,7 years,OWN,66000.0,Not Verified,Jun-2017,Fully Paid,credit_card,NY,19.74,0,Jan-1995,10,0,33404.89,67.1%,19,15109.56,0.0
+10360,510360,24300.0,24300.0, 60 months,12.88,551.41,C,C4,Accountant,4 years,RENT,75000.0,Verified,Jan-2017,Charged Off,debt_consolidation,CA,13.27,0,Jan-1995,7,0,33816.08,48.6%,11,12751.88,0.0
+10212,510212,20200.0,20200.0, 60 months,18.85%,522.33,D,D2,Driver,n/a,RENT,70100.0,Verified,Apr-2016,Charged Off,house,TX,6.44,1,Jan-2008,8,0,9492.52,48.7%,13,8005.42,0.0
+10481,510481,27300.0,27300.0, 60 months,21.9%,752.44,E,E1,Manager,n/a,MORTGAGE,112300.0,Verified,Feb-2017,Fully Paid,debt_consolidation,PA,37.67,0,Jan-1999,19,1,40739.59,36.9%,33,45146.4,0.0
+11081,511081,31600.0,31600.0, 60 months,6.8%,622.74,Z,A2,Driver,1 year,RENT,68100.0,Not Verified,Nov-2017,In Grace Period,moving,AZ,9.84,0,Jan-1996,5,1,14070.71,63.7%,14,23862.91,0.0
+10683,510683,20100.0,20100.0, 60 months,12.56,452.82,B,B3,Sales Associate,n/a,OWN,85400.0,Not Verified,Jul-2016,Fully Paid,car,OH,22.43,0,Jan-1995,11,0,30448.49,17.7%,25,27169.2,0.0
+10433,510433,9300.0,9300.0, 36 months,31.12,400.53,G,G3,Sales Associate,2 years,MORTGAGE,89000.0,Source Verified,Sep-2016,Current,debt_consolidation,NC,7.74,0,Jan-1992,3,0,26281.28,14.3%,19,4110.9,0.0
+10852,510852,29800.0,29800.0, 36 months,24.15,1171.49,E,E5,Mechanic,9 years,RENT,102100.0,Not Verified,Feb-2016,Charged Off,debt_consolidation,MI,18.14,0,Jan-2002,8,0,34154.75,89.0%,17,19223.34,0.0
+10847,510847,30100.0,30100.0, 36 months,12.94,1013.32,C,C1,Mechanic,6 years,MORTGAGE,107400.0,Not Verified,Mar-2016,Current,home_improvement,IL,8.11,1,Jan-2007,5,0,13675.23,64.6%,10,26332.31,0.0
+10682,510682,17200.0,17200.0, 60 months,11.29,376.46,B,B4,Mechanic,8 years,MORTGAGE,118300.0,Not Verified,Sep-2017,Fully Paid,house,PA,9.15,0,Jan-1990,4,1,39003.68,27.8%,22,22587.6,0.0
+10894,510894,20300.0,20300.0, 60 months,20.47%,543.15,D,D5,Software Engineer,7 years,MORTGAGE,53000.0,Verified,Jan-2016,Late (16-30 days),house,MD,13.88,0,Jan-1999,3,0,10767.1,78.9%,22,8659.59,0.0
+10296,510296,28700.0,28700.0, 60 months,13.73,663.79,C,C4,Project Manager,4 years,RENT,145900.0,Verified,May-2017,Fully Paid,major_purchase,WA,20.26,0,Jan-1999,24,0,38063.43,41.9%,28,39827.4,0.0
+10701,510701,11700.0,11700.0, 36 months,11.32%,384.82,B,B1,Sales Associate,4 years,MORTGAGE,129700.0,Source Verified,Feb-2017,Fully Paid,home_improvement,MD,11.46,0,Jan-1990,17,0,28400.51,9.5%,30,13853.52,0.0
+10020,510020,24200.0,24200.0, 36 months,15.65,846.62,C,C1,Manager,2 years,MORTGAGE,121300.0,Verified,Aug-2016,Fully Paid,moving,OR,33.04,0,Jan-2010,16,1,26117.36,69.7%,30,30478.32,0.0
+10815,510815,27400.0,27400.0, 60 months,21.91,755.36,E,E2,Project Manager,1 year,RENT,62500.0,Not Verified,Aug-2017,Current,vacation,PA,5.05,0,Jan-2006,18,0,37359.6,75.4%,27,15227.26,0.0
+10046,510046,20500.0,20500.0, 36 months,12.88,689.54,C,C4,Mechanic,6 years,RENT,100700.0,Source Verified,Nov-2017,Charged Off,small_business,CO,8.85,0,Jan-2008,4,0,22421.8,13.7%,23,9139.85,0.0
+10897,510897,22200.0,22200.0, 36 months,18.53,808.5,D,D4,Teacher,10+ years,RENT,87100.0,Not Verified,Mar-2016,Current,credit_card,NC,8.93,0,Jan-2005,3,0,38586.39,13.3%,23,20148.34,0.0
+10756,510756,25100.0,25100.0, 60 months,14.95,596.47,C,C5,Software Engineer,10+ years,RENT,106400.0,Source Verified,May-2017,Charged Off,car,NV,15.31,1,Jan-2005,5,0,26681.67,93.1%,8,13919.91,0.0
+10822,510822,28800.0,28800.0, 36 months,9.37,920.8,B,B2,Project Manager,9 years,MORTGAGE,64700.0,Verified,Oct-2017,Current,debt_consolidation,TX,25.55,0,Jan-2002,6,0,29942.64,18.5%,10,21584.47,0.0
+10096,510096,4600.0,4600.0, 60 months,6.26%,89.49,A,A2,Manager,5 years,MORTGAGE,127800.0,Not Verified,Jul-2016,Fully Paid,debt_consolidation,NC,17.45,0,Jan-1999,4,0,8873.27,73.6%,23,5369.4,0.0
+10666,510666,16800.0,16800.0, 36 months,18.35%,610.31,D,D1,Administrative Assistant,10+ years,RENT,109900.0,Source Verified,Nov-2016,Fully Paid,car,AZ,26.76,0,Jan-1997,17,0,38670.15,18.1%,31,21971.16,0.0
+10462,510462,26000.0,26000.0, 60 months,16.96,645.61,D,D2,Project Manager,2 years,MORTGAGE,114000.0,Verified,Feb-2016,Current,vacation,NC,8.78,1,Jan-2010,5,0,17157.33,61.8%,7,23987.08,0.0
+10047,510047,29500.0,29500.0, 60 months,20.47,789.3,D,D2,Accountant,1 year,MORTGAGE,147000.0,Not Verified,Dec-2016,Charged Off,major_purchase,MI,19.67,0,Jan-1996,14,0,31012.77,54.0%,27,23076.74,0.0
+10582,510582,30100.0,30100.0, 60 months,6.83,593.6,A,A4,Manager,9 years,RENT,52800.0,Verified,Jan-2017,Current,car,CO,20.2,0,Jan-1996,15,0,15532.16,64.9%,21,11759.53,0.0
+10395,510395,32700.0,32700.0, 36 months,10.55,1063.6,B,B5,Registered Nurse,6 years,OWN,146100.0,Source Verified,Feb-2016,Fully Paid,medical,CA,25.31,0,Jan-2005,14,0,16062.62,70.0%,28,38289.6,0.0
+10178,510178,30100.0,30100.0, 36 months,17.44,1079.75,D,D3,Registered Nurse,4 years,MORTGAGE,56600.0,Source Verified,Jul-2016,Fully Paid,credit_card,PA,27.14,0,Jan-1992,4,0,41990.46,94.5%,20,38871.0,0.0
+10050,510050,16100.0,16100.0, 36 months,29.98,683.29,F,F1,Registered Nurse,10+ years,OWN,84700.0,Verified,Mar-2016,Charged Off,medical,OR,9.9,0,Jan-2010,22,0,24901.86,34.3%,40,6692.74,0.0
+10114,510114,32300.0,32300.0, 36 months,10.88,1055.63,B,B2,Accountant,6 years,RENT,90900.0,Verified,Jun-2016,Fully Paid,medical,MI,25.44,1,Jan-2005,3,0,9183.22,39.6%,22,38002.68,0.0
+10735,510735,21500.0,21500.0, 60 months,13.24,491.84,C,C4,Teacher,4 years,MORTGAGE,170200.0,Source Verified,Mar-2016,Current,debt_consolidation,OH,28.62,0,Jan-1996,14,0,31407.95,49.7%,16,13936.01,0.0
+10542,510542,28400.0,28400.0, 36 months,15.52,991.74,C,C5,,n/a,MORTGAGE,92900.0,Not Verified,Jul-2016,Fully Paid,credit_card,CO,31.99,0,Jan-2003,7,0,3749.65,63.3%,19,35702.64,0.0
+10801,510801,31200.0,31200.0, 60 months,23.35%,885.83,E,E2,Driver,1 year,MORTGAGE,64600.0,Not Verified,Feb-2016,Charged Off,medical,OR,12.62,1,Jan-2003,17,0,18205.82,57.6%,36,19852.24,0.0
+10075,510075,10300.0,10300.0, 60 months,12.32,230.79,B,B5,Driver,4 years,MORTGAGE,52900.0,Not Verified,Mar-2016,Charged Off,house,PA,24.53,0,Jan-2010,8,0,32568.16,59.5%,28,1834.63,0.0
+10392,510392,11100.0,11100.0, 60 months,11.98,246.8,B,B3,Software Engineer,1 year,RENT,87600.0,Verified,Oct-2016,Fully Paid,credit_card,NJ,18.41,0,Jan-1999,5,0,3912.85,26.6%,9,14808.0,0.0
+11064,511064,0,6000.0, 36 months,8.41%,189.16,A,A2,Software Engineer,1 year,RENT,99400.0,Source Verified,Jul-2016,Current,small_business,NC,13.89,0,Jan-1995,22,0,29467.75,62.8%,34,4937.26,0.0
+10503,510503,12200.0,12200.0, 36 months,7.25%,378.1,A,A3,Driver,< 1 year,OWN,140200.0,Not Verified,Jan-2016,Fully Paid,vacation,NC,6.11,0,Jan-2005,18,0,44810.33,68.4%,28,13611.6,0.0
+10378,510378,9300.0,9300.0, 60 months,8.63,191.39,A,A3,Project Manager,n/a,OWN,102800.0,Not Verified,Apr-2016,Fully Paid,home_improvement,MO,25.91,0,Jan-2002,13,0,41964.21,74.0%,17,11483.4,0.0
+10833,510833,11800.0,11800.0, 36 months,22.78,455.42,E,E5,Mechanic,n/a,MORTGAGE,59400.0,Not Verified,Dec-2017,Charged Off,home_improvement,NY,33.31,0,Jan-2002,17,0,12297.98,23.7%,22,4595.63,0.0
+10442,510442,30600.0,30600.0, 60 months,20.94,826.8,D,D5,Project Manager,10+ years,MORTGAGE,134400.0,Verified,Oct-2016,Charged Off,credit_card,NC,15.87,0,Jan-2004,15,0,8080.07,17.4%,31,7897.62,0.0
+10742,510742,31400.0,31400.0, 60 months,12.41,705.0,B,B4,Sales Associate,5 years,MORTGAGE,123900.0,Not Verified,Mar-2016,Fully Paid,house,GA,32.41,0,Jan-2010,18,0,3062.35,28.9%,33,42300.0,0.0
+10182,510182,28600.0,28600.0, 36 months,11.5,943.11,B,B1,Director,6 years,MORTGAGE,114200.0,Verified,Jun-2016,Charged Off,vacation,NV,26.76,2,Jan-2005,18,1,2298.68,73.5%,27,3976.57,1361.59
+10758,510758,2800.0,2800.0, 60 months,10.5%,60.18,B,B1,Project Manager,7 years,MORTGAGE,121300.0,Not Verified,Sep-2016,Fully Paid,home_improvement,NY,14.68,0,Jan-2003,15,0,12691.74,86.3%,34,3610.8,0.0
+10110,510110,21400.0,21400.0, 36 months,10.54,695.96,B,B3,Accountant,1 year,MORTGAGE,71900.0,Verified,Oct-2016,Fully Paid,car,TX,8.83,2,Jan-2004,7,0,15766.47,75.6%,25,25054.56,0.0
+10349,510349,6300.0,6300.0, 36 months,21.69,239.59,E,E1,Sales Associate,2 years,MORTGAGE,59500.0,Source Verified,Nov-2016,Current,vacation,CO,37.24,0,Jan-2006,4,0,26636.0,81.9%,15,2000.67,0.0
+10404,510404,15200.0,15200.0, 60 months,10.52,326.86,B,B5,Sales Associate,8 years,MORTGAGE,60800.0,Not Verified,Jul-2016,Fully Paid,vacation,CA,34.01,0,Jan-1993,17,0,32565.77,28.3%,26,19611.6,0.0
+10063,510063,33900.0,33900.0, 60 months,13.61%,781.96,C,C4,Director,8 years,MORTGAGE,138600.0,Not Verified,Jul-2017,Current,moving,MI,30.39,0,Jan-1993,19,0,43498.93,78.5%,25,22912.42,0.0
+10614,510614,20200.0,20200.0, 36 months,7.43%,627.7,A,A1,,6 years,RENT,111900.0,Source Verified,Apr-2017,Fully Paid,credit_card,VA,29.15,0,Jan-1993,20,1,23778.89,78.7%,29,22597.2,0.0
+10546,510546,2200.0,2200.0, 60 months,9.56%,46.27,B,B5,,10+ years,RENT,76600.0,Source Verified,Dec-2016,Current,small_business,TX,19.33,1,Jan-2000,12,0,31704.02,63.5%,26,2161.38,0.0
+10457,510457,28600.0,28600.0, 36 months,11.7,945.84,B,B3,Accountant,2 years,MORTGAGE,51700.0,Not Verified,Apr-2016,Fully Paid,house,FL,13.16,0,Jan-1997,3,0,20249.81,10.0%,8,34050.24,0.0
+10826,510826,32500.0,32500.0, 36 months,14.79,1123.28,C,C3,Driver,2 years,MORTGAGE,78300.0,Source Verified,Feb-2017,Charged Off,debt_consolidation,NC,33.31,0,Jan-2004,16,0,14505.7,24.9%,24,19815.49,0.0
+10476,510476,29900.0,29900.0, 60 months,8.9%,619.22,A,A3,Project Manager,4 years,MORTGAGE,89500.0,Verified,Dec-2016,Fully Paid,credit_card,TX,21.73,0,Jan-1994,5,0,14997.61,38.4%,20,37153.2,0.0
+10841,510841,29200.0,29200.0, 60 months,14.38%,685.2,C,C1,Teacher,2 years,RENT,106100.0,Verified,Aug-2017,Fully Paid,home_improvement,WA,8.42,2,Jan-1994,22,0,16295.7,58.8%,27,41112.0,0.0
+10102,510102,29900.0,29900.0, 60 months,7.9%,604.83,A,A1,Director,< 1 year,RENT,92000.0,Verified,May-2017,Current,debt_consolidation,GA,11.98,1,Jan-1996,21,0,2572.01,11.7%,31,7974.36,0.0
+10372,510372,19600.0,19600.0, 60 months,19.6,514.93,D,D3,Project Manager,8 years,RENT,94100.0,Not Verified,Mar-2016,Charged Off,credit_card,NV,30.63,0,Jan-2003,7,0,9823.89,72.3%,18,9166.45,1160.62
+10767,510767,16000.0,16000.0, 36 months,10.98%,523.67,B,B3,Manager,7 years,MORTGAGE,66600.0,Not Verified,Dec-2016,Fully Paid,small_business,NC,19.11,1,Jan-2007,9,0,39615.86,67.0%,26,18852.12,0.0
+10468,510468,6100.0,6100.0, 60 months,14.14%,142.38,C,C1,Driver,< 1 year,MORTGAGE,90400.0,Verified,Aug-2017,In Grace Period,medical,WA,11.39,0,Jan-1990,4,0,4593.59,5.9%,19,5774.15,0.0
+11073,511073,21300.0,21300.0, 36 months,16.19%,750.84,C,C5,Teacher,< 1 year,MORTGAGE,-10000,Source Verified,Oct-2017,Fully Paid,home_improvement,IL,29.7,2,Jan-2002,8,0,17719.35,19.9%,23,27030.24,0.0
+10566,510566,21500.0,21500.0, 36 months,10.78%,701.64,B,B1,,< 1 year,MORTGAGE,151100.0,Not Verified,Mar-2017,Fully Paid,house,NY,34.56,0,Jan-2009,7,0,16271.35,90.9%,17,25259.04,0.0
+10597,510597,33400.0,33400.0, 60 months,27.34%,1026.68,F,F1,Driver,2 years,MORTGAGE,96400.0,Not Verified,Apr-2017,Fully Paid,major_purchase,CO,21.19,2,Jan-2006,23,0,28555.43,66.6%,38,61600.8,0.0
+10282,510282,14000.0,14000.0, 60 months,22.35,389.46,E,E3,Mechanic,8 years,MORTGAGE,123900.0,Not Verified,Oct-2016,Current,medical,MA,18.6,1,Jan-2007,8,0,7377.69,24.9%,16,14342.84,0.0
+10353,510353,26800.0,26800.0, 60 months,8.98,556.06,A,A5,,n/a,MORTGAGE,32300.0,Source Verified,Jan-2017,Fully Paid,car,NV,30.01,0,Jan-1996,23,0,34371.64,18.4%,37,33363.6,0.0
+10725,510725,20900.0,20900.0, 36 months,13.26%,706.82,C,C4,Accountant,10+ years,RENT,70300.0,Not Verified,Oct-2017,Current,moving,AZ,34.69,0,Jan-1996,6,0,24947.15,21.3%,22,7769.27,0.0
+10407,510407,6900.0,6900.0, 60 months,8.0%,139.91,A,A2,Manager,1 year,MORTGAGE,49100.0,Verified,Jun-2016,Fully Paid,major_purchase,NV,21.19,0,Jan-1994,23,0,14302.13,84.7%,37,8394.6,0.0
+10069,510069,6100.0,6100.0, 60 months,12.22%,136.37,B,B1,Teacher,8 years,MORTGAGE,79800.0,Source Verified,Jan-2017,Fully Paid,medical,PA,21.37,0,Jan-1999,19,0,4176.21,43.2%,34,8182.2,0.0
+10283,510283,5800.0,5800.0, 36 months,14.25,198.94,C,C1,Teacher,n/a,MORTGAGE,143100.0,Source Verified,Nov-2017,Charged Off,medical,IL,31.96,1,Jan-1997,22,0,43669.96,20.5%,33,1353.18,0.0
+10810,510810,9000.0,9000.0, 36 months,19.99,334.43,D,D3,Teacher,1 year,MORTGAGE,81200.0,Not Verified,Mar-2017,Current,major_purchase,FL,36.71,0,Jan-1992,3,0,29229.94,70.8%,20,9051.9,0.0
+10018,510018,26300.0,26300.0, 36 months,7.84,822.21,A,A5,Manager,6 years,MORTGAGE,73500.0,Not Verified,Nov-2016,Fully Paid,vacation,VA,26.89,0,Jan-2002,12,0,30176.73,34.4%,23,29599.56,0.0
+10377,510377,30700.0,30700.0, 36 months,19.22,1128.76,D,D3,Project Manager,n/a,RENT,53200.0,Source Verified,Oct-2017,Current,house,MI,10.55,0,Jan-1990,6,0,24559.72,26.9%,13,10307.53,0.0
+10482,510482,34800.0,34800.0, 36 months,7.49,1082.34,A,A3,Software Engineer,9 years,OWN,46400.0,Source Verified,Feb-2017,Fully Paid,moving,CO,14.55,0,Jan-2008,7,0,32704.98,58.1%,25,38964.24,0.0
+10793,510793,5500.0,5500.0, 60 months,12.33%,123.26,B,B2,Administrative Assistant,6 years,MORTGAGE,58800.0,Verified,Oct-2017,Fully Paid,vacation,IL,12.22,0,Jan-1991,13,0,3603.61,71.4%,16,7395.6,0.0
+10569,510569,8600.0,8600.0, 60 months,21.57%,235.42,E,E4,Driver,9 years,RENT,164000.0,Source Verified,Mar-2017,Default,credit_card,MD,13.51,1,Jan-2001,4,2,3132.01,38.6%,11,1483.59,459.4
+10409,510409,26300.0,26300.0, 60 months,20.8%,708.55,D,D1,Project Manager,2 years,MORTGAGE,128800.0,Verified,Apr-2017,Charged Off,vacation,MI,31.91,0,Jan-1990,18,0,2986.46,67.3%,37,5999.69,767.31
+10869,510869,16100.0,16100.0, 36 months,12.4,537.83,B,B5,Registered Nurse,5 years,RENT,86800.0,Verified,Jun-2017,Fully Paid,credit_card,WA,31.22,0,Jan-1995,18,0,13193.23,54.9%,25,19361.88,0.0
+10188,510188,32000.0,32000.0, 36 months,6.25,977.13,A,A2,Director,6 years,RENT,67000.0,Source Verified,Sep-2016,Fully Paid,major_purchase,CA,28.4,0,Jan-2001,21,0,23629.4,38.8%,29,35176.68,0.0
+10112,510112,16200.0,16200.0, 36 months,12.28%,540.24,B,B5,Administrative Assistant,5 years,MORTGAGE,107500.0,Not Verified,Mar-2016,Fully Paid,vacation,FL,31.38,0,Jan-2009,14,0,20860.99,28.6%,31,19448.64,0.0
+10693,510693,22700.0,22700.0, 60 months,14.32%,531.96,C,C2,Manager,7 years,RENT,78700.0,Verified,Aug-2017,Current,major_purchase,MD,32.44,0,Jan-2007,4,0,14028.28,54.9%,22,12944.68,0.0
+10857,510857,11000.0,11000.0, 60 months,22.66%,307.95,E,E2,Sales Associate,1 year,MORTGAGE,98600.0,Source Verified,Dec-2017,Fully Paid,small_business,IL,24.12,0,Jan-2004,17,0,21645.49,73.8%,32,18477.0,0.0
+10121,510121,9600.0,9600.0, 36 months,19.61%,354.87,D,D4,Administrative Assistant,n/a,MORTGAGE,110700.0,Source Verified,Dec-2016,Charged Off,small_business,IL,17.63,0,Jan-1994,7,0,30632.6,11.2%,27,3526.5,0.0
+10118,510118,28200.0,28200.0, 36 months,14.1%,965.18,C,C4,Project Manager,3 years,RENT,76800.0,Not Verified,Dec-2016,Current,moving,MA,15.8,0,Jan-2005,5,0,20900.99,64.8%,18,15240.83,0.0
+10539,510539,21300.0,21300.0, 36 months,13.66,724.47,C,C4,Driver,3 years,RENT,50100.0,Source Verified,Jun-2017,In Grace Period,medical,MI,35.48,0,Jan-2007,7,1,3792.5,92.9%,22,14445.83,0.0
+10113,510113,29900.0,29900.0, 36 months,11.23%,982.15,B,B4,Driver,2 years,RENT,122400.0,Source Verified,Aug-2017,Fully Paid,vacation,TX,27.18,0,Jan-2008,10,0,8645.48,67.4%,28,35357.4,0.0
+10695,510695,21700.0,21700.0, 60 months,34.46%,762.65,G,G5,Manager,2 years,RENT,115500.0,Source Verified,Oct-2017,Charged Off,small_business,MO,26.18,0,Jan-2000,24,0,44164.99,46.1%,42,11278.32,1427.9
+10671,510671,2500.0,2500.0, 36 months,13.59,84.95,C,C4,Manager,3 years,OWN,50300.0,Verified,Feb-2017,Fully Paid,debt_consolidation,OH,20.41,0,Jan-2001,5,0,44544.97,54.4%,11,3058.2,0.0
+10284,510284,24800.0,24800.0, 36 months,9.62%,795.81,B,B2,Software Engineer,1 year,RENT,47000.0,Source Verified,Feb-2016,Fully Paid,major_purchase,FL,6.08,0,Jan-1993,21,0,5792.04,27.8%,25,28649.16,0.0
+10905,510905,34400.0,34400.0, 60 months,7.96,696.85,A,A4,Accountant,< 1 year,MORTGAGE,84800.0,Verified,Dec-2016,Current,house,CO,7.74,3,Jan-2006,20,0,42338.96,73.1%,26,12959.89,0.0
+10299,510299,28600.0,28600.0, 60 months,13.62%,659.85,C,C1,Accountant,10+ years,RENT,125300.0,Not Verified,Dec-2017,Charged Off,major_purchase,CO,12.19,0,Jan-1997,9,1,20056.66,27.9%,29,15038.53,818.62
+10426,510426,27800.0,27800.0, 36 months,10.53%,903.96,B,B5,,< 1 year,RENT,47000.0,Not Verified,May-2016,Fully Paid,medical,VA,5.47,1,Jan-2004,7,0,14580.15,76.3%,22,32542.56,0.0
+10535,510535,30600.0,30600.0, 36 months,16.12%,1077.62,C,C3,Accountant,5 years,RENT,71600.0,Not Verified,Oct-2016,Charged Off,moving,FL,37.25,2,Jan-2010,18,0,40254.84,50.9%,35,10583.32,1387.94
+10049,510049,12700.0,12700.0, 36 months,8.22%,399.26,A,A3,Sales Associate,7 years,MORTGAGE,65600.0,Source Verified,May-2017,In Grace Period,credit_card,TX,20.72,0,Jan-2010,19,0,20614.24,24.9%,22,8557.06,0.0
+10576,510576,26300.0,26300.0, 60 months,13.51,605.29,C,C3,Accountant,1 year,MORTGAGE,77400.0,Source Verified,Jan-2017,Charged Off,small_business,OH,31.95,0,Jan-1995,22,0,31317.28,8.8%,38,4656.24,238.39
+11083,511083,13100.0,13100.0, 36 months,26.12%,528.64,Z,F2,Director,6 years,OWN,38900.0,Source Verified,Feb-2017,Late (16-30 days),vacation,FL,25.54,0,Jan-2007,22,0,41234.13,56.2%,41,4193.93,0.0
+10836,510836,10400.0,10400.0, 60 months,9.97%,220.82,B,B1,Software Engineer,2 years,RENT,80200.0,Verified,Oct-2017,Current,car,MI,17.05,0,Jan-1998,17,0,6818.75,48.1%,30,9793.64,0.0
+10626,510626,24800.0,24800.0, 60 months,13.27%,567.71,C,C5,Sales Associate,3 years,RENT,88700.0,Verified,Sep-2016,Fully Paid,small_business,NC,33.87,0,Jan-2000,10,0,40808.58,86.6%,30,34062.6,0.0
+10959,510959,20700.0,20700.0, 60 months,13.19%,473.0,C,C1,Mechanic,n/a,OTHER,81000.0,Not Verified,Jun-2016,Current,credit_card,OR,16.22,0,Jan-1998,9,0,12001.63,59.7%,16,15235.71,0.0
+10086,510086,20900.0,20900.0, 36 months,12.37%,697.88,B,B1,Administrative Assistant,8 years,MORTGAGE,140700.0,Verified,Feb-2016,Current,car,MA,11.15,0,Jan-2006,12,0,912.39,56.1%,17,11873.69,0.0
+10225,510225,30500.0,30500.0, 60 months,14.68,720.48,C,C5,Project Manager,6 years,OWN,105500.0,Verified,Feb-2017,Current,home_improvement,NV,35.26,0,Jan-1999,20,0,32515.1,21.6%,26,31473.99,0.0
+10747,510747,2700.0,2700.0, 60 months,21.54%,73.87,E,E1,Mechanic,5 years,RENT,144100.0,Verified,Jun-2017,Current,car,NC,15.04,0,Jan-2004,6,0,39667.89,37.0%,24,3500.17,0.0
+10921,510921,26400.0,26400.0, 60 months,8.21%,537.95,A,A3,Sales Associate,10+ years,MORTGAGE,116200.0,Source Verified,Mar-2017,Fully Paid,home_improvement,NY,16.82,0,Jan-2005,3,0,3221.0,50.0%,8,32277.0,0.0
+10574,510574,13600.0,13600.0, 36 months,16.17%,479.28,C,C1,Manager,7 years,RENT,123900.0,Source Verified,Dec-2017,Current,house,MD,33.02,0,Jan-1996,24,0,41024.46,13.9%,31,4206.17,0.0
+10355,510355,27700.0,27700.0, 60 months,11.58%,610.31,B,B4,Administrative Assistant,4 years,MORTGAGE,70400.0,Verified,May-2016,Charged Off,home_improvement,VA,23.75,0,Jan-1992,22,0,17894.42,39.3%,36,10616.14,1442.91
+10654,510654,19500.0,19500.0, 36 months,13.68%,663.44,C,C5,,10+ years,RENT,62100.0,Verified,Jan-2017,Fully Paid,debt_consolidation,CO,6.58,0,Jan-1999,11,0,40527.48,89.6%,13,23883.84,0.0
+10060,510060,24400.0,24400.0, 36 months,10.53,793.4,B,B3,Teacher,5 years,RENT,118700.0,Verified,Nov-2016,Fully Paid,credit_card,MO,27.39,0,Jan-1999,24,1,27320.19,18.5%,28,28562.4,0.0
+10784,510784,9000.0,9000.0, 60 months,9.4,188.58,B,B2,Mechanic,3 years,RENT,79900.0,Verified,Nov-2016,Fully Paid,home_improvement,CO,22.49,0,Jan-1998,11,1,19876.27,72.1%,27,11314.8,0.0
+10226,510226,6300.0,6300.0, 36 months,9.7%,202.4,B,B3,Driver,7 years,RENT,114900.0,Source Verified,Aug-2017,Fully Paid,vacation,OR,12.62,0,Jan-2010,24,0,4036.66,75.2%,30,7286.4,0.0
+10208,510208,12300.0,12300.0, 60 months,14.44,289.01,C,C2,Project Manager,5 years,RENT,56400.0,Not Verified,Jun-2017,Fully Paid,house,FL,13.36,0,Jan-1990,9,0,2817.89,65.0%,14,17340.6,0.0
+10778,510778,6700.0,6700.0, 60 months,10.7%,144.67,B,B2,Mechanic,2 years,RENT,71100.0,Source Verified,Feb-2016,Fully Paid,small_business,WA,13.79,0,Jan-1990,20,0,13567.36,48.7%,23,8680.2,0.0
+10787,510787,25200.0,25200.0, 60 months,13.29,577.13,C,C1,Software Engineer,1 year,MORTGAGE,104700.0,Not Verified,Jun-2016,Fully Paid,home_improvement,CA,18.4,0,Jan-1994,10,0,41436.31,29.1%,14,34627.8,0.0
+10343,510343,24900.0,24900.0, 36 months,27.44,1022.43,F,F1,Project Manager,9 years,RENT,44600.0,Verified,Oct-2016,Charged Off,vacation,CO,7.17,0,Jan-2009,20,0,38321.85,41.2%,35,13393.86,575.88
+10818,510818,22900.0,22900.0, 60 months,8.7,472.04,A,A2,Project Manager,2 years,MORTGAGE,64700.0,Not Verified,Oct-2017,Fully Paid,vacation,IL,28.67,0,Jan-2009,24,0,8693.89,71.1%,37,28322.4,0.0
+10839,510839,10700.0,10700.0, 60 months,16.07%,260.6,C,C5,Mechanic,4 years,RENT,73200.0,Not Verified,Mar-2017,Current,home_improvement,MA,25.75,0,Jan-1998,5,0,14591.28,8.6%,25,6825.45,0.0
+10807,510807,14200.0,14200.0, 60 months,14.1,331.15,C,C1,Director,9 years,MORTGAGE,117100.0,Not Verified,Jul-2017,Current,small_business,MA,15.92,0,Jan-2005,21,0,32564.56,94.1%,33,6834.09,0.0
+10044,510044,24400.0,24400.0, 36 months,19.35,898.73,D,D2,Sales Associate,2 years,OWN,98600.0,Not Verified,Feb-2016,Charged Off,small_business,MI,6.1,0,Jan-1998,7,0,13632.42,72.3%,14,14578.33,752.69
+10662,510662,26900.0,26900.0, 36 months,10.26,871.27,B,B3,Driver,< 1 year,RENT,122000.0,Not Verified,Nov-2017,Charged Off,house,NJ,34.91,0,Jan-1993,6,1,33977.44,8.7%,21,12434.55,141.47
+10111,510111,28700.0,28700.0, 36 months,13.91%,979.64,C,C4,Teacher,10+ years,MORTGAGE,36800.0,Verified,Oct-2017,Fully Paid,home_improvement,GA,22.03,0,Jan-2003,13,0,43151.59,25.9%,27,35267.04,0.0
+10436,510436,25400.0,25400.0, 60 months,9.86%,537.93,B,B4,Manager,n/a,RENT,82500.0,Source Verified,May-2017,Fully Paid,car,OH,13.25,0,Jan-2005,11,1,5078.81,76.4%,31,32275.8,0.0
+10393,510393,33300.0,33300.0, 36 months,15.62%,1164.49,C,C4,Mechanic,10+ years,RENT,83700.0,Not Verified,Jun-2017,Current,credit_card,AZ,5.46,0,Jan-2009,3,0,31765.33,72.5%,12,31536.62,0.0
+11061,511061,-5000,25800.0, 36 months,15.88,905.52,C,C3,Software Engineer,7 years,RENT,138000.0,Verified,Nov-2016,Fully Paid,debt_consolidation,OH,36.0,0,Jan-1991,6,0,42192.75,93.0%,21,32598.72,0.0
+10394,510394,31100.0,31100.0, 36 months,8.86,986.95,A,A4,Accountant,4 years,MORTGAGE,57900.0,Verified,May-2017,In Grace Period,medical,NY,18.95,0,Jan-1998,14,1,15539.16,66.1%,33,13289.67,0.0
+10709,510709,27400.0,27400.0, 36 months,11.75,906.8,B,B2,Mechanic,4 years,RENT,46200.0,Source Verified,Jul-2017,Fully Paid,car,MI,29.91,2,Jan-2007,20,0,34879.4,29.2%,35,32644.8,0.0
+10512,510512,5000.0,5000.0, 36 months,9.99%,161.31,B,B2,Registered Nurse,6 years,RENT,55900.0,Source Verified,Jan-2016,Current,moving,PA,16.38,0,Jan-1994,24,0,9955.89,47.5%,38,3820.15,0.0
+10630,510630,8800.0,8800.0, 36 months,8.72,278.69,A,A1,Director,3 years,MORTGAGE,32800.0,Not Verified,Dec-2017,Current,small_business,NJ,19.18,0,Jan-1995,22,0,33951.83,88.5%,35,5339.74,0.0
+10336,510336,23600.0,23600.0, 36 months,8.85,748.83,A,A4,Registered Nurse,2 years,OWN,26800.0,Source Verified,Sep-2016,Charged Off,vacation,NC,32.7,0,Jan-2007,14,0,9967.56,80.7%,25,8767.58,592.96
+10579,510579,11600.0,11600.0, 36 months,10.54%,377.25,B,B1,Project Manager,8 years,RENT,62400.0,Source Verified,Oct-2017,Current,moving,CA,33.75,0,Jan-2007,10,0,13307.39,19.5%,29,8296.06,0.0
+10389,510389,26200.0,26200.0, 36 months,23.49%,1020.9,E,E2,Director,5 years,RENT,108700.0,Not Verified,May-2017,Charged Off,vacation,PA,18.85,0,Jan-1998,16,0,43398.79,27.3%,26,11736.79,960.27
+10821,510821,25800.0,25800.0, 36 months,22.77%,995.62,E,E1,Accountant,8 years,RENT,46900.0,Not Verified,Nov-2016,Fully Paid,medical,CO,13.96,0,Jan-2005,24,0,32579.9,58.3%,32,35842.32,0.0
+10492,510492,19400.0,19400.0, 60 months,24.82,567.37,E,E1,,n/a,MORTGAGE,119000.0,Source Verified,Oct-2016,Charged Off,debt_consolidation,GA,25.84,0,Jan-2003,4,0,6002.11,75.6%,18,7080.76,110.84
+10830,510830,19600.0,19600.0, 60 months,16.25,479.24,C,C2,Sales Associate,10+ years,MORTGAGE,49900.0,Verified,Jul-2017,Fully Paid,moving,IL,7.02,0,Jan-2003,18,0,21812.39,32.1%,36,28754.4,0.0
+10916,510916,14800.0,14800.0, 60 months,18.28%,378.08,D,D3,,1 year,MORTGAGE,104700.0,Source Verified,Aug-2017,Fully Paid,credit_card,GA,24.08,3,Jan-2003,14,0,42312.34,89.9%,18,22684.8,0.0
+10788,510788,13800.0,13800.0, 36 months,8.2,433.72,A,A3,Administrative Assistant,9 years,RENT,33100.0,Not Verified,Feb-2016,Fully Paid,credit_card,VA,8.66,0,Jan-2000,8,1,15942.59,76.8%,28,15613.92,0.0
+10554,510554,9500.0,9500.0, 36 months,7.65,296.16,A,A2,Teacher,n/a,OWN,89500.0,Source Verified,Jul-2016,Fully Paid,small_business,NY,36.65,2,Jan-1999,12,0,23717.81,42.9%,29,10661.76,0.0
+10714,510714,22200.0,22200.0, 36 months,13.28,751.0,C,C2,Registered Nurse,10+ years,RENT,99700.0,Verified,Oct-2017,Current,house,NV,32.94,0,Jan-2000,10,0,9158.27,91.4%,30,8074.38,0.0
+10745,510745,33400.0,33400.0, 60 months,21.82%,919.06,E,E1,,4 years,MORTGAGE,83700.0,Verified,Jun-2016,Current,medical,CO,11.04,0,Jan-1995,19,0,26982.9,57.5%,24,11513.78,0.0
+10609,510609,2700.0,2700.0, 36 months,26.2%,109.07,F,F3,Driver,n/a,MORTGAGE,137500.0,Source Verified,Mar-2017,Charged Off,major_purchase,FL,35.34,0,Jan-2007,24,0,39672.93,88.9%,31,761.44,0.0
+10525,510525,10200.0,10200.0, 60 months,16.1%,248.59,C,C4,Sales Associate,1 year,OWN,105000.0,Verified,Dec-2017,Late (31-120 days),vacation,AZ,23.22,1,Jan-1990,8,0,32676.17,26.5%,25,5871.22,0.0
+10346,510346,24800.0,24800.0, 60 months,17.34%,620.89,D,D3,Accountant,9 years,MORTGAGE,95500.0,Not Verified,Jul-2017,Current,medical,OR,14.89,0,Jan-1996,6,0,35619.02,8.8%,15,22945.57,0.0
+10473,510473,20800.0,20800.0, 60 months,18.58,534.77,D,D5,Software Engineer,9 years,MORTGAGE,56700.0,Not Verified,Aug-2016,Fully Paid,home_improvement,CA,14.26,0,Jan-1998,11,0,11622.0,53.9%,23,32086.2,0.0
+10797,510797,5700.0,5700.0, 60 months,13.12%,130.04,C,C5,Mechanic,< 1 year,MORTGAGE,61200.0,Not Verified,Jun-2017,Fully Paid,credit_card,NV,34.06,0,Jan-1991,17,0,21434.81,68.4%,22,7802.4,0.0
+10298,510298,31600.0,31600.0, 60 months,29.1%,1004.97,F,F4,Driver,8 years,RENT,95700.0,Source Verified,Dec-2016,Fully Paid,credit_card,AZ,36.12,0,Jan-1998,7,0,25908.32,50.0%,12,60298.2,0.0
+10177,510177,6500.0,6500.0, 60 months,18.62,167.26,D,D1,Registered Nurse,4 years,RENT,119800.0,Source Verified,Sep-2017,Charged Off,home_improvement,NJ,27.35,1,Jan-1996,23,0,42751.2,54.8%,42,3302.59,821.29
+10791,510791,13200.0,13200.0, 36 months,20.58,494.47,D,D2,Software Engineer,n/a,MORTGAGE,73300.0,Verified,Feb-2017,Charged Off,moving,NV,36.04,0,Jan-1997,3,0,19567.06,87.3%,22,6886.31,0.0
+10664,510664,8200.0,8200.0, 36 months,24.6,324.3,E,E5,Software Engineer,1 year,MORTGAGE,44200.0,Not Verified,Jan-2017,Current,major_purchase,MD,14.66,0,Jan-2002,21,0,26235.76,29.2%,26,6574.71,0.0
+10804,510804,8500.0,8500.0, 60 months,16.17%,207.47,C,C4,Manager,6 years,MORTGAGE,96100.0,Verified,Jul-2017,Charged Off,car,WA,5.28,0,Jan-1994,15,0,8944.89,81.2%,29,1829.74,220.29
+10193,510193,18600.0,18600.0, 60 months,10.95,403.95,B,B4,Driver,< 1 year,RENT,149300.0,Source Verified,Jun-2017,Fully Paid,vacation,NC,27.91,2,Jan-2005,21,0,11325.66,35.6%,37,24237.0,0.0
+10726,510726,33900.0,33900.0, 36 months,8.72,1073.6,A,A2,Sales Associate,3 years,MORTGAGE,70400.0,Not Verified,Jul-2017,Fully Paid,vacation,OH,29.45,1,Jan-2007,6,0,36073.43,64.2%,26,38649.6,0.0
+10053,510053,20500.0,20500.0, 36 months,17.51%,736.09,D,D5,Project Manager,6 years,RENT,96500.0,Not Verified,Sep-2016,Charged Off,debt_consolidation,PA,14.02,0,Jan-2004,13,0,8572.55,17.9%,27,12950.82,795.72
+10119,510119,20700.0,20700.0, 60 months,10.35,443.39,B,B3,Sales Associate,2 years,OWN,118600.0,Verified,Feb-2016,In Grace Period,credit_card,MI,5.54,1,Jan-1998,8,0,530.08,91.2%,16,19401.56,0.0
+10319,510319,17500.0,17500.0, 60 months,13.35,401.32,C,C1,Driver,3 years,MORTGAGE,62900.0,Not Verified,Nov-2016,Current,vacation,MI,9.33,0,Jan-1999,15,1,37572.09,65.6%,28,17017.22,0.0
+10522,510522,20600.0,20600.0, 60 months,7.47,412.49,A,A5,Registered Nurse,9 years,MORTGAGE,171400.0,Source Verified,Jun-2017,Fully Paid,moving,GA,17.38,0,Jan-1999,15,0,38310.23,13.7%,23,24749.4,0.0
+10737,510737,4800.0,4800.0, 60 months,14.34,112.54,C,C1,,4 years,MORTGAGE,130400.0,Verified,May-2016,Fully Paid,home_improvement,NJ,22.52,2,Jan-1991,6,0,12117.25,82.8%,8,6752.4,0.0
+10411,510411,7000.0,7000.0, 60 months,11.28,153.18,B,B3,Project Manager,7 years,MORTGAGE,98200.0,Verified,Sep-2016,Fully Paid,moving,WA,35.79,0,Jan-2005,5,0,38846.27,93.0%,11,9190.8,0.0
+10410,510410,13700.0,13700.0, 60 months,22.16%,379.63,E,E1,Driver,2 years,RENT,62400.0,Source Verified,Oct-2017,Default,credit_card,MA,10.6,0,Jan-1995,6,1,13040.74,11.9%,18,10658.86,0.0
+10748,510748,10600.0,10600.0, 36 months,21.92,404.38,E,E5,Accountant,10+ years,MORTGAGE,78200.0,Not Verified,Mar-2016,Fully Paid,home_improvement,OH,17.55,0,Jan-2008,22,0,34525.12,65.1%,29,14557.68,0.0
+10186,510186,29100.0,29100.0, 36 months,11.28,956.56,B,B4,Teacher,9 years,RENT,98000.0,Verified,Dec-2017,Fully Paid,medical,MI,24.69,0,Jan-1993,15,0,5331.37,23.2%,33,34436.16,0.0
+10108,510108,28300.0,28300.0, 36 months,8.78%,897.04,A,A4,Mechanic,n/a,RENT,123200.0,Source Verified,Oct-2017,Current,moving,IL,25.9,0,Jan-2003,24,0,19329.19,38.9%,40,14224.71,0.0
+10057,510057,4500.0,4500.0, 36 months,22.13,172.16,E,E3,Driver,9 years,MORTGAGE,88500.0,Source Verified,Dec-2016,Current,home_improvement,GA,8.39,0,Jan-2004,8,0,34329.58,64.0%,15,2964.83,0.0
+10636,510636,28700.0,28700.0, 36 months,15.92%,1007.87,C,C4,Sales Associate,8 years,MORTGAGE,95800.0,Verified,Sep-2016,Current,home_improvement,MO,9.1,0,Jan-1990,14,0,7295.98,88.9%,23,10996.63,0.0
+10715,510715,7900.0,7900.0, 60 months,7.97,160.07,A,A3,,6 years,OWN,75600.0,Verified,Jan-2017,Fully Paid,vacation,GA,33.66,0,Jan-2001,19,0,31046.47,14.2%,37,9604.2,0.0
+10470,510470,19400.0,19400.0, 60 months,22.44,540.67,E,E5,Teacher,< 1 year,RENT,69800.0,Verified,Feb-2016,Charged Off,medical,CO,28.28,0,Jan-1997,11,0,41086.19,80.7%,29,5978.98,1224.57
+10684,510684,10000.0,10000.0, 60 months,14.22%,233.82,C,C3,Director,4 years,MORTGAGE,114100.0,Not Verified,Dec-2017,Current,house,CO,12.06,0,Jan-1991,11,0,39368.27,79.0%,22,4124.63,0.0
+10820,510820,23800.0,23800.0, 36 months,17.95%,859.83,D,D5,Driver,1 year,MORTGAGE,116600.0,Not Verified,Feb-2016,Current,house,NJ,26.91,0,Jan-1995,18,0,17682.18,33.2%,28,12104.58,0.0
+10250,510250,12900.0,12900.0, 60 months,12.36,289.31,B,B5,Sales Associate,7 years,RENT,153500.0,Source Verified,Jun-2016,Default,debt_consolidation,OR,29.73,0,Jan-1992,21,0,28503.85,57.0%,41,7352.38,0.0
+10730,510730,24900.0,24900.0, 60 months,14.32,583.52,C,C5,Driver,9 years,MORTGAGE,103000.0,Verified,Sep-2017,Fully Paid,house,AZ,35.5,0,Jan-2000,4,0,12876.79,32.2%,18,35011.2,0.0
+10935,510935,22600.0,22600.0, 36 months,17.77,814.44,D,D5,Registered Nurse,2 years,MORTGAGE,59600.0,Verified,Jan-2017,Charged Off,home_improvement,NV,19.08,0,Jan-2008,20,0,25612.71,71.6%,29,12181.34,0.0
+10034,510034,25100.0,25100.0, 60 months,21.72,689.24,E,E4,Software Engineer,10+ years,RENT,85600.0,Verified,Aug-2017,Fully Paid,debt_consolidation,CO,29.24,0,Jan-1998,3,0,43305.04,80.2%,23,41354.4,0.0
+10552,510552,13300.0,13300.0, 60 months,19.47,348.46,D,D4,Project Manager,8 years,MORTGAGE,44800.0,Not Verified,Jan-2016,Fully Paid,house,IL,8.12,2,Jan-1992,6,0,32214.94,16.4%,19,20907.6,0.0
+10722,510722,19300.0,19300.0, 60 months,13.85,447.58,C,C3,Teacher,n/a,RENT,75400.0,Not Verified,Apr-2017,Fully Paid,home_improvement,MA,36.78,0,Jan-1990,10,0,40499.66,76.0%,21,26854.8,0.0
+10900,510900,27200.0,27200.0, 60 months,16.8%,673.07,D,D1,Software Engineer,2 years,MORTGAGE,77700.0,Source Verified,Jan-2017,Charged Off,vacation,OR,24.71,0,Jan-2007,11,0,19721.44,18.3%,14,8351.4,0.0
+10752,510752,25000.0,25000.0, 36 months,26.98%,1020.36,F,F2,,3 years,OWN,97100.0,Verified,Sep-2016,Charged Off,car,MA,9.99,3,Jan-2001,19,0,26120.89,43.2%,23,18347.54,1344.09
+10585,510585,30700.0,30700.0, 60 months,16.59,756.22,D,D1,Teacher,4 years,MORTGAGE,128700.0,Source Verified,Jul-2016,Fully Paid,home_improvement,OH,15.15,0,Jan-1999,22,1,26463.46,79.5%,39,45373.2,0.0
+10364,510364,15600.0,15600.0, 60 months,12.94,354.47,C,C3,Administrative Assistant,n/a,MORTGAGE,162600.0,Not Verified,Jul-2017,Fully Paid,home_improvement,NC,36.65,0,Jan-2000,23,0,30666.57,92.5%,29,21268.2,0.0
+10016,510016,24100.0,24100.0, 36 months,8.19%,757.32,A,A3,Sales Associate,5 years,RENT,65700.0,Verified,Jan-2017,Charged Off,debt_consolidation,MA,12.34,0,Jan-2010,17,0,37013.87,83.4%,26,6306.18,0.0
+10936,510936,32000.0,32000.0, 36 months,8.08%,1003.95,A,A3,Sales Associate,10+ years,MORTGAGE,150600.0,Verified,Apr-2017,Fully Paid,car,OH,7.48,0,Jan-1992,21,0,7622.36,86.6%,35,36142.2,0.0
+10309,510309,6900.0,6900.0, 60 months,13.18,157.63,C,C4,Registered Nurse,3 years,RENT,49100.0,Verified,Jun-2016,Fully Paid,house,NC,23.59,0,Jan-2005,9,0,43737.42,52.3%,29,9457.8,0.0
+10592,510592,14800.0,14800.0, 36 months,6.09,450.85,A,A2,Mechanic,9 years,MORTGAGE,83400.0,Source Verified,Aug-2017,Fully Paid,home_improvement,MA,14.51,0,Jan-1996,4,0,23087.51,12.2%,12,16230.6,0.0
+10025,510025,15900.0,15900.0, 36 months,10.14,514.09,B,B4,Accountant,10+ years,RENT,82800.0,Verified,Dec-2016,Fully Paid,major_purchase,TX,30.78,0,Jan-1993,3,1,9371.55,6.8%,9,18507.24,0.0
+10171,510171,5400.0,5400.0, 36 months,9.27,172.4,B,B5,Accountant,3 years,RENT,112200.0,Verified,May-2017,Fully Paid,small_business,NY,35.57,0,Jan-2010,24,0,25069.54,6.2%,34,6206.4,0.0
+10504,510504,30900.0,30900.0, 36 months,32.76%,1358.9,G,G4,Administrative Assistant,9 years,MORTGAGE,40400.0,Not Verified,May-2016,Current,home_improvement,IL,7.73,1,Jan-1990,6,0,28867.78,10.6%,11,34809.09,0.0
+10931,510931,34700.0,34700.0, 60 months,17.06,863.5,D,D2,Administrative Assistant,5 years,RENT,58400.0,Verified,Jul-2017,Current,credit_card,AZ,12.33,0,Jan-1995,12,1,25562.94,43.6%,18,24430.36,0.0
+10933,510933,7700.0,7700.0, 36 months,14.77,266.06,C,C1,Manager,3 years,RENT,57100.0,Source Verified,Oct-2016,Fully Paid,major_purchase,OR,6.07,0,Jan-1996,21,1,26522.78,20.6%,28,9578.16,0.0
+10211,510211,4300.0,4300.0, 36 months,12.39,143.62,B,B5,Registered Nurse,10+ years,RENT,80900.0,Not Verified,Dec-2016,Fully Paid,moving,CA,30.61,0,Jan-2007,8,1,28078.19,37.8%,17,5170.32,0.0
+10775,510775,23000.0,23000.0, 36 months,11.13,754.41,B,B4,Project Manager,< 1 year,OTHER,83000.0,Not Verified,Sep-2017,Fully Paid,moving,OR,7.4,0,Jan-2009,21,0,16654.45,81.0%,41,27158.76,0.0
+10109,510109,21600.0,21600.0, 36 months,15.25,751.42,C,C3,Mechanic,9 years,MORTGAGE,51000.0,Not Verified,Dec-2016,Charged Off,home_improvement,OR,6.46,3,Jan-2008,24,0,43523.1,34.8%,39,5107.26,0.0
+10326,510326,10500.0,10500.0, 60 months,8.59,215.88,A,A1,Software Engineer,7 years,OWN,110200.0,Verified,Dec-2017,Fully Paid,debt_consolidation,WA,13.57,0,Jan-2000,6,0,29467.83,16.2%,17,12952.8,0.0
+10686,510686,29400.0,29400.0, 60 months,11.62,648.36,B,B5,Director,3 years,OWN,70800.0,Source Verified,Aug-2017,Fully Paid,debt_consolidation,VA,6.24,0,Jan-2006,4,2,13466.24,23.4%,12,38901.6,0.0
+10644,510644,12900.0,12900.0, 60 months,15.9,313.02,C,C5,Project Manager,< 1 year,RENT,88200.0,Not Verified,Jul-2017,Current,house,NC,31.6,0,Jan-2008,10,0,1489.02,48.5%,22,14718.01,0.0
+10954,510954,32200.0,32200.0, 36 months,24.22%,1267.02,E,E2,Accountant,9 years,MORTGAGE,61200.0,Not Verified,Mar-2017,Fully Paid,major_purchase,CA,31.97,0,Jan-2010,6,0,6535.95,71.1%,21,45612.72,0.0
+10780,510780,28000.0,28000.0, 36 months,22.59,1077.9,E,E5,Accountant,1 year,RENT,44000.0,Not Verified,May-2017,Current,home_improvement,PA,27.73,0,Jan-1991,10,0,44719.02,11.5%,29,16448.6,0.0
+10210,510210,28600.0,28600.0, 60 months,11.94,635.32,B,B5,Director,5 years,MORTGAGE,111000.0,Source Verified,Dec-2016,Fully Paid,home_improvement,NC,34.66,0,Jan-2004,17,0,24651.67,49.1%,37,38119.2,0.0
+10126,510126,27800.0,27800.0, 60 months,17.24%,694.49,D,D3,Driver,2 years,MORTGAGE,111000.0,Verified,Nov-2016,Fully Paid,car,NC,22.29,0,Jan-2001,21,0,22578.57,51.0%,24,41669.4,0.0
+10843,510843,16600.0,16600.0, 36 months,20.88%,624.38,D,D2,Director,3 years,RENT,68700.0,Source Verified,May-2017,Current,vacation,NV,35.44,0,Jan-2004,17,0,7896.35,82.4%,31,5458.09,0.0
+10232,510232,29100.0,29100.0, 36 months,6.34,889.77,A,A5,Administrative Assistant,n/a,MORTGAGE,42400.0,Not Verified,Dec-2016,Current,debt_consolidation,IL,33.18,0,Jan-2009,22,0,41457.12,9.4%,37,11871.86,0.0
+10851,510851,2700.0,2700.0, 36 months,8.53%,85.27,A,A2,Manager,8 years,MORTGAGE,107600.0,Source Verified,Jul-2016,Current,home_improvement,MO,16.11,0,Jan-1990,9,0,671.27,61.9%,21,2246.35,0.0
+10022,510022,29700.0,29700.0, 60 months,18.52,762.61,D,D4,Mechanic,7 years,RENT,115400.0,Not Verified,Aug-2016,Charged Off,small_business,MI,7.56,0,Jan-2003,11,0,40239.69,12.3%,17,17505.0,611.4
+10350,510350,17500.0,17500.0, 36 months,26.75%,712.1,F,F4,Software Engineer,3 years,MORTGAGE,57200.0,Not Verified,May-2017,Charged Off,medical,MA,22.12,0,Jan-1997,14,0,22006.72,91.0%,31,12009.61,0.0
+10163,510163,3500.0,3500.0, 60 months,13.19%,79.98,C,C4,Manager,7 years,MORTGAGE,101600.0,Not Verified,May-2017,Fully Paid,vacation,NV,12.39,2,Jan-2001,13,0,31126.75,60.6%,28,4798.8,0.0
+10120,510120,31800.0,31800.0, 36 months,6.24%,970.88,A,A3,Software Engineer,< 1 year,RENT,42900.0,Not Verified,Nov-2017,Fully Paid,major_purchase,CO,26.63,0,Jan-2000,3,0,3968.27,58.4%,21,34951.68,0.0
+10400,510400,12000.0,12000.0, 60 months,10.96,260.67,B,B1,Driver,1 year,OWN,73500.0,Not Verified,Feb-2017,Fully Paid,major_purchase,VA,34.54,0,Jan-2003,3,0,33641.58,24.1%,20,15640.2,0.0
+10489,510489,10200.0,10200.0, 60 months,10.64%,219.95,B,B3,Project Manager,< 1 year,MORTGAGE,51800.0,Source Verified,Oct-2017,Charged Off,credit_card,WA,28.0,0,Jan-2007,18,0,38948.41,59.1%,27,2455.2,0.0
+10616,510616,15300.0,15300.0, 60 months,10.65%,329.99,B,B1,Sales Associate,n/a,MORTGAGE,71800.0,Source Verified,Feb-2017,Fully Paid,vacation,NV,35.35,0,Jan-2005,21,0,22364.34,7.8%,33,19799.4,0.0
+10887,510887,20400.0,20400.0, 36 months,12.89,686.28,C,C4,,10+ years,OWN,112500.0,Not Verified,Feb-2017,Fully Paid,major_purchase,PA,10.86,0,Jan-1996,18,0,35808.57,21.7%,20,24706.08,0.0
+10365,510365,32100.0,32100.0, 60 months,26.17%,964.32,F,F4,Software Engineer,3 years,RENT,75100.0,Verified,May-2017,Charged Off,vacation,CA,12.68,0,Jan-2009,6,0,33337.14,73.2%,10,12650.68,306.58
+10743,510743,21400.0,21400.0, 60 months,15.57%,515.53,C,C1,Director,3 years,MORTGAGE,52800.0,Verified,Dec-2017,Fully Paid,small_business,NV,12.79,0,Jan-1992,20,0,32313.17,73.2%,30,30931.8,0.0
+10313,510313,25500.0,25500.0, 60 months,15.16,608.79,C,C4,Sales Associate,9 years,RENT,88200.0,Verified,Oct-2016,Fully Paid,moving,CO,7.61,0,Jan-1991,12,0,6186.64,86.3%,21,36527.4,0.0
+10387,510387,34300.0,34300.0, 60 months,8.44%,702.73,A,A3,,5 years,RENT,73500.0,Source Verified,Oct-2017,Fully Paid,debt_consolidation,GA,14.92,2,Jan-2006,19,1,13556.16,53.1%,25,42163.8,0.0
+10074,510074,24400.0,24400.0, 60 months,7.68%,491.02,A,A3,Teacher,5 years,RENT,53200.0,Not Verified,Sep-2017,Fully Paid,vacation,PA,30.34,0,Jan-1997,19,1,2965.87,16.2%,25,29461.2,0.0
+10673,510673,15600.0,15600.0, 60 months,24.7%,455.14,E,E4,Manager,2 years,RENT,49900.0,Verified,Jul-2017,Current,small_business,CA,19.09,0,Jan-1995,14,0,25254.77,19.8%,19,16395.39,0.0
+10152,510152,11100.0,11100.0, 60 months,10.86%,240.57,B,B1,,< 1 year,MORTGAGE,130300.0,Not Verified,Sep-2017,Fully Paid,small_business,OH,9.95,0,Jan-2010,4,0,36205.19,59.0%,16,14434.2,0.0
+10242,510242,27200.0,27200.0, 36 months,13.06,917.26,C,C5,Administrative Assistant,5 years,RENT,49000.0,Not Verified,Mar-2017,Current,credit_card,MI,15.24,0,Jan-2000,17,0,42661.45,17.9%,27,20465.61,0.0
+10314,510314,15600.0,15600.0, 60 months,14.59,367.77,C,C1,Administrative Assistant,7 years,RENT,102200.0,Source Verified,Dec-2016,Charged Off,small_business,NV,7.7,0,Jan-2009,6,0,21098.11,75.8%,20,8423.8,1086.14
+10302,510302,20100.0,20100.0, 60 months,14.26,470.41,C,C3,Teacher,9 years,MORTGAGE,81300.0,Verified,Sep-2017,Charged Off,home_improvement,MI,31.1,0,Jan-2003,15,0,14096.87,56.8%,20,13769.82,0.0
+10680,510680,6900.0,6900.0, 60 months,17.21,172.26,D,D3,Project Manager,5 years,RENT,67300.0,Verified,May-2016,Charged Off,home_improvement,NJ,21.55,0,Jan-2010,13,0,2297.05,44.1%,15,3770.58,0.0
+10531,510531,2500.0,2500.0, 36 months,21.94,95.4,E,E4,Mechanic,3 years,MORTGAGE,71700.0,Verified,May-2016,Current,small_business,OR,30.67,0,Jan-1996,23,0,22696.17,56.2%,25,2300.54,0.0
+10514,510514,16000.0,16000.0, 60 months,10.36,342.79,B,B1,Project Manager,< 1 year,RENT,69200.0,Source Verified,Feb-2016,Fully Paid,small_business,CO,10.92,0,Jan-1995,19,0,21189.06,12.4%,24,20567.4,0.0
+10870,510870,9000.0,9000.0, 60 months,6.82,177.45,A,A3,,7 years,RENT,110500.0,Not Verified,Feb-2016,Fully Paid,credit_card,MD,23.63,0,Jan-2004,16,0,8865.62,30.1%,30,10647.0,0.0
+10611,510611,8200.0,8200.0, 60 months,19.51,215.02,D,D1,Accountant,7 years,OTHER,121900.0,Verified,Jul-2017,Fully Paid,car,MO,36.42,0,Jan-2007,10,0,33542.41,30.8%,14,12901.2,0.0
+11082,511082,18400.0,18400.0, 36 months,9.88,592.68,99,B1,Software Engineer,5 years,RENT,138000.0,Source Verified,May-2016,Fully Paid,debt_consolidation,NV,25.23,0,Jan-2009,13,0,17576.63,19.4%,19,21336.48,0.0
+10588,510588,25500.0,25500.0, 36 months,8.85%,809.11,A,A2,Teacher,< 1 year,OWN,72800.0,Source Verified,Jan-2016,Fully Paid,vacation,NV,18.79,0,Jan-2010,11,0,12970.94,51.8%,13,29127.96,0.0
+10694,510694,9700.0,9700.0, 60 months,17.1%,241.59,D,D5,Software Engineer,n/a,MORTGAGE,97100.0,Verified,Oct-2017,Current,medical,MI,27.81,0,Jan-2004,4,0,44696.98,57.3%,8,4480.05,0.0
+10689,510689,24700.0,24700.0, 60 months,7.24%,491.89,A,A5,Director,2 years,RENT,83000.0,Source Verified,Dec-2017,Fully Paid,small_business,OR,8.95,0,Jan-1991,16,1,39761.52,66.2%,30,29513.4,0.0
+10458,510458,16500.0,16500.0, 36 months,17.66,593.7,D,D5,Administrative Assistant,4 years,RENT,79400.0,Verified,May-2016,Fully Paid,major_purchase,PA,21.88,0,Jan-2002,9,0,13406.61,65.1%,29,21373.2,0.0
+10354,510354,17500.0,17500.0, 60 months,11.23,382.5,B,B5,Administrative Assistant,5 years,MORTGAGE,71600.0,Verified,Feb-2017,Fully Paid,car,OH,19.48,1,Jan-2000,3,0,26199.13,16.6%,5,22950.0,0.0
+10553,510553,31200.0,31200.0, 36 months,26.64,1267.73,F,F5,Mechanic,2 years,RENT,54600.0,Verified,Jul-2016,Fully Paid,medical,MD,24.83,0,Jan-2001,19,0,36111.57,37.6%,28,45638.28,0.0
+10777,510777,17200.0,17200.0, 60 months,10.27,367.74,B,B5,Registered Nurse,9 years,MORTGAGE,67600.0,Not Verified,May-2016,Fully Paid,moving,NJ,17.71,0,Jan-2008,5,0,30447.36,80.1%,24,22064.4,0.0
+10037,510037,2500.0,2500.0, 60 months,15.27%,59.83,C,C2,Mechanic,2 years,OTHER,49000.0,Verified,Mar-2017,Fully Paid,credit_card,IL,21.45,0,Jan-2002,19,0,18989.32,48.4%,36,3589.8,0.0
+10370,510370,34800.0,34800.0, 36 months,9.41,1113.28,B,B5,Software Engineer,5 years,RENT,75300.0,Verified,Feb-2017,Fully Paid,small_business,WA,21.82,0,Jan-2010,14,0,29465.33,88.4%,23,40078.08,0.0
+10437,510437,28900.0,28900.0, 36 months,10.66,941.5,B,B4,Software Engineer,1 year,MORTGAGE,96300.0,Not Verified,Dec-2016,Fully Paid,medical,TX,19.83,1,Jan-1995,19,0,18736.47,59.3%,37,33894.0,0.0
+10150,510150,10500.0,10500.0, 36 months,13.99,358.81,C,C3,Teacher,10+ years,MORTGAGE,67100.0,Verified,Jul-2017,Fully Paid,major_purchase,GA,26.36,0,Jan-1995,11,0,23341.01,82.8%,13,12917.16,0.0
+10603,510603,6400.0,6400.0, 36 months,5.53,193.34,A,A5,Software Engineer,8 years,MORTGAGE,143900.0,Verified,May-2017,Fully Paid,home_improvement,GA,8.03,0,Jan-2003,14,0,18862.56,72.6%,31,6960.24,0.0
+11075,511075,32200.0,32200.0, 60 months,10.75%,696.1,B,B4,,3 years,MORTGAGE,-10000,Source Verified,May-2017,Fully Paid,home_improvement,NY,22.27,1,Jan-2009,11,1,36682.88,13.6%,19,41766.0,0.0
+10526,510526,16600.0,16600.0, 36 months,10.78,541.73,B,B4,Project Manager,8 years,OWN,119800.0,Not Verified,Sep-2017,Fully Paid,credit_card,OR,32.65,1,Jan-2005,8,0,32631.06,11.3%,11,19502.28,0.0
+10267,510267,8700.0,8700.0, 36 months,7.64,271.18,A,A2,Mechanic,3 years,RENT,39100.0,Source Verified,May-2016,Fully Paid,credit_card,MI,20.13,0,Jan-1992,13,0,13634.69,19.1%,20,9762.48,0.0
+10173,510173,22300.0,22300.0, 60 months,21.4,608.32,E,E5,Manager,9 years,RENT,84700.0,Source Verified,Mar-2016,Charged Off,medical,MD,12.26,0,Jan-2006,5,0,7591.99,53.9%,19,6764.82,541.2
+10229,510229,24800.0,24800.0, 36 months,10.2,802.56,B,B4,,3 years,RENT,82200.0,Verified,Dec-2017,Fully Paid,house,FL,10.93,0,Jan-2004,20,0,18903.39,45.6%,27,28892.16,0.0
+10549,510549,28700.0,28700.0, 36 months,32.49,1257.83,G,G5,,1 year,MORTGAGE,69200.0,Source Verified,May-2016,Charged Off,medical,MO,17.06,0,Jan-2002,6,0,33817.99,81.7%,14,19117.06,988.81
+10198,510198,16900.0,16900.0, 36 months,10.45%,548.89,B,B3,Accountant,2 years,RENT,160800.0,Verified,Dec-2017,Fully Paid,small_business,GA,23.33,1,Jan-2010,9,0,43182.08,18.5%,11,19760.04,0.0
+10716,510716,33300.0,33300.0, 60 months,10.99,723.86,B,B4,Teacher,< 1 year,MORTGAGE,34800.0,Source Verified,Oct-2017,Charged Off,small_business,NC,12.4,0,Jan-1996,23,0,39559.88,85.4%,43,20219.68,0.0
+10827,510827,13800.0,13800.0, 60 months,12.28,308.93,B,B1,Manager,1 year,MORTGAGE,62200.0,Not Verified,Dec-2016,Fully Paid,vacation,MI,28.73,0,Jan-2000,14,0,24041.22,46.6%,22,18535.8,0.0
+10488,510488,15800.0,15800.0, 60 months,13.52%,363.72,C,C5,Accountant,4 years,RENT,97000.0,Verified,Sep-2017,Current,medical,MA,22.51,2,Jan-1993,12,0,39439.24,65.1%,29,9040.84,0.0
+11084,511084,10100.0,10100.0, 36 months,5.63,305.57,99,A1,Sales Associate,7 years,MORTGAGE,80900.0,Verified,May-2017,Fully Paid,car,NV,16.0,0,Jan-1998,23,1,29067.01,74.4%,25,11000.52,0.0
+10221,510221,6900.0,6900.0, 60 months,6.21,134.07,A,A1,,2 years,RENT,34200.0,Verified,Oct-2016,Fully Paid,moving,MA,5.75,0,Jan-1990,20,0,24815.88,72.5%,39,8044.2,0.0
+11091,511091,26600.0,26600.0, 36 months,150.0%,1110.93,F,F2,Software Engineer,4 years,RENT,94600.0,Verified,Jul-2016,Fully Paid,moving,NY,11.27,0,Jan-2005,12,0,14317.65,81.2%,23,39993.48,0.0
+10421,510421,11200.0,11200.0, 60 months,12.46%,251.75,B,B2,Director,4 years,MORTGAGE,72600.0,Not Verified,Mar-2017,Fully Paid,small_business,MA,37.29,0,Jan-2002,17,0,6749.9,16.2%,37,15105.0,0.0
+10564,510564,2400.0,2400.0, 36 months,23.97%,94.12,E,E4,,5 years,RENT,154900.0,Source Verified,Mar-2017,Late (16-30 days),car,MO,23.19,0,Jan-1998,16,0,23576.43,41.0%,36,2195.89,0.0
+10052,510052,24100.0,24100.0, 60 months,16.14,587.86,C,C5,Mechanic,5 years,RENT,72700.0,Source Verified,Dec-2017,Fully Paid,debt_consolidation,NJ,24.81,0,Jan-1993,21,0,7385.49,48.4%,26,35271.6,0.0
+10181,510181,22800.0,22800.0, 60 months,8.59,468.77,A,A1,Mechanic,1 year,MORTGAGE,115900.0,Verified,Jun-2017,Current,small_business,MO,34.5,0,Jan-2002,23,0,16778.93,25.1%,43,13467.41,0.0
+10253,510253,30700.0,30700.0, 36 months,14.45%,1055.98,C,C4,Sales Associate,1 year,RENT,67400.0,Source Verified,Oct-2017,Fully Paid,medical,MD,27.53,0,Jan-1998,20,0,43050.17,43.9%,30,38015.28,0.0
+10800,510800,26200.0,26200.0, 36 months,15.15,910.16,C,C1,,3 years,MORTGAGE,40000.0,Verified,Sep-2016,Fully Paid,home_improvement,GA,33.13,0,Jan-1991,17,0,38346.65,16.4%,22,32765.76,0.0
+10690,510690,19400.0,19400.0, 60 months,5.58%,371.28,A,A5,Registered Nurse,3 years,MORTGAGE,51000.0,Verified,Jan-2017,Current,house,MA,16.32,0,Jan-2004,7,0,18623.92,20.4%,14,11216.63,0.0
+10674,510674,8900.0,8900.0, 36 months,11.75%,294.55,B,B1,Registered Nurse,2 years,MORTGAGE,67900.0,Source Verified,Aug-2016,Fully Paid,vacation,IL,6.04,0,Jan-2005,9,0,34168.23,73.5%,24,10603.8,0.0
+10948,510948,7900.0,7900.0, 36 months,11.95,262.2,B,B2,Sales Associate,n/a,RENT,123200.0,Verified,Apr-2017,Fully Paid,medical,VA,8.3,0,Jan-1995,3,2,37697.26,49.5%,23,9439.2,0.0
+10430,510430,6100.0,6100.0, 60 months,13.47%,140.27,C,C1,Software Engineer,6 years,RENT,77700.0,Not Verified,Dec-2017,Fully Paid,car,CA,36.01,0,Jan-1991,19,0,39642.52,28.8%,34,8416.2,0.0
+10341,510341,27000.0,27000.0, 36 months,10.81%,881.52,B,B5,Director,4 years,OWN,42100.0,Not Verified,Mar-2017,In Grace Period,medical,CA,17.93,0,Jan-1992,21,0,44566.78,25.3%,36,10095.64,0.0
+10256,510256,24000.0,24000.0, 60 months,15.48,577.02,C,C3,Teacher,10+ years,RENT,64900.0,Source Verified,Feb-2016,Fully Paid,car,AZ,15.98,0,Jan-2005,11,0,3588.23,93.1%,19,34621.2,0.0
+10681,510681,6900.0,6900.0, 60 months,11.72%,152.51,B,B3,Accountant,< 1 year,MORTGAGE,91700.0,Verified,Sep-2016,Current,house,GA,37.69,0,Jan-2003,4,0,37060.23,75.7%,18,2046.31,0.0
+10849,510849,30700.0,30700.0, 60 months,15.02%,730.67,C,C4,Driver,4 years,MORTGAGE,116700.0,Source Verified,Dec-2017,Charged Off,home_improvement,OH,14.77,0,Jan-2007,22,0,41892.21,77.8%,29,9743.72,426.48
+10794,510794,20300.0,20300.0, 60 months,11.41,445.53,B,B1,Driver,8 years,MORTGAGE,86600.0,Verified,Apr-2016,Late (31-120 days),credit_card,AZ,17.96,0,Jan-2007,7,0,789.04,85.7%,19,12668.82,0.0
+10260,510260,12200.0,12200.0, 60 months,9.38,255.51,B,B4,Driver,3 years,MORTGAGE,155600.0,Source Verified,Feb-2016,Fully Paid,medical,NY,18.38,0,Jan-1992,23,0,20897.48,66.0%,42,15330.6,0.0
+10484,510484,31000.0,31000.0, 60 months,18.43%,794.47,D,D2,Manager,8 years,MORTGAGE,49800.0,Verified,Oct-2016,Current,small_business,MA,19.48,1,Jan-2006,12,1,12044.59,59.6%,17,13566.46,0.0
+10613,510613,7400.0,7400.0, 36 months,15.43,258.08,C,C4,Registered Nurse,8 years,OWN,71800.0,Not Verified,May-2016,Current,vacation,VA,22.83,1,Jan-2007,8,0,26029.32,93.0%,16,6448.48,0.0
+10558,510558,12900.0,12900.0, 60 months,20.56,345.8,D,D3,Driver,6 years,MORTGAGE,162600.0,Verified,Nov-2017,Fully Paid,moving,GA,24.33,0,Jan-2009,16,0,5126.46,75.3%,33,20748.0,0.0
+10183,510183,5400.0,5400.0, 60 months,21.35,147.15,E,E1,Director,5 years,MORTGAGE,125700.0,Not Verified,Jul-2017,Fully Paid,home_improvement,AZ,26.57,0,Jan-2005,23,1,3963.77,27.6%,32,8829.0,0.0
+10166,510166,29900.0,29900.0, 60 months,29.27,954.0,F,F3,Director,n/a,RENT,91500.0,Source Verified,Nov-2017,Fully Paid,medical,MI,8.76,0,Jan-1993,10,0,16303.68,62.0%,21,57240.0,0.0
+10796,510796,29800.0,29800.0, 36 months,5.74,903.07,A,A4,Accountant,n/a,RENT,108600.0,Verified,Jul-2016,Fully Paid,car,PA,8.27,0,Jan-1990,24,0,16189.44,86.9%,29,32510.52,0.0
+10732,510732,6800.0,6800.0, 36 months,13.12,229.51,C,C4,,10+ years,RENT,99200.0,Verified,Jul-2016,Fully Paid,home_improvement,FL,33.6,1,Jan-1992,17,0,33993.36,17.6%,22,8262.36,0.0
+10594,510594,31800.0,31800.0, 36 months,16.77%,1130.12,D,D1,,5 years,RENT,97700.0,Verified,Oct-2017,Fully Paid,moving,CA,37.25,0,Jan-2004,13,0,41276.84,37.5%,17,40684.32,0.0
+10068,510068,8000.0,8000.0, 36 months,8.92%,254.1,A,A4,Software Engineer,10+ years,RENT,44800.0,Source Verified,Feb-2016,Fully Paid,small_business,OH,6.45,0,Jan-1996,4,0,14298.38,40.8%,23,9147.6,0.0
+10417,510417,24900.0,24900.0, 60 months,7.54%,499.42,A,A5,Sales Associate,3 years,RENT,69400.0,Source Verified,Jun-2016,Charged Off,debt_consolidation,WA,26.34,0,Jan-2007,6,0,16640.22,75.1%,18,9487.8,895.67
+10428,510428,18500.0,18500.0, 60 months,24.71%,539.86,E,E5,Administrative Assistant,n/a,MORTGAGE,77800.0,Not Verified,Feb-2017,Fully Paid,house,VA,8.74,0,Jan-2003,16,0,25097.53,19.6%,31,32391.6,0.0
+10930,510930,16600.0,16600.0, 36 months,17.21%,593.57,D,D4,,9 years,MORTGAGE,141300.0,Verified,Jul-2017,Fully Paid,debt_consolidation,AZ,29.96,0,Jan-1997,4,0,16065.84,70.6%,23,21368.52,0.0
+10541,510541,16100.0,16100.0, 60 months,13.28,368.64,C,C1,Administrative Assistant,1 year,RENT,120000.0,Verified,May-2017,Fully Paid,medical,CA,23.67,3,Jan-1992,19,0,15054.62,53.5%,30,22118.4,0.0
+10760,510760,15800.0,15800.0, 60 months,24.86%,462.45,E,E2,Accountant,n/a,MORTGAGE,43300.0,Source Verified,Aug-2017,Default,vacation,WA,12.55,0,Jan-2005,24,0,38573.11,15.7%,30,11633.67,0.0
+10294,510294,7500.0,7500.0, 60 months,12.02,166.91,B,B5,Sales Associate,1 year,MORTGAGE,73500.0,Source Verified,Sep-2017,Current,credit_card,MO,12.06,0,Jan-2008,12,2,18390.22,25.3%,16,5559.29,0.0
+10621,510621,10000.0,10000.0, 36 months,7.06,309.05,A,A3,Registered Nurse,8 years,MORTGAGE,52400.0,Not Verified,Jun-2016,Fully Paid,major_purchase,MI,26.78,0,Jan-1991,20,0,3473.44,76.1%,27,11125.8,0.0
+10279,510279,25400.0,25400.0, 36 months,10.62,827.0,B,B3,Administrative Assistant,10+ years,RENT,60100.0,Source Verified,Jun-2017,Current,moving,NY,32.15,0,Jan-2005,21,0,25388.01,46.7%,23,11316.39,0.0
+10429,510429,5300.0,5300.0, 36 months,16.07,186.52,C,C5,Manager,3 years,MORTGAGE,121200.0,Not Verified,Jan-2016,Current,vacation,CO,8.42,0,Jan-2004,22,1,4936.74,45.0%,42,4774.32,0.0
+10062,510062,26400.0,26400.0, 36 months,10.95,863.68,B,B1,,3 years,RENT,102400.0,Not Verified,May-2016,Fully Paid,vacation,AZ,10.09,0,Jan-2004,22,0,7866.49,44.4%,37,31092.48,0.0
+10203,510203,30700.0,30700.0, 60 months,15.81%,743.47,C,C3,Director,7 years,MORTGAGE,90300.0,Not Verified,Jun-2017,Fully Paid,home_improvement,NV,24.72,0,Jan-2007,23,0,19856.49,62.6%,42,44608.2,0.0
+10513,510513,11300.0,11300.0, 60 months,10.57%,243.27,B,B2,Manager,< 1 year,RENT,95200.0,Source Verified,Apr-2017,Current,vacation,CA,12.32,0,Jan-1996,10,0,15623.37,79.1%,24,4128.51,0.0
+10079,510079,20500.0,20500.0, 60 months,16.69%,506.07,D,D3,Director,2 years,MORTGAGE,90800.0,Not Verified,Mar-2017,Fully Paid,house,NC,32.24,0,Jan-1996,22,0,43891.19,40.5%,34,30364.2,0.0
+10401,510401,5200.0,5200.0, 36 months,6.65%,159.73,A,A4,Registered Nurse,2 years,RENT,104800.0,Verified,Nov-2016,Fully Paid,medical,WA,29.52,0,Jan-2010,22,0,29436.05,23.9%,36,5750.28,0.0
+10848,510848,27200.0,27200.0, 36 months,13.83%,927.39,C,C4,Accountant,3 years,MORTGAGE,88600.0,Not Verified,Feb-2016,Current,car,NJ,37.63,0,Jan-2000,24,0,35860.25,21.0%,42,19463.01,0.0
+10002,510002,15900.0,15900.0, 60 months,19.9%,420.37,D,D1,Administrative Assistant,9 years,OWN,56000.0,Source Verified,Apr-2016,Current,credit_card,AZ,8.19,1,Jan-2001,22,0,2433.54,46.3%,27,13398.65,0.0
+10890,510890,5100.0,5100.0, 36 months,19.43%,188.06,D,D1,,4 years,MORTGAGE,89500.0,Verified,Dec-2017,Fully Paid,house,MA,34.19,0,Jan-2003,18,0,5837.79,77.4%,28,6770.16,0.0
+10278,510278,26000.0,26000.0, 60 months,12.25%,581.65,B,B4,Project Manager,1 year,MORTGAGE,112100.0,Source Verified,Oct-2016,Current,home_improvement,CO,29.04,0,Jan-1990,21,0,6891.95,32.3%,39,27083.62,0.0
+10738,510738,31900.0,31900.0, 60 months,9.22%,665.6,B,B1,Registered Nurse,2 years,RENT,91900.0,Source Verified,Dec-2016,Late (31-120 days),car,NJ,25.56,0,Jan-1998,21,0,44912.76,38.5%,36,14008.3,0.0
+10474,510474,22100.0,22100.0, 36 months,11.92,733.19,B,B3,Driver,1 year,RENT,68800.0,Source Verified,Jun-2016,Fully Paid,moving,MI,5.57,0,Jan-1998,4,1,21869.25,81.0%,12,26394.84,0.0
+10563,510563,32400.0,32400.0, 36 months,7.28%,1004.57,A,A3,,3 years,RENT,127400.0,Source Verified,Aug-2017,Fully Paid,vacation,TX,15.69,0,Jan-1997,4,0,7398.03,94.3%,6,36164.52,0.0
+10493,510493,26300.0,26300.0, 60 months,7.54%,527.5,A,A5,Project Manager,1 year,RENT,59700.0,Source Verified,Nov-2016,Fully Paid,car,MD,29.53,0,Jan-1997,17,0,12260.01,64.0%,34,31650.0,0.0
+10880,510880,15000.0,15000.0, 36 months,9.52%,480.63,B,B1,Project Manager,4 years,RENT,102200.0,Verified,Apr-2017,Default,moving,PA,20.08,1,Jan-1998,20,0,44856.2,63.5%,35,3771.88,0.0
+10138,510138,30400.0,30400.0, 36 months,15.5,1061.28,C,C2,Teacher,n/a,OWN,74300.0,Source Verified,Jul-2017,Fully Paid,credit_card,VA,14.96,0,Jan-2007,8,0,19940.64,62.5%,25,38206.08,0.0
+10320,510320,8600.0,8600.0, 60 months,15.12%,205.14,C,C1,Registered Nurse,8 years,MORTGAGE,50000.0,Source Verified,Oct-2016,Charged Off,major_purchase,OH,23.38,3,Jan-1997,14,1,16388.45,19.3%,32,3350.94,0.0
+10518,510518,6800.0,6800.0, 36 months,13.06%,229.32,C,C1,Sales Associate,9 years,OWN,75000.0,Verified,Nov-2016,Current,small_business,CO,18.22,0,Jan-2006,11,0,33549.48,12.1%,26,4478.93,0.0
+10352,510352,14600.0,14600.0, 36 months,12.0%,484.93,B,B3,Sales Associate,n/a,MORTGAGE,80200.0,Verified,Dec-2016,Charged Off,credit_card,NJ,32.81,0,Jan-1998,23,0,12800.91,25.5%,28,3144.49,493.86
+10755,510755,2100.0,2100.0, 60 months,14.68,49.61,C,C5,Sales Associate,8 years,RENT,82000.0,Verified,Sep-2016,Fully Paid,credit_card,MI,13.94,0,Jan-2003,6,0,37868.19,61.0%,20,2976.6,0.0
+10828,510828,20800.0,20800.0, 60 months,14.96,494.39,C,C5,Sales Associate,1 year,MORTGAGE,96800.0,Source Verified,Feb-2017,Fully Paid,car,GA,14.85,0,Jan-1999,11,0,42423.26,31.3%,20,29663.4,0.0
+10167,510167,26500.0,26500.0, 60 months,7.13,526.36,A,A2,Accountant,7 years,RENT,50800.0,Verified,Apr-2016,Fully Paid,car,OH,20.08,0,Jan-2008,13,0,18943.93,88.4%,33,31581.6,0.0
+10951,510951,21900.0,21900.0, 36 months,9.99,706.55,B,B3,Mechanic,4 years,MORTGAGE,93600.0,Not Verified,Mar-2016,Fully Paid,small_business,CO,6.65,0,Jan-1998,23,0,33298.24,31.4%,39,25435.8,0.0
+10772,510772,27300.0,27300.0, 36 months,17.73,983.27,D,D4,Sales Associate,5 years,MORTGAGE,59800.0,Not Verified,Nov-2016,Fully Paid,credit_card,NY,5.12,0,Jan-2008,3,0,33946.06,87.4%,5,35397.72,0.0
+10856,510856,24300.0,24300.0, 36 months,15.1%,843.56,C,C3,Mechanic,9 years,MORTGAGE,107100.0,Not Verified,Jan-2017,Fully Paid,house,AZ,30.2,0,Jan-2008,14,0,4691.94,34.1%,22,30368.16,0.0
+10201,510201,12300.0,12300.0, 60 months,13.07%,280.3,C,C1,,n/a,RENT,108200.0,Source Verified,Sep-2016,Fully Paid,moving,WA,29.68,0,Jan-1992,17,0,8682.94,7.1%,26,16818.0,0.0
+10790,510790,6200.0,6200.0, 36 months,9.58%,198.84,B,B5,Mechanic,5 years,MORTGAGE,133400.0,Not Verified,Aug-2017,Current,small_business,TX,7.38,0,Jan-2001,22,1,43015.82,94.1%,34,2180.1,0.0
+10275,510275,6200.0,6200.0, 60 months,5.47%,118.34,A,A1,Teacher,< 1 year,MORTGAGE,74000.0,Not Verified,Feb-2016,Late (31-120 days),medical,WA,9.88,0,Jan-2007,8,0,5906.31,7.2%,25,5372.78,0.0
+10307,510307,13200.0,13200.0, 60 months,13.38%,302.91,C,C3,Driver,4 years,MORTGAGE,53600.0,Not Verified,Feb-2017,Current,home_improvement,NC,8.86,0,Jan-2006,7,0,43815.03,30.3%,20,13197.7,0.0
+10420,510420,11600.0,11600.0, 60 months,14.36%,272.08,C,C3,Registered Nurse,7 years,RENT,40800.0,Not Verified,Jan-2017,Charged Off,major_purchase,OH,37.9,0,Jan-1993,7,0,44751.0,13.8%,9,5205.23,0.0
+10463,510463,24400.0,24400.0, 36 months,13.48%,827.78,C,C2,Director,2 years,MORTGAGE,60300.0,Not Verified,Jul-2016,Current,credit_card,NV,5.8,2,Jan-2010,6,0,36545.39,85.4%,19,21417.16,0.0
+10240,510240,23100.0,23100.0, 36 months,16.59,818.87,D,D3,Sales Associate,9 years,MORTGAGE,70000.0,Source Verified,Jun-2017,Charged Off,medical,MI,27.15,0,Jan-1997,8,0,1178.92,61.1%,26,9425.9,1414.92
+10157,510157,26000.0,26000.0, 60 months,6.41%,507.62,A,A1,Director,n/a,RENT,79500.0,Verified,Nov-2016,Current,moving,WA,29.75,0,Jan-2010,15,0,10482.3,93.6%,23,9179.52,0.0
+10206,510206,22600.0,22600.0, 36 months,11.34%,743.54,B,B4,Project Manager,4 years,MORTGAGE,70000.0,Not Verified,Jan-2016,Fully Paid,home_improvement,FL,14.31,0,Jan-2005,17,0,10860.07,18.6%,34,26767.44,0.0
+10190,510190,25100.0,25100.0, 36 months,19.86%,931.02,D,D1,,6 years,RENT,49900.0,Source Verified,Jun-2017,Charged Off,vacation,NY,10.3,2,Jan-2002,3,0,37134.87,47.5%,18,8323.34,0.0
+10928,510928,33000.0,33000.0, 60 months,9.98%,700.83,B,B5,Project Manager,4 years,MORTGAGE,151800.0,Not Verified,Jun-2016,Fully Paid,home_improvement,CA,34.65,0,Jan-2005,21,0,1119.18,94.7%,31,42049.8,0.0
+10700,510700,7400.0,7400.0, 36 months,12.18,246.42,B,B1,Software Engineer,< 1 year,RENT,27500.0,Not Verified,Feb-2017,Charged Off,vacation,AZ,34.94,0,Jan-1992,4,0,44094.45,39.8%,12,3776.66,1454.24
+10520,510520,12500.0,12500.0, 36 months,11.27,410.83,B,B4,Mechanic,< 1 year,RENT,62300.0,Verified,Mar-2016,Fully Paid,vacation,NJ,29.03,0,Jan-2000,17,0,28747.38,34.6%,31,14789.88,0.0
+10591,510591,9800.0,9800.0, 36 months,5.56,296.19,A,A3,Teacher,1 year,MORTGAGE,130700.0,Verified,Dec-2017,Charged Off,medical,OR,7.32,0,Jan-1992,17,0,15225.08,64.8%,22,4981.69,0.0
+10524,510524,32500.0,32500.0, 36 months,20.21%,1211.3,D,D3,Mechanic,1 year,MORTGAGE,76600.0,Source Verified,Mar-2017,Fully Paid,home_improvement,FL,17.65,0,Jan-2009,16,0,28820.55,60.7%,22,43606.8,0.0
+10720,510720,18800.0,18800.0, 60 months,9.65,396.21,B,B2,Director,< 1 year,MORTGAGE,89600.0,Not Verified,Feb-2017,Current,medical,VA,30.99,1,Jan-1994,12,0,6235.91,91.2%,17,10860.85,0.0
+10782,510782,2200.0,2200.0, 60 months,11.26,48.12,B,B4,Project Manager,9 years,RENT,64900.0,Not Verified,Mar-2016,Fully Paid,house,NV,30.91,0,Jan-2007,13,0,10601.65,63.1%,33,2887.2,0.0
+10040,510040,16500.0,16500.0, 60 months,29.46,528.37,F,F3,Mechanic,< 1 year,MORTGAGE,34800.0,Not Verified,May-2016,Charged Off,credit_card,MA,30.79,0,Jan-2009,22,0,29417.73,81.7%,41,12284.19,0.0
+10733,510733,8000.0,8000.0, 36 months,6.8%,246.29,A,A4,Project Manager,6 years,MORTGAGE,97400.0,Verified,Dec-2017,Fully Paid,medical,MD,30.08,1,Jan-2000,9,1,33731.4,24.3%,20,8866.44,0.0
+10197,510197,19100.0,19100.0, 60 months,18.55%,490.75,D,D2,Accountant,6 years,MORTGAGE,105600.0,Verified,Jan-2017,Fully Paid,vacation,FL,15.74,0,Jan-1996,11,0,12196.78,29.2%,23,29445.0,0.0
+10026,510026,14200.0,14200.0, 36 months,14.42%,488.22,C,C2,Registered Nurse,9 years,MORTGAGE,117100.0,Source Verified,Apr-2016,Charged Off,vacation,CA,35.65,0,Jan-1991,15,0,32318.15,11.8%,24,7735.47,0.0
+10268,510268,21500.0,21500.0, 60 months,10.89,466.28,B,B5,Mechanic,< 1 year,RENT,66600.0,Not Verified,Aug-2016,Current,major_purchase,VA,19.33,0,Jan-2003,21,1,41162.09,85.8%,36,13495.77,0.0
+10199,510199,20600.0,20600.0, 36 months,15.54%,719.57,C,C3,Project Manager,1 year,RENT,76400.0,Verified,Jul-2016,Fully Paid,small_business,MA,32.69,0,Jan-2001,13,0,16533.64,55.2%,23,25904.52,0.0
+10036,510036,27500.0,27500.0, 36 months,10.05%,887.99,B,B3,Registered Nurse,< 1 year,RENT,101900.0,Source Verified,Feb-2016,Current,major_purchase,MD,16.94,0,Jan-2010,23,0,2796.72,29.0%,29,19786.37,0.0
+10149,510149,8600.0,8600.0, 36 months,21.93,328.13,E,E1,Accountant,2 years,MORTGAGE,64300.0,Source Verified,Nov-2017,Fully Paid,major_purchase,NC,17.16,0,Jan-2005,15,0,6012.34,7.8%,28,11812.68,0.0
+10754,510754,10700.0,10700.0, 36 months,11.81%,354.42,B,B3,Mechanic,9 years,RENT,79100.0,Verified,Nov-2017,Current,small_business,NC,5.93,0,Jan-2007,15,0,21417.06,71.6%,19,4532.23,0.0
+10677,510677,17800.0,17800.0, 36 months,12.51%,595.56,B,B5,Software Engineer,6 years,MORTGAGE,43100.0,Verified,May-2016,Charged Off,major_purchase,NY,21.78,0,Jan-2005,5,0,25076.34,35.5%,24,6851.48,0.0
+10537,510537,32800.0,32800.0, 60 months,15.52%,789.29,C,C4,Administrative Assistant,2 years,RENT,145800.0,Source Verified,May-2016,Default,small_business,VA,28.98,1,Jan-2004,13,0,19425.76,40.4%,28,5783.43,0.0
+10958,510958,5000.0,5000.0, 36 months,29.06%,209.69,F,F2,Director,4 years,RENT,88800.0,Source Verified,Aug-2017,Current,small_business,PA,18.37,0,Jan-2010,3,0,31447.79,53.2%,12,5002.24,0.0
+10729,510729,6300.0,6300.0, 36 months,8.79,199.72,A,A5,Administrative Assistant,7 years,RENT,122200.0,Verified,May-2016,Current,medical,AZ,29.06,0,Jan-2006,4,0,8210.35,84.5%,14,4935.88,0.0
+10333,510333,14600.0,14600.0, 36 months,9.24,465.91,B,B4,,< 1 year,MORTGAGE,51700.0,Verified,Oct-2016,Fully Paid,home_improvement,PA,13.43,0,Jan-1999,12,1,30698.08,10.3%,24,16772.76,0.0
+10912,510912,3500.0,3500.0, 36 months,15.46,122.12,C,C4,Director,< 1 year,RENT,134700.0,Verified,Dec-2016,Fully Paid,vacation,NY,28.82,0,Jan-2010,21,0,38120.34,62.3%,39,4396.32,0.0
+10692,510692,30900.0,30900.0, 36 months,12.47,1033.27,B,B1,Director,< 1 year,MORTGAGE,87500.0,Source Verified,Jan-2017,Charged Off,vacation,TX,32.0,0,Jan-2003,15,0,20775.48,33.8%,23,6972.4,0.0
+10523,510523,34300.0,34300.0, 60 months,8.13,697.62,A,A2,Manager,6 years,MORTGAGE,72500.0,Not Verified,Sep-2016,Fully Paid,medical,WA,25.8,0,Jan-2005,24,1,34398.01,33.6%,43,41857.2,0.0
+10483,510483,18800.0,18800.0, 60 months,10.5%,404.09,B,B4,Teacher,2 years,MORTGAGE,148600.0,Source Verified,Apr-2017,Fully Paid,medical,NY,23.62,1,Jan-1991,21,0,41797.94,30.7%,35,24245.4,0.0
+10105,510105,13700.0,13700.0, 36 months,14.22%,469.7,C,C5,Teacher,2 years,RENT,95200.0,Source Verified,Jan-2016,Fully Paid,small_business,CO,17.8,0,Jan-1998,20,1,44028.7,56.5%,27,16909.2,0.0
+10066,510066,17100.0,17100.0, 36 months,6.86,526.9,A,A2,Registered Nurse,8 years,RENT,126000.0,Not Verified,Jan-2016,Fully Paid,house,NV,12.98,0,Jan-2001,16,0,16200.31,56.4%,23,18968.4,0.0
+10926,510926,31100.0,31100.0, 60 months,11.76,688.04,B,B1,Teacher,< 1 year,MORTGAGE,108200.0,Verified,Feb-2017,Current,credit_card,NV,28.25,0,Jan-1995,19,0,38105.98,47.9%,33,26304.55,0.0
+10270,510270,22700.0,22700.0, 36 months,17.32,812.94,D,D4,Director,n/a,MORTGAGE,130100.0,Not Verified,Nov-2016,Fully Paid,house,NY,14.79,0,Jan-1991,22,0,35854.3,75.9%,26,29265.84,0.0
+10257,510257,23200.0,23200.0, 60 months,8.14%,471.97,A,A5,,5 years,MORTGAGE,108800.0,Verified,Mar-2016,Fully Paid,vacation,NC,30.65,0,Jan-2002,18,0,28994.92,89.0%,32,28318.2,0.0
+10397,510397,6400.0,6400.0, 60 months,5.73%,122.93,A,A2,Project Manager,8 years,OWN,112400.0,Verified,Oct-2017,Fully Paid,major_purchase,MA,36.67,3,Jan-2002,6,0,24980.5,77.0%,12,7375.8,0.0
+10263,510263,22900.0,22900.0, 60 months,21.75,629.22,E,E1,Manager,2 years,MORTGAGE,117000.0,Source Verified,Mar-2016,Fully Paid,debt_consolidation,CA,10.92,0,Jan-2010,23,0,13126.05,67.4%,40,37753.2,0.0
+10660,510660,13200.0,13200.0, 36 months,12.68,442.73,B,B5,Project Manager,1 year,RENT,118300.0,Verified,Oct-2016,Late (16-30 days),house,CO,14.68,1,Jan-2006,4,1,30084.65,94.9%,14,5871.68,0.0
+10033,510033,11500.0,11500.0, 60 months,10.82%,249.01,B,B5,Sales Associate,9 years,MORTGAGE,107200.0,Not Verified,Aug-2016,Current,small_business,NV,26.82,1,Jan-2008,16,0,10504.02,18.4%,26,4475.51,0.0
+10617,510617,15900.0,15900.0, 60 months,19.88,420.19,D,D4,,5 years,RENT,149900.0,Verified,Jan-2017,Fully Paid,debt_consolidation,MA,30.05,0,Jan-1997,11,0,4191.93,70.2%,16,25211.4,0.0
+10885,510885,13500.0,13500.0, 60 months,15.99,328.22,C,C5,Director,7 years,MORTGAGE,156600.0,Verified,Jan-2017,Current,home_improvement,WA,13.73,0,Jan-2004,4,1,3517.99,81.3%,13,12495.27,0.0
+10259,510259,13200.0,13200.0, 60 months,32.09,444.16,G,G1,Software Engineer,n/a,MORTGAGE,114700.0,Verified,Jun-2016,Charged Off,house,NY,36.93,0,Jan-2008,12,0,40392.5,61.8%,25,7333.8,53.55
+10802,510802,22100.0,22100.0, 36 months,14.43%,759.95,C,C1,Project Manager,7 years,OWN,93700.0,Verified,Apr-2016,Charged Off,debt_consolidation,NC,13.18,2,Jan-1990,20,0,3476.2,39.8%,27,12241.53,0.0
+10938,510938,9500.0,9500.0, 36 months,21.7,361.34,E,E4,Sales Associate,3 years,MORTGAGE,92600.0,Not Verified,Jun-2017,Current,small_business,VA,33.86,0,Jan-1994,9,0,5212.32,36.8%,18,5082.02,0.0
+10367,510367,33500.0,33500.0, 36 months,5.56%,1012.47,A,A1,Manager,3 years,MORTGAGE,99300.0,Verified,May-2016,Fully Paid,credit_card,PA,24.56,1,Jan-2003,9,0,3978.32,70.2%,20,36448.92,0.0
+10823,510823,20700.0,20700.0, 60 months,11.44%,454.62,B,B5,Director,n/a,MORTGAGE,61600.0,Source Verified,Apr-2017,Fully Paid,major_purchase,TX,31.33,3,Jan-2008,8,0,29515.53,65.7%,10,27277.2,0.0
+10175,510175,5200.0,5200.0, 36 months,10.29%,168.5,B,B2,Sales Associate,8 years,MORTGAGE,98500.0,Not Verified,Jul-2016,Charged Off,car,FL,11.78,1,Jan-1992,16,0,42318.92,72.2%,22,698.53,266.99
+10083,510083,19600.0,19600.0, 60 months,16.14%,478.09,C,C3,Accountant,5 years,RENT,104000.0,Not Verified,Sep-2017,Current,small_business,OR,20.98,2,Jan-2005,11,0,10506.58,92.6%,22,17616.96,0.0
+10773,510773,3500.0,3500.0, 60 months,10.33,74.93,B,B1,Director,1 year,RENT,157800.0,Source Verified,Sep-2016,Current,credit_card,TX,5.43,0,Jan-2002,14,0,4351.11,13.1%,23,2104.99,0.0
+10456,510456,11600.0,11600.0, 60 months,6.54%,227.18,A,A1,Administrative Assistant,10+ years,RENT,105700.0,Verified,Dec-2017,Fully Paid,vacation,MD,29.4,0,Jan-1994,9,0,25511.19,92.1%,15,13630.8,0.0
+10424,510424,20000.0,20000.0, 60 months,13.19%,457.01,C,C4,Administrative Assistant,2 years,MORTGAGE,55000.0,Not Verified,Feb-2016,Current,vacation,AZ,7.06,0,Jan-1992,16,1,9997.23,24.0%,18,9923.76,0.0
+10089,510089,33600.0,33600.0, 60 months,14.08%,783.21,C,C3,Mechanic,n/a,RENT,55800.0,Not Verified,Dec-2016,Fully Paid,car,MO,35.12,0,Jan-2001,24,0,34402.75,66.2%,28,46992.6,0.0
+10154,510154,24400.0,24400.0, 60 months,19.92%,645.37,D,D5,Registered Nurse,7 years,MORTGAGE,101500.0,Verified,Dec-2017,Current,small_business,CO,31.01,0,Jan-1996,11,0,21137.35,15.6%,14,29683.69,0.0
+10255,510255,23700.0,23700.0, 36 months,5.66,717.35,A,A5,Accountant,10+ years,RENT,150300.0,Not Verified,Apr-2016,Fully Paid,credit_card,OR,9.29,0,Jan-1992,23,0,43538.87,85.6%,30,25824.6,0.0
+10156,510156,14600.0,14600.0, 36 months,14.2,500.41,C,C4,Driver,4 years,RENT,88800.0,Verified,Nov-2016,Fully Paid,house,OH,5.59,0,Jan-1995,10,0,39525.84,33.1%,15,18014.76,0.0
+10469,510469,6200.0,6200.0, 36 months,24.68%,245.46,E,E2,Manager,7 years,MORTGAGE,66900.0,Not Verified,Sep-2017,Charged Off,major_purchase,NJ,9.28,0,Jan-1999,24,0,3917.77,27.5%,43,3758.81,0.0
+10740,510740,5600.0,5600.0, 60 months,11.25,122.46,B,B2,Mechanic,4 years,MORTGAGE,107400.0,Verified,May-2017,Fully Paid,debt_consolidation,CO,19.95,0,Jan-2005,17,0,15280.2,92.2%,28,7347.6,0.0
+10724,510724,15700.0,15700.0, 60 months,12.29,351.54,B,B1,,5 years,RENT,56500.0,Source Verified,Dec-2016,Current,debt_consolidation,MO,10.45,0,Jan-2007,19,0,30099.5,20.9%,26,8278.96,0.0
+10917,510917,32600.0,32600.0, 36 months,22.85%,1259.39,E,E2,Sales Associate,8 years,MORTGAGE,60000.0,Not Verified,May-2017,Fully Paid,small_business,PA,14.31,0,Jan-1992,6,0,39023.76,57.0%,17,45338.04,0.0
+10853,510853,31700.0,31700.0, 36 months,13.54%,1076.36,C,C2,Administrative Assistant,8 years,RENT,86100.0,Not Verified,Jun-2017,Fully Paid,car,PA,18.12,0,Jan-1995,16,0,43448.38,14.8%,20,38748.96,0.0
+10099,510099,33900.0,33900.0, 60 months,13.69,783.36,C,C3,Project Manager,2 years,RENT,82000.0,Source Verified,Jun-2016,Current,home_improvement,MO,21.11,1,Jan-2010,20,2,43097.04,52.2%,24,30955.41,0.0
+10466,510466,27200.0,27200.0, 36 months,6.28%,830.93,A,A4,Registered Nurse,6 years,RENT,60600.0,Source Verified,Oct-2017,Fully Paid,debt_consolidation,GA,21.29,0,Jan-2009,21,1,31787.54,73.9%,24,29913.48,0.0
+10071,510071,3100.0,3100.0, 36 months,6.65,95.22,A,A3,Project Manager,8 years,OWN,104400.0,Source Verified,Mar-2017,Fully Paid,credit_card,NV,9.54,0,Jan-1993,13,0,11607.72,15.2%,20,3427.92,0.0
+10084,510084,19900.0,19900.0, 60 months,10.18,424.58,B,B3,Mechanic,n/a,OWN,123100.0,Verified,Oct-2016,Fully Paid,debt_consolidation,NJ,36.53,0,Jan-1998,17,0,33756.56,24.3%,36,25474.8,0.0
+10449,510449,34700.0,34700.0, 60 months,10.76,750.32,B,B3,Mechanic,n/a,MORTGAGE,102500.0,Source Verified,Jan-2016,Fully Paid,medical,NJ,28.44,1,Jan-2010,24,0,40646.42,58.6%,29,45019.2,0.0
+10471,510471,29600.0,29600.0, 60 months,16.13%,721.86,C,C4,Mechanic,< 1 year,MORTGAGE,66600.0,Verified,Feb-2016,Fully Paid,small_business,OR,17.67,0,Jan-1999,15,0,2476.49,23.5%,22,43311.6,0.0
+10920,510920,31900.0,31900.0, 60 months,9.64,672.14,B,B1,Manager,n/a,MORTGAGE,70700.0,Verified,Jul-2017,Current,medical,NV,21.43,0,Jan-2002,14,0,17248.93,89.5%,17,19241.32,0.0
+10867,510867,14200.0,14200.0, 36 months,8.91%,450.96,A,A1,Director,2 years,MORTGAGE,80900.0,Verified,May-2017,Fully Paid,debt_consolidation,WA,15.18,0,Jan-1999,17,0,12481.4,25.7%,30,16234.56,0.0
+10892,510892,23900.0,23900.0, 36 months,20.78,897.74,D,D2,Accountant,9 years,MORTGAGE,93800.0,Source Verified,Apr-2017,Current,home_improvement,AZ,25.36,0,Jan-1999,8,0,28335.19,33.4%,17,7993.75,0.0
+10898,510898,19600.0,19600.0, 60 months,11.78,433.82,B,B4,Software Engineer,9 years,RENT,111900.0,Source Verified,Jan-2016,Current,house,VA,14.91,3,Jan-2008,5,1,39063.73,54.3%,22,5840.39,0.0
+10635,510635,5000.0,5000.0, 36 months,9.48,160.12,B,B2,,2 years,RENT,64400.0,Source Verified,Mar-2017,Current,home_improvement,NJ,9.67,0,Jan-1999,8,0,14366.13,51.8%,17,3133.29,0.0
+10094,510094,9700.0,9700.0, 60 months,17.12,241.7,D,D1,Project Manager,8 years,RENT,93200.0,Source Verified,Aug-2016,Fully Paid,small_business,IL,37.53,0,Jan-2005,16,0,3212.61,90.4%,23,14502.0,0.0
+10038,510038,30500.0,30500.0, 60 months,7.19,606.67,A,A5,Director,5 years,RENT,116300.0,Source Verified,May-2017,Fully Paid,small_business,CA,14.33,0,Jan-2007,21,0,29867.36,82.9%,37,36400.2,0.0
+10883,510883,11200.0,11200.0, 60 months,14.56,263.87,C,C2,Registered Nurse,1 year,RENT,115300.0,Source Verified,Apr-2016,Default,major_purchase,VA,22.74,1,Jan-2002,7,0,5986.22,28.9%,15,6687.8,0.0
+10560,510560,22800.0,22800.0, 60 months,13.55%,525.21,C,C1,,10+ years,OWN,49800.0,Verified,Dec-2017,Fully Paid,moving,NC,16.83,0,Jan-1998,14,1,11567.2,45.1%,17,31512.6,0.0
+11071,511071,6400.0,6400.0, 60 months,11.45%,140.59,B,B4,Software Engineer,3 years,MORTGAGE,-10000,Not Verified,Oct-2016,Current,debt_consolidation,WA,16.71,0,Jan-2002,16,0,34048.52,68.0%,32,3096.03,0.0
+10129,510129,27500.0,27500.0, 36 months,11.25%,903.57,B,B3,Sales Associate,1 year,RENT,110900.0,Verified,May-2016,Current,debt_consolidation,CO,5.79,0,Jan-1996,23,0,39535.34,90.6%,25,20910.95,0.0
+10117,510117,11500.0,11500.0, 60 months,13.92,267.11,C,C2,Accountant,2 years,RENT,150900.0,Not Verified,Apr-2016,Current,home_improvement,CO,35.32,3,Jan-2008,23,0,39040.51,27.5%,35,9707.96,0.0
+10584,510584,24000.0,24000.0, 60 months,24.17%,692.8,E,E1,Software Engineer,10+ years,RENT,162900.0,Verified,Sep-2017,Default,car,NV,30.8,0,Jan-1993,16,0,11433.58,71.5%,33,14338.05,0.0
+10478,510478,14600.0,14600.0, 36 months,9.28,466.18,B,B5,Administrative Assistant,8 years,OWN,151700.0,Verified,Jul-2017,Fully Paid,house,NV,25.8,0,Jan-2006,20,0,38217.98,52.5%,23,16782.48,0.0
+10288,510288,6700.0,6700.0, 60 months,11.48%,147.28,B,B5,Driver,9 years,OWN,106300.0,Not Verified,Jun-2016,Current,credit_card,WA,37.18,0,Jan-1998,22,0,18490.86,26.0%,37,5550.36,0.0
+10708,510708,27200.0,27200.0, 60 months,15.8%,658.56,C,C2,Accountant,1 year,MORTGAGE,89500.0,Verified,Jun-2016,Fully Paid,major_purchase,WA,15.82,0,Jan-1998,15,0,29850.2,6.3%,27,39513.6,0.0
+10316,510316,24800.0,24800.0, 60 months,18.11,631.24,D,D5,Administrative Assistant,8 years,MORTGAGE,121000.0,Verified,Jan-2016,Fully Paid,major_purchase,FL,31.93,0,Jan-1996,9,0,9810.71,63.4%,18,37874.4,0.0
+10016,510016,24100.0,24100.0, 36 months,8.19%,757.32,A,A3,Sales Associate,5 years,RENT,65700.0,Verified,Jan-2017,Charged Off,debt_consolidation,MA,12.34,0,Jan-2010,17,0,37013.87,83.4%,26,6306.18,0.0
+10934,510934,7100.0,7100.0, 60 months,6.22%,137.99,A,A2,Project Manager,9 years,RENT,139000.0,Source Verified,Feb-2016,Fully Paid,credit_card,OR,34.2,0,Jan-2006,13,0,35931.55,66.5%,16,8279.4,0.0
+10467,510467,6300.0,6300.0, 36 months,20.48%,235.67,D,D1,Project Manager,10+ years,RENT,50400.0,Verified,Sep-2017,Fully Paid,medical,CO,20.76,0,Jan-1990,10,0,2963.37,74.6%,18,8484.12,0.0
+10444,510444,19400.0,19400.0, 60 months,13.52,446.59,C,C3,Teacher,10+ years,MORTGAGE,114700.0,Source Verified,Sep-2017,Current,home_improvement,MD,8.49,0,Jan-1999,14,0,20633.22,60.8%,22,9825.96,0.0
+10768,510768,6900.0,6900.0, 60 months,6.2,134.04,A,A3,Director,7 years,RENT,153400.0,Source Verified,Jun-2017,Fully Paid,car,OR,23.74,0,Jan-2008,21,0,35050.3,84.6%,24,8042.4,0.0
+10719,510719,13900.0,13900.0, 36 months,19.9%,515.87,D,D2,Accountant,8 years,RENT,127400.0,Source Verified,Jan-2017,Fully Paid,home_improvement,IL,35.86,0,Jan-2004,16,0,43021.8,82.8%,36,18571.32,0.0
+10334,510334,10500.0,10500.0, 36 months,9.66,337.13,B,B3,Project Manager,10+ years,MORTGAGE,42900.0,Not Verified,Jul-2017,Fully Paid,major_purchase,MA,21.78,0,Jan-1997,6,0,14665.97,54.8%,10,12136.68,0.0
+10413,510413,4800.0,4800.0, 60 months,14.67%,113.36,C,C5,Teacher,4 years,RENT,88200.0,Not Verified,Aug-2016,Charged Off,credit_card,GA,16.94,0,Jan-2004,3,0,21589.72,17.0%,8,2989.31,0.0
+11085,511085,23700.0,23700.0, 60 months,6.49,463.61,Z,A2,Registered Nurse,9 years,MORTGAGE,102200.0,Source Verified,Apr-2016,Fully Paid,debt_consolidation,NY,21.37,0,Jan-1995,23,0,22586.64,92.4%,26,27816.6,0.0
+10805,510805,12600.0,12600.0, 36 months,25.24,502.57,E,E3,Registered Nurse,10+ years,RENT,50100.0,Not Verified,Sep-2017,Charged Off,debt_consolidation,MO,29.25,2,Jan-2009,22,1,27987.62,71.6%,37,4060.94,0.0
+10026,510026,14200.0,14200.0, 36 months,14.42%,488.22,C,C2,Registered Nurse,9 years,MORTGAGE,117100.0,Source Verified,Apr-2016,Charged Off,vacation,CA,35.65,0,Jan-1991,15,0,32318.15,11.8%,24,7735.47,0.0
+10361,510361,6100.0,6100.0, 60 months,7.55%,122.38,A,A1,,10+ years,RENT,57300.0,Verified,Oct-2017,Current,small_business,IL,19.54,0,Jan-1993,4,1,24187.3,44.8%,7,4292.65,0.0
+10300,510300,29100.0,29100.0, 36 months,27.38,1193.95,F,F2,Manager,7 years,OWN,100500.0,Verified,Dec-2017,Fully Paid,debt_consolidation,GA,13.35,0,Jan-2002,23,1,16647.05,78.1%,28,42982.2,0.0
+10281,510281,17200.0,17200.0, 36 months,19.11%,631.44,D,D2,Teacher,8 years,MORTGAGE,73000.0,Source Verified,Feb-2017,Fully Paid,medical,NY,14.57,0,Jan-2000,5,0,34606.69,21.5%,10,22731.84,0.0
+10368,510368,33900.0,33900.0, 36 months,6.43,1037.92,A,A2,Sales Associate,9 years,RENT,66100.0,Verified,Dec-2016,Charged Off,car,AZ,10.54,0,Jan-2007,19,0,19787.66,19.0%,36,16501.07,0.0
+10872,510872,9500.0,9500.0, 36 months,7.51%,295.55,A,A5,Project Manager,4 years,MORTGAGE,88600.0,Not Verified,Nov-2017,Fully Paid,medical,PA,8.14,0,Jan-2006,22,0,23731.99,86.4%,29,10639.8,0.0
+10515,510515,2400.0,2400.0, 60 months,10.95,52.12,B,B5,Project Manager,8 years,MORTGAGE,78500.0,Source Verified,Sep-2016,Current,credit_card,OR,31.64,1,Jan-2002,19,0,21572.85,35.2%,38,961.0,0.0
+10134,510134,29100.0,29100.0, 60 months,21.9,802.06,E,E1,Accountant,6 years,MORTGAGE,85200.0,Source Verified,Jun-2016,Fully Paid,medical,OH,34.97,0,Jan-2007,17,1,2041.9,60.7%,26,48123.6,0.0
+10104,510104,23800.0,23800.0, 36 months,10.68,775.58,B,B4,Teacher,6 years,MORTGAGE,116300.0,Verified,Nov-2017,Charged Off,credit_card,TX,13.84,0,Jan-2004,23,0,17838.18,37.5%,27,6811.77,198.76
+10391,510391,24400.0,24400.0, 60 months,9.8,516.03,B,B4,,7 years,MORTGAGE,83400.0,Verified,Oct-2017,Current,house,IL,26.7,0,Jan-1995,21,0,2852.48,70.3%,34,17500.28,0.0
+10534,510534,11900.0,11900.0, 36 months,7.48,370.05,A,A5,Teacher,5 years,RENT,93700.0,Verified,Dec-2017,Fully Paid,moving,OH,24.43,0,Jan-2006,17,2,11702.78,41.6%,27,13321.8,0.0
+10228,510228,21600.0,21600.0, 36 months,14.93,748.03,C,C4,Project Manager,4 years,MORTGAGE,87600.0,Verified,Aug-2016,Fully Paid,house,MO,18.06,0,Jan-1999,20,0,34549.61,91.6%,28,26929.08,0.0
+10834,510834,28100.0,28100.0, 60 months,20.23%,748.08,D,D5,Software Engineer,2 years,OWN,108200.0,Not Verified,Sep-2016,Charged Off,car,NV,36.66,0,Jan-1997,23,0,29988.56,48.9%,34,22326.54,1262.21
+10131,510131,15000.0,15000.0, 60 months,12.16,334.88,B,B3,Accountant,4 years,MORTGAGE,69700.0,Verified,Jul-2016,Fully Paid,home_improvement,NV,8.6,0,Jan-1993,17,0,18589.81,53.2%,25,20092.8,0.0
+10041,510041,16300.0,16300.0, 36 months,8.98,518.18,A,A3,Administrative Assistant,2 years,RENT,114600.0,Verified,Mar-2017,Fully Paid,home_improvement,NJ,34.81,0,Jan-1995,4,0,17180.43,18.1%,22,18654.48,0.0
+10842,510842,20400.0,20400.0, 36 months,24.41%,804.75,E,E4,,< 1 year,MORTGAGE,56800.0,Source Verified,May-2016,Current,home_improvement,FL,17.4,0,Jan-2007,13,0,12099.95,84.1%,27,9189.0,0.0
+10629,510629,3700.0,3700.0, 60 months,19.04%,96.06,D,D5,Mechanic,8 years,RENT,98600.0,Verified,Apr-2017,Fully Paid,car,AZ,15.33,0,Jan-1998,6,0,36157.84,9.9%,10,5763.6,0.0
+10427,510427,21100.0,21100.0, 36 months,23.91,826.82,E,E2,Director,< 1 year,OWN,61800.0,Source Verified,Nov-2017,Fully Paid,house,PA,24.83,0,Jan-1999,9,1,43742.63,56.9%,11,29765.52,0.0
+10957,510957,15300.0,15300.0, 36 months,12.12,509.06,B,B2,Project Manager,n/a,OWN,93300.0,Verified,Apr-2017,Current,major_purchase,NV,24.18,0,Jan-2000,19,0,4064.1,94.6%,38,9843.19,0.0
+10593,510593,27000.0,27000.0, 36 months,13.45,915.6,C,C1,Administrative Assistant,4 years,RENT,56700.0,Not Verified,Oct-2016,Fully Paid,vacation,CO,21.72,0,Jan-1999,16,0,15841.78,26.7%,18,32961.6,0.0
+10902,510902,34800.0,34800.0, 36 months,5.64,1053.02,A,A3,Software Engineer,< 1 year,MORTGAGE,90600.0,Not Verified,Apr-2016,Fully Paid,car,TX,25.74,0,Jan-2004,13,0,1296.5,64.9%,27,37908.72,0.0
+10557,510557,5700.0,5700.0, 60 months,22.82,160.1,E,E1,Administrative Assistant,1 year,MORTGAGE,78800.0,Not Verified,Nov-2017,Late (31-120 days),moving,NJ,12.41,0,Jan-1998,22,1,38996.29,26.7%,39,4351.56,0.0
+10322,510322,27100.0,27100.0, 60 months,24.32,784.65,E,E2,Director,10+ years,MORTGAGE,111000.0,Not Verified,Dec-2016,Charged Off,medical,IL,9.06,0,Jan-1997,16,0,793.15,80.1%,33,6312.99,1132.27
+10882,510882,10600.0,10600.0, 60 months,24.94%,310.75,E,E5,Administrative Assistant,n/a,RENT,81300.0,Not Verified,Aug-2016,Charged Off,vacation,VA,31.21,1,Jan-1990,21,0,35979.31,42.7%,35,8706.79,0.0
+10769,510769,24500.0,24500.0, 60 months,13.16,559.46,C,C4,Driver,7 years,MORTGAGE,74600.0,Verified,Dec-2017,Fully Paid,vacation,MO,29.67,0,Jan-1995,11,0,6382.95,23.3%,30,33567.6,0.0
+10438,510438,4400.0,4400.0, 60 months,20.05%,116.7,D,D4,Manager,8 years,RENT,74200.0,Verified,Jan-2016,Fully Paid,medical,CA,28.65,0,Jan-1996,21,0,40494.11,55.5%,35,7002.0,0.0
+10567,510567,16900.0,16900.0, 60 months,16.24%,413.13,C,C2,,2 years,RENT,70800.0,Not Verified,Feb-2017,Default,home_improvement,MO,37.35,0,Jan-1996,3,1,2857.21,72.9%,23,8565.18,0.0
+10914,510914,34200.0,34200.0, 36 months,5.73,1036.25,A,A5,Software Engineer,2 years,MORTGAGE,53400.0,Not Verified,Jul-2017,Current,car,NC,20.88,0,Jan-1999,20,0,15578.74,25.4%,36,9834.55,0.0
+10080,510080,6500.0,6500.0, 60 months,14.54%,153.07,C,C4,Mechanic,8 years,RENT,120900.0,Verified,Aug-2017,Fully Paid,house,IL,15.82,0,Jan-2005,8,0,27934.27,80.8%,28,9184.2,0.0
+10285,510285,24100.0,24100.0, 36 months,23.71%,941.85,E,E2,Sales Associate,2 years,RENT,48700.0,Source Verified,Jul-2017,Current,medical,WA,10.3,0,Jan-2007,22,0,25875.47,13.9%,42,21343.76,0.0
+10497,510497,7600.0,7600.0, 60 months,16.67%,187.53,D,D1,Teacher,4 years,RENT,54400.0,Source Verified,Jan-2017,Fully Paid,debt_consolidation,NJ,8.88,3,Jan-2006,24,0,14846.18,85.1%,44,11251.8,0.0
+10710,510710,30100.0,30100.0, 36 months,17.06,1074.05,D,D2,Registered Nurse,10+ years,RENT,150600.0,Verified,Oct-2017,Current,house,CO,37.18,0,Jan-1992,11,0,13488.11,16.7%,23,20575.02,0.0
+10536,510536,9600.0,9600.0, 60 months,13.47%,220.75,C,C2,Mechanic,7 years,MORTGAGE,85800.0,Not Verified,Apr-2017,Current,credit_card,NJ,35.61,0,Jan-2010,24,0,7459.25,74.0%,31,3897.73,0.0
+10107,510107,12400.0,12400.0, 60 months,12.5%,278.97,B,B5,Mechanic,2 years,MORTGAGE,156400.0,Not Verified,Sep-2017,Fully Paid,moving,NV,30.81,0,Jan-2007,11,0,17985.61,15.2%,31,16738.2,0.0
+10214,510214,25900.0,25900.0, 60 months,8.85%,535.76,A,A2,Project Manager,8 years,RENT,59300.0,Verified,Jul-2017,Current,home_improvement,MO,29.72,0,Jan-2000,6,0,26157.08,65.7%,21,9908.49,0.0
+10498,510498,21900.0,21900.0, 60 months,16.12%,533.96,C,C5,Manager,3 years,OWN,82200.0,Not Verified,Dec-2017,Fully Paid,home_improvement,PA,22.3,1,Jan-1993,3,0,8475.55,47.3%,5,32037.6,0.0
+10937,510937,5200.0,5200.0, 36 months,13.99,177.7,C,C4,Teacher,n/a,MORTGAGE,58500.0,Not Verified,Aug-2016,Charged Off,credit_card,MA,17.29,0,Jan-1990,7,1,38546.21,29.7%,19,2250.68,574.64
+10274,510274,19500.0,19500.0, 60 months,14.49,458.7,C,C3,,n/a,RENT,81700.0,Source Verified,Jun-2016,Current,small_business,GA,20.98,2,Jan-1994,4,0,13155.0,91.1%,11,21575.15,0.0
+10844,510844,16100.0,16100.0, 36 months,15.25%,560.08,C,C5,Software Engineer,6 years,RENT,56500.0,Not Verified,Nov-2016,Fully Paid,car,GA,13.84,0,Jan-1992,18,0,35868.17,19.4%,31,20162.88,0.0
+10877,510877,8400.0,8400.0, 60 months,29.04,266.84,F,F1,Director,5 years,RENT,36100.0,Verified,Jul-2017,Fully Paid,major_purchase,NV,7.63,0,Jan-1993,20,0,26020.98,47.7%,26,16010.4,0.0
+10648,510648,29200.0,29200.0, 60 months,20.04,774.27,D,D2,Administrative Assistant,2 years,RENT,50800.0,Not Verified,May-2017,Charged Off,credit_card,OR,14.39,0,Jan-2005,22,0,7504.03,74.8%,40,17449.54,1278.23
+10422,510422,14100.0,14100.0, 60 months,12.4%,316.5,B,B5,Teacher,9 years,RENT,74300.0,Not Verified,Mar-2017,Fully Paid,small_business,NY,25.48,0,Jan-2002,10,0,25455.62,18.9%,15,18990.0,0.0
+10952,510952,19900.0,19900.0, 60 months,10.56%,428.32,B,B1,Sales Associate,n/a,OWN,127100.0,Source Verified,Feb-2017,Fully Paid,small_business,CO,33.02,0,Jan-1992,15,0,18483.88,88.2%,19,25699.2,0.0
+10414,510414,10000.0,10000.0, 36 months,8.89,317.49,A,A5,Driver,2 years,MORTGAGE,43600.0,Not Verified,Nov-2017,Fully Paid,home_improvement,AZ,29.19,0,Jan-1990,16,0,31712.38,64.6%,20,11429.64,0.0
+10366,510366,11200.0,11200.0, 36 months,34.1%,500.96,G,G4,Project Manager,8 years,OWN,87600.0,Not Verified,Oct-2016,Current,debt_consolidation,GA,32.95,0,Jan-2000,10,0,2906.29,87.6%,19,6013.92,0.0
+10521,510521,30200.0,30200.0, 60 months,12.06%,672.7,B,B3,Director,7 years,RENT,61100.0,Not Verified,Jan-2017,Current,small_business,AZ,6.06,1,Jan-2004,5,0,25479.0,36.1%,13,15435.22,0.0
+10196,510196,14200.0,14200.0, 60 months,8.84,293.67,A,A5,Mechanic,5 years,OWN,84900.0,Not Verified,Sep-2016,Current,moving,PA,37.49,1,Jan-2002,11,0,33882.54,16.5%,29,9241.1,0.0
+10868,510868,11800.0,11800.0, 60 months,11.74,260.94,B,B5,Registered Nurse,n/a,RENT,52200.0,Not Verified,Jul-2017,Charged Off,moving,OH,13.58,1,Jan-1996,22,0,15334.97,48.9%,41,4883.86,0.0
+10723,510723,32300.0,32300.0, 60 months,8.93,669.4,A,A5,Driver,1 year,OWN,61000.0,Not Verified,Jul-2016,Current,home_improvement,MO,31.66,0,Jan-1991,7,0,3299.74,23.0%,13,23140.38,0.0
+10817,510817,8000.0,8000.0, 36 months,11.55,264.0,B,B5,Manager,n/a,RENT,154500.0,Not Verified,Feb-2017,Fully Paid,small_business,MO,33.36,0,Jan-1994,18,0,20196.42,28.6%,24,9504.0,0.0
+10015,510015,6200.0,6200.0, 60 months,7.46%,124.12,A,A3,Teacher,6 years,OWN,73600.0,Verified,Dec-2016,Current,major_purchase,GA,27.01,0,Jan-1990,20,1,18583.79,60.9%,26,2215.55,0.0
+10676,510676,33500.0,33500.0, 60 months,7.28,667.77,A,A5,,2 years,RENT,57700.0,Source Verified,Sep-2016,In Grace Period,medical,NC,25.01,1,Jan-1991,3,0,13651.27,74.5%,19,10786.16,0.0
+10925,510925,13400.0,13400.0, 36 months,15.51%,467.87,C,C3,Administrative Assistant,10+ years,OWN,105300.0,Not Verified,May-2016,Fully Paid,moving,OH,24.06,0,Jan-2000,13,0,20497.06,90.6%,15,16843.32,0.0
+10003,510003,11500.0,11500.0, 36 months,12.95%,387.2,C,C1,Manager,2 years,RENT,129200.0,Source Verified,Sep-2016,Fully Paid,moving,WA,10.37,0,Jan-2004,24,0,42181.13,63.3%,31,13939.2,0.0
+10381,510381,34900.0,34900.0, 60 months,12.66%,788.02,B,B5,,6 years,MORTGAGE,98900.0,Source Verified,Nov-2017,Current,car,NY,37.38,0,Jan-1999,9,0,42082.26,25.3%,12,33761.96,0.0
+10652,510652,28400.0,28400.0, 60 months,11.39,623.02,B,B1,Driver,3 years,MORTGAGE,71300.0,Not Verified,Jul-2016,Fully Paid,major_purchase,IL,15.97,0,Jan-2003,19,0,17885.71,52.6%,39,37381.2,0.0
+,511101,5000.0,5000.0, 60 months,5.9,96.43,A,A3,Software Engineer,8 years,MORTGAGE,66900.0,Not Verified,Jul-2016,Fully Paid,major_purchase,GA,16.3,0,Jan-2006,9,0,8949.37,93.7%,20,5785.8,0.0
+10465,510465,29300.0,29300.0, 60 months,12.06%,652.65,B,B2,Sales Associate,10+ years,MORTGAGE,107300.0,Verified,Oct-2016,Fully Paid,credit_card,MO,23.99,1,Jan-1990,22,0,18265.27,10.1%,27,39159.0,0.0
+10439,510439,28600.0,28600.0, 36 months,7.95,895.56,A,A3,Driver,5 years,RENT,92900.0,Not Verified,Feb-2017,Fully Paid,medical,VA,11.54,0,Jan-2008,18,0,44566.56,42.9%,23,32240.16,0.0
+10871,510871,32800.0,32800.0, 60 months,19.16%,853.74,D,D2,Software Engineer,n/a,RENT,62300.0,Verified,Jul-2017,Fully Paid,vacation,NV,13.48,0,Jan-1991,16,0,40818.57,9.7%,36,51224.4,0.0
+11063,511063,-5000,8100.0, 60 months,16.17,197.71,C,C5,Teacher,< 1 year,MORTGAGE,98900.0,Source Verified,Jun-2017,Fully Paid,debt_consolidation,CO,35.92,0,Jan-2007,22,1,17627.09,14.9%,39,11862.6,0.0
+10939,510939,3600.0,3600.0, 60 months,6.42,70.3,A,A1,Sales Associate,10+ years,RENT,84200.0,Not Verified,May-2016,Fully Paid,small_business,MI,24.98,0,Jan-2000,11,0,7322.98,13.4%,30,4218.0,0.0
+10577,510577,24500.0,24500.0, 60 months,16.09%,596.96,C,C2,Software Engineer,7 years,MORTGAGE,67100.0,Not Verified,Sep-2016,Fully Paid,credit_card,FL,18.03,1,Jan-2005,9,1,25186.37,49.8%,15,35817.6,0.0
+,511102,33800.0,33800.0, 60 months,23.28,958.28,E,E4,Director,8 years,MORTGAGE,168400.0,Verified,Feb-2016,Charged Off,credit_card,OR,28.08,0,Jan-1998,23,1,13055.56,25.0%,27,9090.46,150.39
+10019,510019,20100.0,20100.0, 36 months,14.94%,696.18,C,C2,Sales Associate,8 years,MORTGAGE,68600.0,Not Verified,Aug-2017,Fully Paid,medical,MI,19.58,0,Jan-2010,19,0,40602.55,76.6%,26,25062.48,0.0
+10277,510277,30000.0,30000.0, 36 months,17.37%,1075.11,D,D3,Software Engineer,4 years,MORTGAGE,159200.0,Source Verified,Nov-2016,Fully Paid,vacation,OR,21.88,0,Jan-2001,24,0,7083.59,81.8%,37,38703.96,0.0
+10508,510508,14700.0,14700.0, 36 months,12.92,494.73,C,C2,Accountant,4 years,MORTGAGE,169400.0,Not Verified,Oct-2017,Fully Paid,small_business,OH,16.29,2,Jan-1991,20,0,35846.13,13.2%,28,17810.28,0.0
+10136,510136,35000.0,35000.0, 36 months,18.87,1280.66,D,D4,,n/a,RENT,49900.0,Source Verified,Jun-2017,Charged Off,debt_consolidation,GA,24.0,3,Jan-2001,15,0,37845.39,81.1%,22,18222.14,887.34
+10055,510055,21800.0,21800.0, 36 months,12.95%,734.0,C,C3,Administrative Assistant,5 years,OWN,60600.0,Verified,Sep-2016,Fully Paid,small_business,VA,8.96,0,Jan-1992,16,0,17419.23,68.3%,34,26424.0,0.0
+10650,510650,23300.0,23300.0, 60 months,10.7%,503.12,B,B4,Accountant,7 years,MORTGAGE,146600.0,Source Verified,Sep-2017,Fully Paid,debt_consolidation,WA,10.17,0,Jan-2002,5,0,37929.9,77.3%,19,30187.2,0.0
+10679,510679,21300.0,21300.0, 36 months,8.1,668.45,A,A2,Mechanic,10+ years,RENT,105400.0,Verified,Mar-2017,Fully Paid,house,WA,6.89,0,Jan-1999,22,0,7165.0,36.8%,36,24064.2,0.0
+10039,510039,8200.0,8200.0, 36 months,18.54%,298.68,D,D4,Software Engineer,2 years,MORTGAGE,92600.0,Source Verified,Feb-2016,Fully Paid,medical,MA,28.27,0,Jan-2006,15,2,35761.52,63.7%,21,10752.48,0.0
+10638,510638,23400.0,23400.0, 60 months,15.9%,567.8,C,C4,Project Manager,6 years,RENT,118300.0,Not Verified,Jan-2017,Current,small_business,MD,35.92,0,Jan-1999,18,0,2120.54,11.6%,31,25295.46,0.0
+10295,510295,4500.0,4500.0, 60 months,18.41%,115.28,D,D4,Mechanic,2 years,MORTGAGE,86000.0,Not Verified,Jun-2017,Fully Paid,medical,OH,18.67,0,Jan-2008,19,0,34473.18,21.3%,21,6916.8,0.0
+10955,510955,16900.0,16900.0, 60 months,11.33,370.23,B,B1,Mechanic,7 years,RENT,70600.0,Source Verified,Oct-2017,Fully Paid,vacation,NY,17.78,0,Jan-2002,21,0,14058.26,78.2%,39,22213.8,0.0
+10312,510312,28600.0,28600.0, 60 months,7.12%,567.93,A,A3,Project Manager,1 year,RENT,138600.0,Source Verified,Oct-2017,Current,credit_card,WA,21.92,0,Jan-1991,15,0,25556.04,43.1%,30,15690.66,0.0
+10516,510516,32800.0,32800.0, 60 months,21.83%,902.73,E,E1,Mechanic,4 years,RENT,60000.0,Not Verified,Mar-2017,Charged Off,car,NY,20.34,0,Jan-1995,18,0,2728.27,58.9%,31,11832.5,0.0
+10174,510174,2300.0,2300.0, 60 months,12.07,51.24,B,B5,Accountant,7 years,OWN,80600.0,Not Verified,Aug-2017,Current,major_purchase,NY,27.52,0,Jan-1991,6,0,24540.56,30.5%,24,2095.79,0.0
+10321,510321,27400.0,27400.0, 60 months,15.54,659.64,C,C3,Administrative Assistant,1 year,RENT,137000.0,Not Verified,Aug-2017,Current,credit_card,NY,35.58,0,Jan-1996,17,1,34131.51,92.7%,22,10418.88,0.0
+10344,510344,8400.0,8400.0, 36 months,6.99%,259.33,A,A1,Project Manager,8 years,RENT,33700.0,Not Verified,Jul-2016,Current,vacation,IL,26.03,0,Jan-2010,16,0,28127.86,21.7%,22,3612.99,0.0
+10036,510036,27500.0,27500.0, 36 months,10.05%,887.99,B,B3,Registered Nurse,< 1 year,RENT,101900.0,Source Verified,Feb-2016,Current,major_purchase,MD,16.94,0,Jan-2010,23,0,2796.72,29.0%,29,19786.37,0.0
+10388,510388,24700.0,24700.0, 36 months,23.79,966.33,E,E3,Sales Associate,10+ years,MORTGAGE,63300.0,Source Verified,Jul-2016,Charged Off,home_improvement,OR,23.22,0,Jan-2003,11,0,28192.92,11.7%,21,5751.4,0.0
+10244,510244,4200.0,4200.0, 36 months,13.35%,142.22,C,C5,Sales Associate,6 years,RENT,122400.0,Source Verified,Jul-2017,Charged Off,medical,MO,27.91,0,Jan-1992,24,0,41923.42,56.7%,41,1178.36,667.82
+10861,510861,30600.0,30600.0, 36 months,11.11%,1003.4,B,B1,Software Engineer,5 years,OWN,55400.0,Source Verified,Jan-2016,Fully Paid,debt_consolidation,CA,12.02,0,Jan-2002,15,0,18446.72,58.3%,28,36122.4,0.0
+10371,510371,10600.0,10600.0, 60 months,15.23,253.45,C,C1,Manager,6 years,MORTGAGE,148500.0,Verified,Aug-2017,Fully Paid,vacation,PA,5.41,0,Jan-1995,23,0,17603.47,68.5%,27,15207.0,0.0
+10572,510572,25400.0,25400.0, 36 months,24.68,1005.61,E,E4,Manager,4 years,MORTGAGE,127900.0,Not Verified,Nov-2016,Fully Paid,house,NV,23.98,0,Jan-2010,15,0,29122.33,30.4%,21,36201.96,0.0
+10213,510213,2400.0,2400.0, 36 months,9.94,77.37,B,B3,,1 year,OWN,101700.0,Verified,Mar-2017,Fully Paid,debt_consolidation,WA,23.41,1,Jan-1999,16,0,35844.11,10.2%,26,2785.32,0.0
+10647,510647,31600.0,31600.0, 36 months,5.87%,959.47,A,A1,Software Engineer,9 years,MORTGAGE,167900.0,Verified,Feb-2016,Charged Off,home_improvement,NJ,37.46,0,Jan-1990,24,1,31649.3,64.9%,28,8015.45,874.3
+10631,510631,33500.0,33500.0, 36 months,17.4,1201.05,D,D4,Software Engineer,3 years,RENT,92600.0,Source Verified,Apr-2017,Fully Paid,credit_card,FL,13.12,0,Jan-1999,10,0,7871.09,20.6%,19,43237.8,0.0
+10029,510029,17700.0,17700.0, 60 months,14.73%,418.58,C,C4,,7 years,MORTGAGE,80800.0,Source Verified,Aug-2016,Fully Paid,car,GA,15.1,0,Jan-1998,18,0,15797.2,94.7%,37,25114.8,0.0
+10728,510728,21100.0,21100.0, 60 months,22.61,590.1,E,E5,Manager,7 years,RENT,96800.0,Verified,Mar-2017,In Grace Period,vacation,NV,19.48,0,Jan-2000,8,0,7712.99,34.8%,24,22350.35,0.0
+10306,510306,5100.0,5100.0, 36 months,15.37%,177.72,C,C4,Teacher,8 years,OWN,43000.0,Source Verified,Dec-2016,Fully Paid,vacation,OR,28.42,0,Jan-1991,3,0,28074.78,32.2%,17,6397.92,0.0
+10412,510412,11200.0,11200.0, 36 months,19.09,411.06,D,D1,Mechanic,7 years,MORTGAGE,70200.0,Source Verified,Dec-2016,Fully Paid,medical,MA,18.99,0,Jan-2007,16,0,28828.89,17.4%,25,14798.16,0.0
+10761,510761,14900.0,14900.0, 36 months,11.86,493.9,B,B2,Mechanic,2 years,MORTGAGE,47100.0,Verified,Mar-2016,Charged Off,medical,MD,31.9,0,Jan-1996,19,0,44705.12,5.6%,38,5449.84,1066.45
+10035,510035,32200.0,32200.0, 36 months,14.44,1107.41,C,C2,Project Manager,8 years,MORTGAGE,172600.0,Source Verified,Mar-2016,Fully Paid,moving,WA,18.48,0,Jan-1991,6,0,15176.26,67.4%,17,39866.76,0.0
+10519,510519,20900.0,20900.0, 36 months,15.22%,726.76,C,C2,Project Manager,10+ years,MORTGAGE,114700.0,Not Verified,Nov-2017,Fully Paid,home_improvement,NC,21.55,0,Jan-1994,15,1,30680.27,29.5%,30,26163.36,0.0
+10425,510425,25500.0,25500.0, 60 months,6.81%,502.65,A,A3,Teacher,n/a,RENT,88000.0,Source Verified,Jun-2016,Fully Paid,debt_consolidation,TX,34.53,0,Jan-2003,12,0,16042.79,42.7%,29,30159.0,0.0
+10078,510078,15000.0,15000.0, 60 months,10.92%,325.54,B,B3,Sales Associate,n/a,MORTGAGE,155600.0,Source Verified,Feb-2016,Fully Paid,debt_consolidation,NJ,21.33,1,Jan-2001,23,0,13215.8,5.7%,28,19532.4,0.0
+10209,510209,10000.0,10000.0, 36 months,7.47%,310.92,A,A3,Teacher,7 years,RENT,93600.0,Not Verified,Aug-2017,Charged Off,home_improvement,WA,30.44,0,Jan-1997,18,0,28029.7,88.8%,21,4259.33,0.0
+10224,510224,9400.0,9400.0, 60 months,25.25,277.28,E,E1,Mechanic,2 years,RENT,137200.0,Verified,Dec-2017,In Grace Period,car,MD,36.7,0,Jan-1996,23,0,19071.33,56.6%,38,6614.31,0.0
+10685,510685,19900.0,19900.0, 36 months,7.97%,623.32,A,A2,Software Engineer,3 years,OWN,67800.0,Not Verified,Jan-2016,Fully Paid,credit_card,MA,17.45,0,Jan-1993,11,0,23327.62,91.4%,29,22439.52,0.0
+10838,510838,3700.0,3700.0, 60 months,15.11%,88.24,C,C2,Sales Associate,6 years,RENT,44000.0,Not Verified,Feb-2017,Fully Paid,small_business,MO,20.26,0,Jan-1993,6,0,21694.77,62.2%,23,5294.4,0.0
+10461,510461,27600.0,27600.0, 60 months,14.81,653.85,C,C2,Administrative Assistant,7 years,MORTGAGE,53300.0,Not Verified,Dec-2016,Fully Paid,vacation,OR,32.39,0,Jan-2000,3,0,7583.5,13.7%,8,39231.0,0.0
+10918,510918,16000.0,16000.0, 36 months,10.22%,517.93,B,B1,Project Manager,n/a,MORTGAGE,122400.0,Verified,Feb-2016,Fully Paid,home_improvement,FL,17.15,0,Jan-1997,18,0,34482.45,69.3%,32,18645.48,0.0
+10132,510132,3300.0,3300.0, 60 months,8.35,67.47,A,A3,Accountant,1 year,RENT,55300.0,Source Verified,Jan-2017,Fully Paid,house,NY,27.35,0,Jan-1994,8,0,18495.45,45.7%,27,4048.2,0.0
+10155,510155,30700.0,30700.0, 36 months,14.64%,1058.82,C,C4,Accountant,1 year,MORTGAGE,54200.0,Source Verified,Jul-2017,Charged Off,moving,IL,15.44,0,Jan-1994,5,0,28580.96,20.9%,8,15417.67,1146.73
+10941,510941,17400.0,17400.0, 60 months,8.78%,359.34,A,A5,Teacher,< 1 year,MORTGAGE,153300.0,Not Verified,Nov-2016,Fully Paid,house,WA,29.26,0,Jan-2006,20,0,34980.27,68.0%,37,21560.4,0.0
+10189,510189,30200.0,30200.0, 60 months,7.71%,608.16,A,A4,,6 years,RENT,91900.0,Not Verified,Jan-2017,Fully Paid,major_purchase,CO,23.22,0,Jan-1994,8,0,25193.56,27.8%,19,36489.6,0.0
+10159,510159,22000.0,22000.0, 36 months,11.5%,725.47,B,B1,Teacher,< 1 year,OWN,78200.0,Not Verified,Dec-2017,Current,vacation,FL,14.33,0,Jan-2007,18,0,9388.85,28.7%,36,11644.33,0.0
+10876,510876,5500.0,5500.0, 60 months,15.0%,130.84,C,C5,Software Engineer,n/a,MORTGAGE,93200.0,Verified,Jun-2017,Fully Paid,car,CO,24.31,0,Jan-2004,14,0,37393.12,33.2%,32,7850.4,0.0
+10795,510795,21600.0,21600.0, 60 months,12.2%,482.67,B,B5,Accountant,< 1 year,MORTGAGE,69200.0,Verified,Aug-2016,Fully Paid,car,PA,31.31,1,Jan-2009,7,0,16240.68,21.8%,17,28960.2,0.0
+10292,510292,34300.0,34300.0, 60 months,14.95%,815.09,C,C4,Administrative Assistant,3 years,RENT,44500.0,Verified,Dec-2016,Fully Paid,medical,NV,5.89,1,Jan-1997,13,0,19552.59,94.3%,28,48905.4,0.0
+10403,510403,16400.0,16400.0, 60 months,23.89%,470.75,E,E4,Mechanic,1 year,OWN,78200.0,Not Verified,Jan-2016,Current,home_improvement,OR,14.05,2,Jan-1995,12,0,25694.78,76.5%,20,17252.51,0.0
+10004,510004,27400.0,27400.0, 36 months,9.94%,883.35,B,B5,Teacher,3 years,MORTGAGE,62700.0,Source Verified,Jan-2017,Fully Paid,small_business,TX,11.96,2,Jan-2007,13,0,22715.79,84.6%,29,31800.6,0.0
+10031,510031,5400.0,5400.0, 36 months,11.41,177.84,B,B2,Driver,4 years,MORTGAGE,92900.0,Source Verified,Nov-2016,Fully Paid,home_improvement,NY,13.33,1,Jan-1992,6,0,18331.48,11.7%,9,6402.24,0.0
+10895,510895,3400.0,3400.0, 60 months,13.25%,77.8,C,C5,Sales Associate,7 years,RENT,92600.0,Not Verified,Jul-2016,Fully Paid,car,OR,36.74,0,Jan-1991,9,0,44094.31,30.1%,19,4668.0,0.0
+10227,510227,8400.0,8400.0, 36 months,10.89%,274.57,B,B4,Driver,n/a,OWN,77300.0,Source Verified,Feb-2017,Current,major_purchase,OH,30.01,0,Jan-2002,17,0,22302.46,34.2%,33,6580.41,0.0
+10565,510565,12600.0,12600.0, 60 months,12.34,282.45,B,B3,Mechanic,3 years,RENT,46900.0,Source Verified,Nov-2017,Current,major_purchase,MO,24.11,0,Jan-2004,19,0,24323.52,14.4%,28,9947.54,0.0
+10207,510207,4600.0,4600.0, 36 months,33.87%,205.15,G,G4,Manager,7 years,RENT,43600.0,Verified,Jun-2017,Default,moving,PA,11.34,1,Jan-1993,15,0,5927.29,74.1%,24,1468.7,0.0
+10072,510072,22200.0,22200.0, 60 months,11.65%,489.91,B,B3,,10+ years,MORTGAGE,60200.0,Verified,Mar-2017,In Grace Period,home_improvement,MI,37.91,0,Jan-1995,13,0,32074.55,54.5%,24,18432.93,0.0
+10624,510624,14300.0,14300.0, 60 months,17.36,358.17,D,D1,Registered Nurse,6 years,RENT,96200.0,Not Verified,May-2016,Fully Paid,moving,OR,36.33,0,Jan-2009,16,0,34116.64,19.2%,34,21490.2,0.0
+10943,510943,8200.0,8200.0, 60 months,10.74,177.23,B,B3,,7 years,RENT,133900.0,Verified,Jun-2016,Fully Paid,home_improvement,GA,35.43,0,Jan-1991,21,0,26933.96,75.9%,36,10633.8,0.0
+10447,510447,8700.0,8700.0, 60 months,10.91%,188.77,B,B3,Director,7 years,MORTGAGE,107600.0,Verified,Apr-2016,Fully Paid,home_improvement,MD,34.96,0,Jan-1994,12,0,31113.15,20.3%,16,11326.2,0.0
+10332,510332,26800.0,26800.0, 36 months,16.14,944.06,C,C1,Accountant,< 1 year,OWN,52300.0,Verified,Jan-2016,Fully Paid,small_business,OH,13.09,0,Jan-2000,21,0,36407.99,59.6%,35,33986.16,0.0
+10454,510454,6500.0,6500.0, 36 months,19.56%,240.11,D,D2,Project Manager,7 years,MORTGAGE,68400.0,Not Verified,Sep-2017,Current,moving,MO,11.05,0,Jan-2003,16,0,23932.43,67.5%,34,4157.98,0.0
+10059,510059,23500.0,23500.0, 60 months,14.36,551.2,C,C1,Driver,2 years,RENT,96100.0,Verified,Mar-2017,Fully Paid,credit_card,VA,37.42,0,Jan-2001,23,0,11524.6,44.4%,39,33072.0,0.0
+10886,510886,3900.0,3900.0, 60 months,8.1%,79.26,A,A3,Teacher,2 years,RENT,105600.0,Source Verified,Apr-2016,Current,vacation,OH,10.27,0,Jan-1998,10,0,29124.47,10.4%,27,3675.37,0.0
+10130,510130,34100.0,34100.0, 36 months,14.26,1169.77,C,C2,Software Engineer,6 years,MORTGAGE,108300.0,Verified,May-2017,Fully Paid,car,WA,20.13,0,Jan-1994,21,0,6441.37,78.8%,25,42111.72,0.0
+10351,510351,12100.0,12100.0, 60 months,24.9%,354.44,E,E4,Project Manager,7 years,OWN,92600.0,Source Verified,Sep-2016,Fully Paid,house,TX,9.43,0,Jan-2004,17,0,10742.9,8.7%,35,21266.4,0.0
+10276,510276,31600.0,31600.0, 36 months,28.54%,1316.33,F,F3,Driver,8 years,RENT,120200.0,Source Verified,Nov-2016,Charged Off,credit_card,MA,34.71,0,Jan-1997,20,0,1603.4,60.6%,29,5781.96,0.0
+10337,510337,28500.0,28500.0, 60 months,31.25,944.07,G,G4,Software Engineer,9 years,OWN,99400.0,Not Verified,Mar-2017,Fully Paid,small_business,GA,26.86,0,Jan-2005,9,0,27178.36,6.4%,15,56644.2,0.0
+10087,510087,8400.0,8400.0, 36 months,15.77%,294.37,C,C2,Administrative Assistant,1 year,RENT,70800.0,Not Verified,Sep-2016,Current,home_improvement,CA,29.31,0,Jan-1995,21,0,9095.68,60.0%,35,2670.98,0.0
+10329,510329,33400.0,33400.0, 60 months,12.49%,751.26,B,B2,Sales Associate,4 years,MORTGAGE,51200.0,Source Verified,Feb-2016,Current,house,IL,8.89,0,Jan-1996,14,0,22123.69,76.2%,20,34351.77,0.0
+10340,510340,7800.0,7800.0, 36 months,15.14,270.92,C,C5,Director,6 years,MORTGAGE,112700.0,Not Verified,Aug-2016,Charged Off,house,NC,11.33,0,Jan-2003,24,0,11754.99,55.4%,40,3601.24,0.0
+10495,510495,30500.0,30500.0, 60 months,9.5%,640.56,B,B1,Driver,6 years,MORTGAGE,94900.0,Source Verified,Aug-2017,Current,moving,MD,28.86,0,Jan-1990,10,0,22457.09,42.1%,22,23575.11,0.0
+10010,510010,19800.0,19800.0, 36 months,9.51,634.34,B,B5,,n/a,OWN,156500.0,Verified,Jun-2016,Fully Paid,car,MA,20.88,1,Jan-2007,4,0,595.91,40.1%,20,22836.24,0.0
+10953,510953,33000.0,33000.0, 36 months,15.4,1150.43,C,C5,Project Manager,< 1 year,OWN,81200.0,Verified,Jul-2017,Default,credit_card,CA,30.64,0,Jan-2000,4,0,29416.64,80.4%,18,10160.72,0.0
+10878,510878,19500.0,19500.0, 36 months,9.31%,622.91,B,B4,Project Manager,6 years,RENT,129300.0,Verified,Oct-2016,Fully Paid,medical,NY,34.02,0,Jan-1994,17,0,3600.71,35.9%,35,22424.76,0.0
+10765,510765,11700.0,11700.0, 36 months,11.86%,387.83,B,B4,Project Manager,3 years,MORTGAGE,84600.0,Not Verified,Jun-2017,Fully Paid,car,PA,32.05,1,Jan-1991,14,0,29649.94,10.5%,18,13961.88,0.0
+10606,510606,26600.0,26600.0, 60 months,11.05,579.01,B,B2,Administrative Assistant,10+ years,MORTGAGE,65600.0,Source Verified,Jun-2016,Fully Paid,major_purchase,OR,13.46,0,Jan-2006,11,0,29445.59,45.6%,27,34740.6,0.0
+10903,510903,2800.0,2800.0, 36 months,12.98%,94.32,C,C2,Mechanic,n/a,MORTGAGE,53100.0,Verified,Mar-2017,Charged Off,credit_card,CA,7.96,1,Jan-2001,8,0,40731.54,56.1%,23,379.44,0.0
+10006,510006,17000.0,17000.0, 60 months,16.99%,422.4,D,D3,Accountant,< 1 year,RENT,157600.0,Not Verified,Apr-2016,Fully Paid,small_business,MD,25.1,0,Jan-1993,8,0,35148.88,52.7%,10,25344.0,0.0
+10816,510816,3600.0,3600.0, 60 months,10.82%,77.95,B,B1,Director,10+ years,MORTGAGE,41800.0,Not Verified,Apr-2017,Fully Paid,credit_card,MD,31.63,1,Jan-2007,9,0,4890.83,49.2%,15,4677.0,0.0
+10305,510305,34800.0,34800.0, 60 months,12.18,777.28,B,B4,Project Manager,10+ years,MORTGAGE,110200.0,Verified,Feb-2017,Charged Off,home_improvement,CA,14.58,0,Jan-1996,22,0,11550.15,57.5%,38,20920.21,0.0
+10927,510927,4500.0,4500.0, 60 months,7.09%,89.3,A,A2,Sales Associate,4 years,RENT,125000.0,Source Verified,Feb-2017,Fully Paid,vacation,FL,36.97,0,Jan-2007,8,0,13606.5,60.5%,27,5358.0,0.0
+10142,510142,23600.0,23600.0, 60 months,33.91%,821.17,G,G4,Accountant,2 years,MORTGAGE,56200.0,Verified,Jul-2016,Fully Paid,car,MO,28.83,0,Jan-1991,11,0,13734.33,13.6%,25,49270.2,0.0
+10301,510301,11900.0,11900.0, 36 months,8.72,376.87,A,A4,Registered Nurse,2 years,RENT,68100.0,Verified,Mar-2017,Current,medical,CO,31.05,0,Jan-1998,5,0,42352.05,47.4%,20,6151.69,0.0
+10286,510286,30100.0,30100.0, 60 months,8.71,620.6,A,A1,Registered Nurse,8 years,RENT,73700.0,Source Verified,Oct-2017,Fully Paid,credit_card,PA,32.55,3,Jan-1994,16,0,10626.16,15.2%,28,37236.0,0.0
+10529,510529,27100.0,27100.0, 36 months,19.05,994.06,D,D3,Project Manager,4 years,MORTGAGE,87700.0,Source Verified,Jul-2017,Charged Off,medical,NJ,15.12,0,Jan-2010,21,0,21650.18,44.6%,32,5418.78,0.0
+10180,510180,23100.0,23100.0, 60 months,8.2,470.6,A,A2,Sales Associate,n/a,MORTGAGE,126600.0,Not Verified,Nov-2016,Current,moving,MI,19.7,0,Jan-2010,18,0,8321.77,59.6%,28,14772.25,0.0
+10234,510234,19500.0,19500.0, 36 months,14.79,673.97,C,C1,,10+ years,RENT,84100.0,Not Verified,Oct-2016,Fully Paid,car,OR,32.98,0,Jan-2005,21,2,16246.47,16.7%,41,24262.92,0.0
+10194,510194,9300.0,9300.0, 36 months,6.72,285.97,A,A1,Teacher,7 years,MORTGAGE,120300.0,Source Verified,May-2017,Fully Paid,house,CA,28.13,0,Jan-2000,12,0,30479.56,78.9%,16,10294.92,0.0
+10863,510863,6300.0,6300.0, 36 months,10.23,203.96,B,B3,Accountant,2 years,MORTGAGE,76000.0,Source Verified,Feb-2017,Default,house,AZ,32.01,0,Jan-2000,12,1,17313.43,75.9%,18,2529.61,0.0
+10809,510809,9900.0,9900.0, 60 months,9.8,209.37,B,B4,Manager,2 years,MORTGAGE,131900.0,Verified,Dec-2016,Fully Paid,vacation,FL,13.77,0,Jan-2003,12,0,30212.55,28.8%,31,12562.2,0.0
+10067,510067,18800.0,18800.0, 36 months,7.32,583.24,A,A5,Mechanic,5 years,MORTGAGE,75800.0,Not Verified,Jan-2017,Current,medical,NC,29.66,0,Jan-2010,5,0,33115.88,61.5%,25,4757.87,0.0
+10001,510001,6600.0,6600.0, 36 months,15.39%,230.05,C,C1,Accountant,9 years,OWN,104100.0,Verified,Jul-2017,Fully Paid,car,NY,5.98,0,Jan-1998,19,0,25475.41,69.4%,38,8281.8,0.0
+10258,510258,17800.0,17800.0, 60 months,15.27,425.99,C,C5,Project Manager,< 1 year,RENT,127300.0,Verified,Jun-2017,Fully Paid,major_purchase,CA,17.69,0,Jan-2010,18,0,24321.03,94.2%,30,25559.4,0.0
+10811,510811,20400.0,20400.0, 60 months,10.74,440.9,B,B5,Administrative Assistant,< 1 year,MORTGAGE,56100.0,Not Verified,Sep-2016,Charged Off,home_improvement,CO,34.34,0,Jan-2006,17,0,38064.3,63.5%,34,9447.42,972.16
+10763,510763,19600.0,19600.0, 60 months,11.74,433.42,B,B5,Sales Associate,5 years,OWN,90800.0,Not Verified,Jun-2016,Fully Paid,medical,NC,36.28,0,Jan-1998,7,0,25308.4,72.6%,25,26005.2,0.0
+10023,510023,33200.0,33200.0, 36 months,6.75,1021.33,A,A4,Sales Associate,6 years,RENT,129500.0,Source Verified,Apr-2017,Fully Paid,debt_consolidation,WA,14.85,0,Jan-2005,16,0,33191.22,77.0%,25,36767.88,0.0
+10187,510187,19500.0,19500.0, 36 months,7.52,606.75,A,A5,,n/a,RENT,49000.0,Not Verified,Jun-2017,Current,debt_consolidation,CO,22.23,0,Jan-2008,4,0,19588.55,89.5%,21,12088.55,0.0
+,511103,15200.0,15200.0, 36 months,12.95%,511.78,C,C5,Accountant,7 years,MORTGAGE,101900.0,Not Verified,Jan-2017,Fully Paid,debt_consolidation,NJ,37.81,0,Jan-1998,24,2,7029.93,33.2%,41,18424.08,0.0
+10140,510140,9900.0,9900.0, 60 months,13.28,226.68,C,C4,,6 years,OWN,57300.0,Verified,Nov-2017,Fully Paid,medical,MI,5.38,0,Jan-1995,5,0,35522.39,69.8%,8,13600.8,0.0
+10048,510048,13000.0,13000.0, 36 months,16.19%,458.26,C,C5,Registered Nurse,10+ years,MORTGAGE,118400.0,Not Verified,Jul-2016,Current,vacation,OH,31.83,0,Jan-1990,7,0,27021.18,30.0%,13,11203.49,0.0
+10145,510145,3100.0,3100.0, 36 months,10.55,100.83,B,B1,,1 year,RENT,52300.0,Verified,Jun-2016,Fully Paid,major_purchase,OH,9.16,0,Jan-1992,24,0,44878.48,61.5%,34,3629.88,0.0
+10668,510668,24700.0,24700.0, 60 months,11.43%,542.35,B,B3,Teacher,1 year,OWN,126500.0,Source Verified,Jun-2016,Fully Paid,moving,GA,19.46,0,Jan-1998,10,0,17613.88,93.8%,29,32541.0,0.0
+10347,510347,15200.0,15200.0, 36 months,12.01%,504.93,B,B3,Teacher,3 years,MORTGAGE,73400.0,Verified,Jun-2017,Fully Paid,credit_card,IL,14.59,0,Jan-1998,21,1,16515.96,92.8%,29,18177.48,0.0
+10548,510548,29800.0,29800.0, 60 months,14.2%,696.49,C,C3,Registered Nurse,7 years,MORTGAGE,38300.0,Verified,Apr-2017,Charged Off,debt_consolidation,IL,35.15,0,Jan-2004,15,0,32652.26,20.3%,20,5718.86,0.0
+10230,510230,28300.0,28300.0, 36 months,7.86,884.99,A,A3,Administrative Assistant,2 years,RENT,48800.0,Not Verified,Dec-2016,In Grace Period,credit_card,MD,28.34,0,Jan-1995,19,0,7615.54,54.5%,22,17181.74,0.0
+10164,510164,31400.0,31400.0, 36 months,13.31,1062.68,C,C4,Project Manager,3 years,OWN,33500.0,Not Verified,Apr-2017,Fully Paid,moving,PA,7.47,0,Jan-1992,10,0,12877.99,50.6%,29,38256.48,0.0
+10637,510637,17500.0,17500.0, 36 months,14.17%,599.55,C,C1,Accountant,10+ years,RENT,63700.0,Source Verified,Jul-2017,Charged Off,small_business,MI,13.11,0,Jan-2002,6,0,7712.87,59.5%,9,2163.33,0.0
+10960,510960,27800.0,27800.0, 36 months,15.63,972.29,C,C2,Software Engineer,1 year,RENT,82400.0,Source Verified,Apr-2017,Fully Paid,house,CA,17.75,0,Jan-2002,23,0,10369.83,15.3%,41,35002.44,0.0
+10485,510485,31400.0,31400.0, 36 months,19.18%,1153.86,D,D1,Project Manager,7 years,RENT,31400.0,Verified,Dec-2016,In Grace Period,major_purchase,NJ,36.08,0,Jan-1998,17,0,37481.18,31.5%,22,11297.12,0.0
+10450,510450,6700.0,6700.0, 60 months,8.46,137.33,A,A4,Mechanic,2 years,RENT,38800.0,Not Verified,Feb-2017,Current,medical,OH,29.56,0,Jan-1998,15,0,43462.66,83.9%,34,6385.71,0.0
+10170,510170,33100.0,33100.0, 60 months,14.76,783.28,C,C3,Software Engineer,n/a,OWN,103800.0,Not Verified,Oct-2016,Current,car,CA,22.25,0,Jan-1999,7,0,3018.91,29.0%,14,13528.36,0.0
+10265,510265,29800.0,29800.0, 60 months,9.56%,626.73,B,B2,Accountant,8 years,MORTGAGE,85400.0,Verified,Feb-2016,Current,medical,NJ,11.92,0,Jan-1993,22,0,34249.16,8.9%,25,25243.25,0.0
+10932,510932,34200.0,34200.0, 60 months,11.11%,745.47,B,B2,Software Engineer,2 years,RENT,65500.0,Not Verified,Dec-2016,Current,debt_consolidation,MI,28.85,0,Jan-1991,20,0,36814.87,42.7%,37,31662.76,0.0
+10669,510669,30400.0,30400.0, 60 months,13.68%,702.32,C,C5,Software Engineer,2 years,MORTGAGE,112800.0,Not Verified,Apr-2016,Current,major_purchase,NJ,13.32,0,Jan-1990,24,1,38585.33,56.7%,42,33141.26,0.0
+10608,510608,14900.0,14900.0, 36 months,24.28%,586.76,E,E4,Manager,10+ years,RENT,142400.0,Not Verified,Oct-2016,Charged Off,major_purchase,TX,25.34,1,Jan-1996,3,0,38643.89,90.2%,5,6912.5,80.31
+10633,510633,25200.0,25200.0, 60 months,14.91%,598.32,C,C4,,1 year,MORTGAGE,57300.0,Verified,Nov-2016,Fully Paid,medical,AZ,14.05,0,Jan-2004,10,0,39559.01,91.5%,30,35899.2,0.0
+10386,510386,2700.0,2700.0, 60 months,6.0,52.2,A,A5,Manager,10+ years,RENT,44900.0,Not Verified,Nov-2017,Current,credit_card,OH,36.87,1,Jan-1995,8,0,31437.11,5.5%,24,868.47,0.0
+10739,510739,27400.0,27400.0, 36 months,9.55,878.34,B,B1,,10+ years,MORTGAGE,40500.0,Not Verified,Feb-2017,Fully Paid,house,GA,8.31,0,Jan-2001,5,0,19359.33,8.8%,7,31620.24,0.0
+10405,510405,23100.0,23100.0, 60 months,7.28%,460.47,A,A1,Teacher,6 years,MORTGAGE,144000.0,Verified,Sep-2017,Fully Paid,major_purchase,OH,22.64,0,Jan-2009,14,0,43763.73,34.2%,33,27628.2,0.0
+10859,510859,19700.0,19700.0, 36 months,22.07,753.07,E,E3,Teacher,6 years,MORTGAGE,173000.0,Not Verified,Jun-2017,Charged Off,debt_consolidation,NC,14.57,0,Jan-1994,22,0,28980.43,77.6%,24,11773.49,0.0
+10246,510246,22200.0,22200.0, 60 months,16.26,542.93,C,C3,Project Manager,6 years,RENT,127900.0,Verified,Dec-2016,Current,house,NY,5.03,0,Jan-2002,14,0,13058.31,7.8%,29,12733.11,0.0
+10915,510915,30600.0,30600.0, 36 months,14.07%,1046.88,C,C5,Project Manager,8 years,RENT,34600.0,Not Verified,Oct-2016,Current,major_purchase,IL,12.04,0,Jan-2001,8,0,37178.7,40.2%,11,22662.88,0.0
+10702,510702,7400.0,7400.0, 60 months,23.09%,208.99,E,E4,Driver,n/a,RENT,134800.0,Source Verified,Oct-2017,Late (31-120 days),home_improvement,OR,9.53,0,Jan-2009,5,0,22398.19,61.3%,22,9895.96,0.0
+10891,510891,28700.0,28700.0, 36 months,16.99%,1023.09,D,D4,Manager,9 years,MORTGAGE,83200.0,Source Verified,Oct-2016,Charged Off,major_purchase,CO,6.78,2,Jan-1998,10,0,13544.54,75.8%,16,13228.98,513.48
+10718,510718,33700.0,33700.0, 60 months,20.32%,898.85,D,D4,Mechanic,< 1 year,MORTGAGE,151000.0,Not Verified,Apr-2016,Fully Paid,small_business,TX,6.16,0,Jan-2009,17,0,24049.94,94.8%,37,53931.0,0.0
+10041,510041,16300.0,16300.0, 36 months,8.98,518.18,A,A3,Administrative Assistant,2 years,RENT,114600.0,Verified,Mar-2017,Fully Paid,home_improvement,NJ,34.81,0,Jan-1995,4,0,17180.43,18.1%,22,18654.48,0.0
+10266,510266,12800.0,12800.0, 36 months,7.97,400.93,A,A2,Teacher,6 years,OWN,112900.0,Verified,Apr-2016,Charged Off,medical,GA,8.24,0,Jan-2001,9,0,10319.49,47.4%,26,2691.35,0.0
+10297,510297,9900.0,9900.0, 36 months,15.19%,344.11,C,C3,Teacher,10+ years,MORTGAGE,59500.0,Source Verified,Mar-2017,Fully Paid,moving,MO,37.71,0,Jan-1991,4,0,12635.68,7.6%,14,12387.96,0.0
+10757,510757,24900.0,24900.0, 60 months,33.87%,865.78,G,G2,Driver,4 years,MORTGAGE,51500.0,Source Verified,Oct-2017,Current,debt_consolidation,GA,32.47,0,Jan-2000,20,0,9717.8,33.3%,35,13506.43,0.0
+10580,510580,3300.0,3300.0, 36 months,7.98%,103.38,A,A2,Accountant,9 years,MORTGAGE,105000.0,Verified,Jul-2017,Fully Paid,debt_consolidation,AZ,30.37,0,Jan-2010,10,0,2066.19,54.1%,12,3721.68,0.0
+10216,510216,2200.0,2200.0, 36 months,13.26,74.4,C,C5,Driver,3 years,MORTGAGE,61500.0,Not Verified,Sep-2016,Fully Paid,house,MD,23.36,1,Jan-1997,7,0,20986.46,19.0%,17,2678.4,0.0
+10923,510923,6900.0,6900.0, 60 months,11.58%,152.03,B,B4,Director,3 years,RENT,59000.0,Source Verified,Feb-2016,In Grace Period,moving,CO,19.14,0,Jan-2007,17,0,17287.49,23.6%,34,5690.58,0.0
+10699,510699,29400.0,29400.0, 36 months,14.21%,1007.82,C,C3,Driver,4 years,RENT,91600.0,Verified,Oct-2017,Current,home_improvement,OH,31.64,0,Jan-2006,13,2,33893.77,27.7%,21,10498.83,0.0
+10218,510218,32600.0,32600.0, 60 months,19.85,860.98,D,D2,Project Manager,4 years,RENT,43300.0,Source Verified,Jun-2017,Current,vacation,IL,15.79,0,Jan-2002,7,0,33055.25,40.4%,23,13123.91,0.0
+10491,510491,14500.0,14500.0, 60 months,16.12%,353.54,C,C1,Manager,8 years,RENT,140400.0,Not Verified,Mar-2016,In Grace Period,debt_consolidation,MD,11.95,0,Jan-1997,8,0,18100.92,69.6%,19,8461.65,0.0
+10619,510619,31800.0,31800.0, 60 months,11.62%,701.28,B,B1,Director,10+ years,MORTGAGE,128900.0,Not Verified,Nov-2016,Current,car,FL,27.66,2,Jan-2008,5,0,22138.01,5.5%,12,13027.26,0.0
+10707,510707,15500.0,15500.0, 60 months,18.94,401.57,D,D2,Accountant,3 years,RENT,62700.0,Not Verified,Jan-2016,Fully Paid,moving,NV,22.97,0,Jan-2002,15,0,44753.81,45.8%,18,24094.2,0.0
+10148,510148,16600.0,16600.0, 60 months,26.44,501.35,F,F2,Project Manager,2 years,MORTGAGE,65900.0,Not Verified,Mar-2016,Current,major_purchase,MI,11.98,1,Jan-2006,18,0,39089.91,78.9%,36,18822.93,0.0
+10195,510195,24500.0,24500.0, 36 months,10.11,791.81,B,B5,Administrative Assistant,7 years,MORTGAGE,85500.0,Not Verified,Aug-2016,Fully Paid,small_business,OH,12.56,1,Jan-2009,22,0,35162.76,15.8%,26,28505.16,0.0
+10223,510223,8200.0,8200.0, 60 months,24.92,240.3,E,E4,Administrative Assistant,4 years,RENT,91500.0,Verified,Aug-2016,Default,house,NJ,16.01,0,Jan-2002,8,0,30951.86,37.0%,19,4332.62,0.0
+10248,510248,16900.0,16900.0, 60 months,14.57,398.25,C,C4,,1 year,MORTGAGE,62400.0,Verified,Jul-2017,Current,moving,GA,28.5,0,Jan-1994,20,0,1989.05,8.4%,37,11682.74,0.0
+10501,510501,16000.0,16000.0, 60 months,5.82,307.99,A,A1,Administrative Assistant,4 years,RENT,70500.0,Verified,Aug-2016,Current,house,AZ,17.45,0,Jan-1994,18,0,37819.9,33.5%,22,14288.57,0.0
+10443,510443,23800.0,23800.0, 60 months,14.64,561.71,C,C5,Accountant,6 years,RENT,70100.0,Verified,Mar-2016,Charged Off,small_business,NJ,28.48,0,Jan-1996,10,0,33219.44,23.5%,14,6234.65,0.0
+10369,510369,17000.0,17000.0, 60 months,6.26%,330.72,A,A2,Director,6 years,RENT,91700.0,Source Verified,May-2016,Late (31-120 days),moving,OH,10.11,0,Jan-2005,3,0,33001.4,38.7%,17,15523.25,0.0
+10618,510618,27600.0,27600.0, 60 months,12.91%,626.71,C,C4,Mechanic,10+ years,MORTGAGE,61600.0,Verified,Oct-2017,Fully Paid,home_improvement,NV,33.47,0,Jan-1991,19,0,22842.23,46.7%,39,37602.6,0.0
+10027,510027,23400.0,23400.0, 36 months,11.5%,771.64,B,B4,Driver,4 years,RENT,128200.0,Verified,Feb-2017,Current,medical,MI,28.34,0,Jan-2000,19,1,12518.67,77.7%,38,19318.68,0.0
+10168,510168,26300.0,26300.0, 60 months,29.84%,848.31,F,F2,Director,4 years,RENT,126400.0,Not Verified,Jun-2016,Charged Off,vacation,PA,29.11,0,Jan-2004,15,0,27474.15,34.0%,29,19189.09,596.8
+10746,510746,19000.0,19000.0, 36 months,21.29%,718.66,E,E2,Mechanic,9 years,MORTGAGE,50600.0,Verified,Oct-2017,Fully Paid,debt_consolidation,NC,8.14,1,Jan-2004,20,1,36063.77,26.2%,40,25871.76,0.0
+10578,510578,4800.0,4800.0, 36 months,5.46%,144.85,A,A2,Sales Associate,2 years,RENT,63700.0,Source Verified,Dec-2017,Charged Off,home_improvement,MI,24.7,0,Jan-2001,19,0,8909.14,23.9%,31,839.99,0.0
+10103,510103,20600.0,20600.0, 60 months,16.04%,501.39,C,C4,Accountant,7 years,RENT,104100.0,Source Verified,Dec-2017,Current,home_improvement,TX,21.53,2,Jan-1997,4,0,10830.41,11.8%,18,17462.62,0.0
+10658,510658,27000.0,27000.0, 60 months,17.36,676.26,D,D5,Mechanic,7 years,RENT,38600.0,Source Verified,Apr-2016,Late (31-120 days),house,AZ,12.01,0,Jan-2002,23,0,26592.77,67.8%,32,27123.14,0.0
+10007,510007,20700.0,20700.0, 36 months,22.21%,792.79,E,E3,,4 years,RENT,48000.0,Verified,Jun-2017,Current,home_improvement,IL,26.77,2,Jan-2002,8,0,39323.27,43.1%,16,17521.56,0.0
+10251,510251,6400.0,6400.0, 60 months,8.44%,131.12,A,A1,Mechanic,< 1 year,MORTGAGE,66300.0,Not Verified,Apr-2016,Fully Paid,vacation,PA,35.03,0,Jan-2000,24,0,36448.91,28.5%,33,7867.2,0.0
+10789,510789,5300.0,5300.0, 60 months,5.48,101.19,A,A3,Manager,4 years,RENT,107400.0,Source Verified,Aug-2017,Default,house,NY,35.71,0,Jan-1990,21,0,29154.14,87.2%,25,1306.19,0.0
+10556,510556,16600.0,16600.0, 60 months,8.79%,342.9,A,A5,,5 years,MORTGAGE,114700.0,Verified,May-2017,Current,small_business,MD,8.39,0,Jan-1998,18,0,20003.1,79.0%,37,4983.88,0.0
+10091,510091,2700.0,2700.0, 60 months,7.79%,54.48,A,A4,Teacher,2 years,RENT,122800.0,Not Verified,Mar-2016,Fully Paid,debt_consolidation,CO,16.37,0,Jan-2010,4,1,3571.35,89.0%,7,3268.8,0.0
+10486,510486,5800.0,5800.0, 60 months,8.96,120.29,A,A2,,8 years,RENT,120800.0,Verified,Dec-2017,Current,credit_card,VA,10.17,0,Jan-2000,17,0,23321.56,74.9%,29,1878.42,0.0
+10490,510490,28700.0,28700.0, 60 months,19.53%,752.89,D,D3,Driver,5 years,OWN,76500.0,Source Verified,Apr-2017,Current,major_purchase,VA,26.0,0,Jan-1994,17,0,25976.5,20.0%,25,35278.32,0.0
+10901,510901,9300.0,9300.0, 60 months,21.84%,256.01,E,E5,Manager,5 years,RENT,95200.0,Verified,May-2016,Default,car,IL,6.11,0,Jan-2004,5,0,31152.81,86.4%,21,5451.01,467.36
+10249,510249,27700.0,27700.0, 60 months,20.92,748.13,D,D5,Director,8 years,RENT,87200.0,Not Verified,Mar-2016,Fully Paid,major_purchase,MA,25.81,0,Jan-1990,24,0,28699.1,76.8%,35,44887.8,0.0
+10191,510191,3900.0,3900.0, 36 months,13.79,132.9,C,C5,Administrative Assistant,< 1 year,MORTGAGE,99900.0,Verified,Oct-2017,Fully Paid,house,NJ,11.43,0,Jan-1995,19,0,10809.36,20.3%,22,4784.4,0.0
+10929,510929,4400.0,4400.0, 60 months,18.39%,112.67,D,D1,Driver,3 years,RENT,134400.0,Verified,Mar-2016,Charged Off,car,OH,19.71,0,Jan-1993,13,0,42390.62,31.2%,21,1916.75,419.49
+10480,510480,9600.0,9600.0, 36 months,13.6,326.24,C,C5,Administrative Assistant,3 years,MORTGAGE,143600.0,Source Verified,Oct-2017,Fully Paid,vacation,IL,24.98,0,Jan-1995,13,0,4127.02,42.9%,19,11744.64,0.0
+10704,510704,7400.0,7400.0, 60 months,7.81%,149.37,A,A2,Sales Associate,9 years,RENT,51400.0,Verified,May-2017,Fully Paid,medical,IL,20.44,0,Jan-1991,14,0,8972.23,45.3%,33,8962.2,0.0
+10824,510824,15900.0,15900.0, 36 months,28.44,661.47,F,F5,Driver,10+ years,OWN,126700.0,Not Verified,Oct-2017,Fully Paid,vacation,NJ,11.7,0,Jan-2000,23,0,15132.3,22.0%,41,23812.92,0.0
+10008,510008,6000.0,6000.0, 36 months,32.48,262.93,G,G3,,9 years,MORTGAGE,44900.0,Not Verified,Aug-2016,Charged Off,vacation,GA,5.24,0,Jan-2008,4,0,40791.19,82.4%,8,2784.42,0.0
+10561,510561,20100.0,20100.0, 60 months,17.43,504.2,D,D2,Director,9 years,RENT,112000.0,Verified,Apr-2017,Fully Paid,credit_card,VA,16.61,0,Jan-2005,10,0,14109.66,87.3%,14,30252.0,0.0
+,511104,33600.0,33600.0, 36 months,10.21,1087.49,B,B3,Project Manager,7 years,RENT,130700.0,Not Verified,May-2016,Fully Paid,major_purchase,TX,19.65,0,Jan-2002,15,0,37117.9,56.5%,24,39149.64,0.0
+10771,510771,3000.0,3000.0, 60 months,10.5%,64.48,B,B4,Registered Nurse,9 years,MORTGAGE,108700.0,Not Verified,Mar-2016,Current,small_business,OH,17.3,0,Jan-2006,12,0,32740.51,85.8%,23,2262.06,0.0
+10573,510573,18200.0,18200.0, 60 months,10.49%,391.1,B,B4,Director,n/a,RENT,91600.0,Source Verified,Apr-2017,Fully Paid,small_business,NY,22.41,0,Jan-1991,5,0,26642.41,86.0%,24,23466.0,0.0
+10687,510687,26000.0,26000.0, 36 months,12.28%,867.05,B,B3,Manager,< 1 year,MORTGAGE,121200.0,Not Verified,Aug-2017,Charged Off,moving,MD,20.39,1,Jan-2003,6,0,27487.31,22.9%,26,9271.51,966.04
+10643,510643,2000.0,2000.0, 36 months,10.06,64.59,B,B5,Director,7 years,MORTGAGE,56800.0,Not Verified,Apr-2017,Fully Paid,credit_card,GA,20.45,3,Jan-1998,24,0,4058.64,46.4%,36,2325.24,0.0
+10785,510785,33900.0,33900.0, 60 months,23.35,962.49,E,E5,Accountant,9 years,MORTGAGE,120300.0,Not Verified,Oct-2016,Fully Paid,car,IL,22.83,0,Jan-2000,4,0,20272.84,29.9%,7,57749.4,0.0
+10862,510862,29200.0,29200.0, 60 months,10.08,621.56,B,B5,,1 year,RENT,79400.0,Not Verified,Apr-2017,Fully Paid,debt_consolidation,FL,22.52,0,Jan-1991,23,0,1889.74,61.8%,31,37293.6,0.0
+10622,510622,14900.0,14900.0, 60 months,10.22,318.2,B,B2,Accountant,7 years,RENT,44300.0,Verified,May-2017,Fully Paid,small_business,NV,22.51,0,Jan-2005,7,0,11343.59,48.2%,15,19092.0,0.0
+10731,510731,33500.0,33500.0, 36 months,6.59,1028.11,A,A1,Accountant,1 year,MORTGAGE,36900.0,Not Verified,Jun-2016,Charged Off,vacation,WA,26.91,0,Jan-1996,9,0,29592.08,71.1%,17,17198.04,0.0
+10331,510331,9700.0,9700.0, 60 months,7.76%,195.57,A,A5,Registered Nurse,3 years,MORTGAGE,71500.0,Not Verified,Mar-2017,Fully Paid,small_business,TX,33.58,0,Jan-2009,21,0,34835.98,32.8%,26,11734.2,0.0
+10200,510200,23400.0,23400.0, 36 months,17.39,838.82,D,D5,Project Manager,10+ years,MORTGAGE,160800.0,Source Verified,Oct-2017,Current,house,MA,30.57,0,Jan-2009,5,0,13250.3,61.9%,11,22863.75,0.0
+10855,510855,19800.0,19800.0, 36 months,16.52,701.2,D,D2,Administrative Assistant,3 years,RENT,129400.0,Verified,Mar-2016,Current,vacation,IL,20.41,0,Jan-2007,16,0,41360.83,67.5%,29,17971.58,0.0
+10568,510568,29600.0,29600.0, 36 months,11.89,981.59,B,B5,Teacher,n/a,RENT,100900.0,Verified,Nov-2016,Current,credit_card,FL,36.22,0,Jan-2003,24,0,18637.05,67.7%,30,13665.52,0.0
+10770,510770,34200.0,34200.0, 60 months,14.78%,809.67,C,C2,Software Engineer,1 year,OWN,38700.0,Verified,Jul-2017,Charged Off,major_purchase,PA,22.06,0,Jan-2006,4,0,25288.54,24.1%,10,5147.61,1333.45
+10398,510398,13400.0,13400.0, 36 months,8.23%,421.33,A,A1,Registered Nurse,4 years,MORTGAGE,115600.0,Not Verified,Nov-2016,Current,car,OR,29.34,0,Jan-1997,12,0,4176.36,43.6%,18,5592.14,0.0
+10875,510875,23100.0,23100.0, 36 months,30.57,987.86,G,G1,Software Engineer,n/a,MORTGAGE,88300.0,Source Verified,Jun-2017,Fully Paid,credit_card,TX,24.08,0,Jan-2009,18,0,4050.49,90.1%,30,35562.96,0.0
+11074,511074,20800.0,20800.0, 60 months,12.57,468.7,B,B1,Project Manager,8 years,OWN,0,Source Verified,Aug-2017,Current,vacation,OR,26.69,0,Jan-2006,22,0,33163.71,27.3%,34,20222.44,0.0
+10220,510220,16000.0,16000.0, 60 months,9.48,335.87,B,B5,Director,2 years,MORTGAGE,59400.0,Not Verified,Jan-2016,Fully Paid,small_business,PA,37.59,0,Jan-1992,17,0,20100.62,88.2%,26,20152.2,0.0
+10595,510595,18100.0,18100.0, 36 months,10.47%,588.04,B,B4,Teacher,5 years,MORTGAGE,62600.0,Not Verified,Dec-2016,Current,car,MI,34.04,0,Jan-2002,15,0,40509.49,45.7%,21,16295.82,0.0
+10415,510415,20800.0,20800.0, 60 months,5.61%,398.36,A,A2,Administrative Assistant,< 1 year,MORTGAGE,55500.0,Not Verified,May-2016,Fully Paid,house,NJ,20.52,0,Jan-2009,17,0,31438.49,30.8%,23,23901.6,0.0
+10889,510889,33600.0,33600.0, 36 months,14.79%,1161.3,C,C1,Accountant,1 year,MORTGAGE,32900.0,Not Verified,Nov-2016,Fully Paid,debt_consolidation,NY,8.16,0,Jan-1996,13,1,25557.32,6.1%,29,41806.8,0.0
+10308,510308,27200.0,27200.0, 36 months,10.27,881.12,B,B2,Director,n/a,OWN,91000.0,Not Verified,Mar-2017,Late (31-120 days),debt_consolidation,OH,9.9,0,Jan-2007,4,0,7778.2,47.0%,9,7120.42,0.0
+10446,510446,7800.0,7800.0, 60 months,9.84%,165.11,B,B4,Project Manager,6 years,RENT,88400.0,Source Verified,Apr-2016,Charged Off,debt_consolidation,GA,36.65,0,Jan-1993,4,1,26097.76,26.5%,23,3448.37,0.0
+10874,510874,19800.0,19800.0, 60 months,15.66%,477.93,C,C1,Teacher,8 years,MORTGAGE,137500.0,Source Verified,Jul-2017,Fully Paid,house,NJ,35.22,0,Jan-2002,13,0,35650.89,76.5%,21,28675.8,0.0
+10545,510545,15200.0,15200.0, 36 months,6.72%,467.39,A,A2,Registered Nurse,8 years,RENT,116100.0,Verified,Mar-2016,Current,home_improvement,MD,35.14,0,Jan-2001,6,0,9828.89,89.7%,19,5293.28,0.0
+10590,510590,15400.0,15400.0, 60 months,12.17,343.89,B,B5,Teacher,1 year,MORTGAGE,53600.0,Source Verified,Jun-2017,In Grace Period,major_purchase,MA,14.29,0,Jan-1997,17,1,4273.39,65.0%,29,4411.51,0.0
+10653,510653,20100.0,20100.0, 60 months,18.54,516.33,D,D1,Administrative Assistant,< 1 year,MORTGAGE,41600.0,Source Verified,Jul-2017,Current,credit_card,MA,32.38,0,Jan-1997,17,1,27589.84,25.8%,29,11116.18,0.0
+10538,510538,23800.0,23800.0, 60 months,20.17%,632.81,D,D1,Accountant,< 1 year,MORTGAGE,67900.0,Source Verified,Feb-2017,Charged Off,car,VA,23.42,0,Jan-2002,9,0,20084.59,29.7%,13,11082.01,0.0
+10659,510659,16900.0,16900.0, 36 months,9.86%,544.21,B,B3,Registered Nurse,9 years,MORTGAGE,92500.0,Not Verified,Dec-2016,Fully Paid,medical,CO,29.74,0,Jan-1994,13,0,4292.52,80.9%,31,19591.56,0.0
+10082,510082,5600.0,5600.0, 36 months,5.44,168.95,A,A2,Mechanic,5 years,MORTGAGE,80200.0,Source Verified,Nov-2017,Fully Paid,major_purchase,CO,21.56,0,Jan-2005,18,0,33244.76,10.6%,24,6082.2,0.0
+10753,510753,29100.0,29100.0, 36 months,15.03%,1009.19,C,C5,,< 1 year,MORTGAGE,108700.0,Verified,Apr-2017,Fully Paid,car,CA,16.28,3,Jan-1995,4,1,14794.18,51.0%,18,36330.84,0.0
+10587,510587,24700.0,24700.0, 60 months,9.76%,521.89,B,B4,Administrative Assistant,6 years,RENT,144900.0,Verified,Mar-2017,Fully Paid,debt_consolidation,MA,36.24,0,Jan-1994,13,2,39948.84,11.2%,19,31313.4,0.0
+10865,510865,19600.0,19600.0, 60 months,12.15,437.48,B,B1,,7 years,RENT,31200.0,Verified,Oct-2016,Late (31-120 days),medical,WA,12.2,0,Jan-1997,22,0,33475.49,40.5%,29,6320.55,0.0
+10946,510946,6300.0,6300.0, 60 months,18.62%,162.11,D,D1,Manager,6 years,RENT,61800.0,Source Verified,Jan-2016,Current,debt_consolidation,NV,15.74,0,Jan-1993,9,0,4510.86,79.4%,15,3145.11,0.0
+10741,510741,2800.0,2800.0, 60 months,9.78,59.19,B,B4,Administrative Assistant,3 years,RENT,58600.0,Not Verified,Oct-2017,Fully Paid,medical,MI,19.05,0,Jan-2009,11,0,9603.0,55.5%,23,3551.4,0.0
+10907,510907,34200.0,34200.0, 36 months,14.06%,1169.87,C,C2,Registered Nurse,2 years,MORTGAGE,121200.0,Not Verified,Apr-2017,Current,small_business,IL,9.14,0,Jan-1992,11,0,14188.18,32.7%,26,22262.59,0.0
+10808,510808,21600.0,21600.0, 60 months,32.23,728.71,G,G3,Director,9 years,MORTGAGE,154100.0,Verified,Sep-2016,Charged Off,home_improvement,TX,10.84,0,Jan-2002,3,0,40917.51,56.5%,14,7614.11,213.89
+10598,510598,14200.0,14200.0, 60 months,12.01,315.94,B,B3,Driver,5 years,MORTGAGE,44800.0,Source Verified,Aug-2016,Fully Paid,major_purchase,VA,27.71,1,Jan-1996,13,0,40631.88,47.9%,23,18956.4,0.0
+10942,510942,7600.0,7600.0, 60 months,9.6,159.99,B,B4,Director,n/a,RENT,143200.0,Not Verified,Nov-2016,Fully Paid,medical,TX,30.93,0,Jan-2010,20,0,8668.73,36.5%,25,9599.4,0.0
+10712,510712,14700.0,14700.0, 36 months,14.52,506.13,C,C4,Mechanic,< 1 year,RENT,129500.0,Source Verified,May-2017,Fully Paid,moving,IL,32.62,0,Jan-2002,19,0,22478.87,72.5%,38,18220.68,0.0
+10328,510328,20400.0,20400.0, 60 months,11.55%,449.16,B,B3,,3 years,RENT,132200.0,Not Verified,Feb-2017,Current,moving,MA,29.15,0,Jan-2004,8,0,6157.02,69.0%,14,13946.0,0.0
+10697,510697,31400.0,31400.0, 60 months,7.0%,621.76,A,A1,Mechanic,< 1 year,MORTGAGE,57800.0,Not Verified,Dec-2017,Fully Paid,major_purchase,MD,25.02,0,Jan-1999,24,0,16600.18,27.0%,42,37305.6,0.0
+10100,510100,14300.0,14300.0, 60 months,9.19,298.16,B,B2,Registered Nurse,8 years,MORTGAGE,102100.0,Not Verified,Jun-2017,In Grace Period,car,CA,5.55,0,Jan-1994,20,1,1262.85,78.2%,35,4726.61,0.0
+10219,510219,3600.0,3600.0, 60 months,5.62,68.96,A,A3,Registered Nurse,4 years,MORTGAGE,65300.0,Source Verified,Nov-2017,Fully Paid,home_improvement,IL,20.87,0,Jan-2003,15,0,9226.42,60.4%,33,4137.6,0.0
+10829,510829,10100.0,10100.0, 36 months,14.78,349.03,C,C4,Teacher,9 years,OWN,125600.0,Source Verified,Sep-2016,Charged Off,vacation,MI,14.41,0,Jan-2005,11,0,12238.85,52.3%,30,4238.56,0.0
+10764,510764,11400.0,11400.0, 60 months,6.25,221.72,A,A4,Driver,n/a,MORTGAGE,71400.0,Verified,Mar-2016,Fully Paid,credit_card,IL,36.17,0,Jan-1992,17,0,24408.38,73.9%,34,13303.2,0.0
+10750,510750,11400.0,11400.0, 36 months,15.04%,395.41,C,C5,Manager,n/a,MORTGAGE,71000.0,Verified,Mar-2017,Fully Paid,vacation,AZ,11.0,0,Jan-1998,22,1,31739.49,30.5%,36,14234.76,0.0
+10271,510271,14100.0,14100.0, 36 months,15.9%,495.02,C,C3,Manager,5 years,MORTGAGE,73700.0,Not Verified,Nov-2017,Current,credit_card,MO,28.41,0,Jan-2001,13,0,5553.32,48.1%,33,11617.4,0.0
+10385,510385,4700.0,4700.0, 60 months,10.46%,100.93,B,B4,Teacher,1 year,OWN,100100.0,Verified,Jan-2016,Fully Paid,vacation,NV,37.58,0,Jan-2000,6,0,8558.8,48.6%,21,6055.8,0.0
+10727,510727,14000.0,14000.0, 36 months,15.93%,491.71,C,C2,Project Manager,4 years,RENT,118700.0,Not Verified,Jul-2016,Fully Paid,medical,MO,36.01,0,Jan-1997,6,0,29184.99,71.3%,23,17701.56,0.0
+10058,510058,12700.0,12700.0, 60 months,15.04,302.4,C,C5,Mechanic,6 years,MORTGAGE,55600.0,Source Verified,Sep-2017,Charged Off,small_business,NC,24.52,0,Jan-2004,5,0,20610.17,10.1%,16,8021.78,0.0
+10272,510272,4100.0,4100.0, 60 months,24.11%,118.21,E,E5,Registered Nurse,1 year,RENT,81200.0,Verified,Apr-2017,Charged Off,house,MO,34.68,0,Jan-1995,14,0,42568.76,77.8%,18,956.96,268.22
+10581,510581,9800.0,9800.0, 60 months,10.53,210.79,B,B5,Software Engineer,6 years,MORTGAGE,96900.0,Not Verified,Mar-2017,In Grace Period,moving,IL,19.99,1,Jan-1999,10,0,28850.65,20.7%,24,5322.62,0.0
+10453,510453,26200.0,26200.0, 60 months,7.94%,530.49,A,A1,Project Manager,10+ years,MORTGAGE,94000.0,Verified,Feb-2016,Current,moving,WA,13.21,0,Jan-2000,15,0,43527.35,13.8%,25,9675.54,0.0
+10315,510315,8200.0,8200.0, 36 months,20.84,308.26,D,D3,Accountant,4 years,OWN,47000.0,Source Verified,Oct-2017,Late (31-120 days),credit_card,CO,22.63,0,Jan-2009,6,0,29683.14,46.4%,20,6227.09,0.0
+10335,510335,24300.0,24300.0, 36 months,22.34,932.31,E,E1,Mechanic,7 years,RENT,115000.0,Verified,Oct-2016,Current,vacation,CO,19.72,1,Jan-1991,19,0,43572.06,38.6%,26,15246.11,0.0
+10910,510910,8500.0,8500.0, 60 months,8.31%,173.61,A,A2,,10+ years,RENT,47600.0,Verified,Jan-2016,Fully Paid,credit_card,AZ,6.68,0,Jan-2006,19,0,37158.91,26.6%,25,10416.6,0.0
+10252,510252,29600.0,29600.0, 60 months,33.32,1018.89,G,G2,Mechanic,3 years,MORTGAGE,116000.0,Source Verified,Dec-2017,Charged Off,home_improvement,OH,24.07,1,Jan-2002,4,0,34119.03,15.4%,11,17759.65,0.0
+10215,510215,13600.0,13600.0, 60 months,16.28%,332.75,C,C5,,< 1 year,OTHER,90400.0,Source Verified,Feb-2017,Current,car,VA,25.08,0,Jan-1999,9,0,24985.62,72.0%,22,8749.75,0.0
+10077,510077,5500.0,5500.0, 36 months,29.01,230.51,F,F2,Teacher,7 years,MORTGAGE,82500.0,Verified,May-2016,Current,credit_card,NY,14.58,0,Jan-2006,22,0,43339.52,86.2%,34,2604.86,0.0
+10310,510310,24500.0,24500.0, 60 months,12.88,555.95,C,C3,Software Engineer,10+ years,OWN,74300.0,Verified,Nov-2016,Fully Paid,home_improvement,CA,7.68,1,Jan-2009,24,0,28461.87,29.2%,26,33357.0,0.0
+10262,510262,34400.0,34400.0, 60 months,6.88,679.22,A,A2,Teacher,7 years,OWN,70200.0,Not Verified,Jun-2017,Current,home_improvement,VA,32.6,0,Jan-1997,4,0,15429.92,15.9%,10,17196.07,0.0
+10184,510184,16500.0,16500.0, 36 months,16.52,584.34,D,D5,Accountant,7 years,RENT,46900.0,Verified,May-2016,Fully Paid,home_improvement,PA,16.95,0,Jan-1996,6,0,18950.31,34.7%,11,21036.24,0.0
+11092,511092,30600.0,30600.0, 36 months,150.0%,1013.58,B,B4,,3 years,MORTGAGE,69500.0,Verified,Nov-2017,Late (16-30 days),moving,CO,15.6,0,Jan-1995,22,0,21469.16,8.1%,41,9264.42,0.0
+10383,510383,31600.0,31600.0, 36 months,6.94%,974.85,A,A2,Teacher,< 1 year,RENT,61800.0,Not Verified,Sep-2017,Fully Paid,debt_consolidation,WA,28.96,0,Jan-1993,24,0,38700.17,38.9%,39,35094.6,0.0
+10064,510064,27200.0,27200.0, 60 months,15.77%,658.13,C,C5,Software Engineer,5 years,RENT,80900.0,Source Verified,Mar-2016,Fully Paid,major_purchase,MI,34.19,1,Jan-1993,16,0,22839.32,26.2%,20,39487.8,0.0
+10586,510586,7400.0,7400.0, 36 months,5.91,224.82,A,A5,Software Engineer,2 years,RENT,88700.0,Verified,Jun-2017,Fully Paid,house,MA,28.1,0,Jan-2002,10,1,30042.17,18.2%,26,8093.52,0.0
+10451,510451,15800.0,15800.0, 60 months,25.01%,463.84,E,E3,Administrative Assistant,2 years,MORTGAGE,69000.0,Not Verified,Nov-2017,Fully Paid,medical,OR,9.06,0,Jan-2004,21,1,35759.15,31.0%,23,27830.4,0.0
+10540,510540,23800.0,23800.0, 60 months,6.52,465.9,A,A2,,4 years,MORTGAGE,105600.0,Verified,Nov-2017,Fully Paid,medical,WA,34.87,0,Jan-1998,9,0,21340.52,46.5%,21,27954.0,0.0
+10356,510356,21900.0,21900.0, 36 months,5.97,665.94,A,A5,Registered Nurse,2 years,MORTGAGE,59000.0,Source Verified,Oct-2016,Fully Paid,major_purchase,GA,14.61,0,Jan-2007,17,0,23574.66,20.5%,32,23973.84,0.0
+10056,510056,4600.0,4600.0, 60 months,10.7%,99.33,B,B1,Mechanic,1 year,RENT,93000.0,Not Verified,Sep-2017,Charged Off,car,NJ,8.8,0,Jan-2002,13,0,42668.84,46.4%,26,1176.03,0.0
+10813,510813,2800.0,2800.0, 36 months,11.48%,92.31,B,B5,Registered Nurse,3 years,RENT,84100.0,Not Verified,May-2016,Fully Paid,credit_card,NJ,11.15,0,Jan-2002,9,0,1677.9,32.1%,29,3323.16,0.0
+10324,510324,25500.0,25500.0, 60 months,5.53,487.43,A,A5,Manager,8 years,OWN,78300.0,Not Verified,Jun-2017,Fully Paid,small_business,VA,35.0,0,Jan-2009,11,1,27662.85,18.2%,25,29245.8,0.0
+10097,510097,26500.0,26500.0, 60 months,26.76%,805.39,F,F1,Accountant,7 years,RENT,140900.0,Not Verified,Jul-2016,Fully Paid,car,GA,23.22,0,Jan-1993,15,0,29368.1,32.8%,28,48323.4,0.0
+10509,510509,6600.0,6600.0, 60 months,24.02%,189.95,E,E5,Software Engineer,7 years,MORTGAGE,74200.0,Not Verified,Feb-2016,Charged Off,medical,FL,25.77,1,Jan-2009,3,0,21659.57,35.3%,8,1881.62,0.0
+10846,510846,22500.0,22500.0, 60 months,15.05%,535.86,C,C2,Registered Nurse,3 years,OWN,102600.0,Verified,Feb-2017,Fully Paid,car,TX,16.06,0,Jan-2010,19,0,30262.63,35.6%,27,32151.6,0.0
+10896,510896,15500.0,15500.0, 60 months,13.57,357.21,C,C1,Mechanic,6 years,MORTGAGE,79400.0,Verified,Jun-2016,Charged Off,credit_card,PA,11.58,0,Jan-1997,24,1,7103.11,6.3%,36,4010.5,27.26
+10651,510651,26600.0,26600.0, 60 months,18.51,682.87,D,D3,Sales Associate,3 years,OWN,102000.0,Not Verified,Nov-2017,Charged Off,home_improvement,CA,33.68,0,Jan-1995,11,0,22166.79,94.0%,17,12501.18,0.0
+10744,510744,18600.0,18600.0, 60 months,9.31,388.91,B,B2,Sales Associate,1 year,RENT,100600.0,Source Verified,Jan-2017,Current,vacation,MD,37.66,0,Jan-2003,23,0,21114.53,44.5%,28,12458.93,0.0
+10696,510696,12200.0,12200.0, 36 months,12.86,410.24,C,C3,Software Engineer,8 years,OWN,151100.0,Verified,Jun-2016,Fully Paid,major_purchase,NJ,30.76,0,Jan-2005,16,0,25413.27,89.4%,31,14768.64,0.0
+10236,510236,24600.0,24600.0, 60 months,10.3%,526.32,B,B5,Accountant,8 years,RENT,76200.0,Verified,Jun-2016,Fully Paid,major_purchase,VA,32.52,1,Jan-2000,18,1,35977.82,63.1%,35,31579.2,0.0
+10452,510452,23900.0,23900.0, 60 months,16.17,583.36,C,C5,Mechanic,10+ years,MORTGAGE,84400.0,Source Verified,Jan-2016,Charged Off,moving,NY,12.17,1,Jan-2007,6,0,14109.06,43.7%,8,15802.83,0.0
+10070,510070,16700.0,16700.0, 60 months,10.32%,357.46,B,B1,Accountant,< 1 year,MORTGAGE,57100.0,Source Verified,Feb-2016,Current,medical,OR,37.94,0,Jan-1994,4,0,28869.31,37.7%,11,12108.11,0.0
+10005,510005,13900.0,13900.0, 36 months,14.29,477.03,C,C5,,1 year,MORTGAGE,86500.0,Verified,Apr-2016,In Grace Period,home_improvement,PA,31.14,0,Jan-2007,5,0,27017.04,47.1%,15,3552.91,0.0
+10698,510698,5900.0,5900.0, 36 months,20.81,221.71,D,D3,Registered Nurse,8 years,RENT,138300.0,Source Verified,Nov-2016,Fully Paid,debt_consolidation,MO,31.55,0,Jan-2002,15,0,16463.14,65.9%,30,7981.56,0.0
+10204,510204,10600.0,10600.0, 60 months,10.72%,228.99,B,B1,Mechanic,5 years,RENT,33100.0,Verified,Dec-2016,Current,small_business,MA,22.66,0,Jan-1996,18,1,21729.48,5.8%,33,9316.14,0.0
+10384,510384,34300.0,34300.0, 60 months,9.79%,725.23,B,B4,Registered Nurse,7 years,OWN,94900.0,Not Verified,Dec-2017,Late (16-30 days),car,GA,6.12,0,Jan-2010,18,0,27028.92,20.5%,32,26214.52,0.0
+10073,510073,28100.0,28100.0, 36 months,17.5,1008.85,D,D5,Project Manager,9 years,MORTGAGE,118900.0,Not Verified,Jul-2017,Fully Paid,medical,MI,31.52,0,Jan-1992,22,1,3425.79,40.8%,39,36318.6,0.0
+10028,510028,26800.0,26800.0, 60 months,17.75%,676.9,D,D1,Manager,1 year,RENT,71200.0,Source Verified,Jun-2016,Fully Paid,moving,OH,16.71,0,Jan-1997,11,1,31702.68,29.9%,13,40614.0,0.0
+10956,510956,30000.0,30000.0, 60 months,8.25,611.89,A,A3,Accountant,< 1 year,MORTGAGE,92600.0,Verified,Nov-2017,Fully Paid,moving,NY,13.66,1,Jan-2003,16,0,34535.48,54.1%,30,36713.4,0.0
+10517,510517,23000.0,23000.0, 36 months,9.22%,733.75,B,B4,Manager,n/a,MORTGAGE,73000.0,Not Verified,Jan-2017,Fully Paid,major_purchase,PA,7.77,0,Jan-2006,7,0,19683.97,29.7%,23,26415.0,0.0
+10375,510375,31400.0,31400.0, 60 months,18.42%,804.55,D,D5,Driver,1 year,OWN,122900.0,Not Verified,Jan-2017,In Grace Period,car,OR,6.89,0,Jan-2006,13,0,637.27,83.3%,27,13676.6,0.0
+10065,510065,11500.0,11500.0, 60 months,20.05%,305.0,D,D3,Sales Associate,3 years,MORTGAGE,106400.0,Not Verified,Apr-2017,Fully Paid,moving,OR,5.17,0,Jan-1999,11,0,7153.62,89.6%,29,18300.0,0.0
+10819,510819,31700.0,31700.0, 36 months,31.26,1367.69,G,G3,Manager,8 years,RENT,125500.0,Not Verified,Apr-2017,Current,major_purchase,TX,33.22,0,Jan-1999,4,0,30923.5,49.3%,9,29611.11,0.0
+10362,510362,3600.0,3600.0, 60 months,10.73,77.79,B,B3,Administrative Assistant,2 years,OWN,115600.0,Source Verified,Aug-2016,Current,major_purchase,TX,5.53,0,Jan-1995,3,0,9050.76,65.2%,12,3272.93,0.0
+10202,510202,31000.0,31000.0, 36 months,9.52%,993.31,B,B4,Teacher,< 1 year,MORTGAGE,37800.0,Verified,Apr-2016,Fully Paid,small_business,OR,10.12,0,Jan-1991,15,0,11509.15,30.6%,21,35759.16,0.0
+10135,510135,8600.0,8600.0, 36 months,10.15%,278.1,B,B1,Software Engineer,4 years,RENT,98900.0,Verified,Jan-2017,Fully Paid,medical,MA,22.97,0,Jan-1991,21,0,17782.97,21.2%,33,10011.6,0.0
+10893,510893,10900.0,10900.0, 60 months,16.19,266.17,C,C1,Mechanic,6 years,MORTGAGE,124500.0,Not Verified,Dec-2016,Current,credit_card,AZ,6.22,0,Jan-1999,21,0,14725.28,88.7%,41,10911.7,0.0
+10873,510873,29700.0,29700.0, 60 months,19.28,775.02,D,D3,,8 years,MORTGAGE,93800.0,Not Verified,Dec-2016,Charged Off,moving,VA,25.96,0,Jan-2009,19,0,23564.92,15.0%,39,12854.93,0.0
+10432,510432,27900.0,27900.0, 60 months,10.94,605.78,B,B2,Software Engineer,n/a,MORTGAGE,126200.0,Source Verified,Jul-2016,Fully Paid,credit_card,TX,5.85,0,Jan-1994,21,0,28005.43,53.9%,25,36346.8,0.0
+10945,510945,17300.0,17300.0, 36 months,13.26%,585.07,C,C2,Administrative Assistant,n/a,MORTGAGE,150000.0,Verified,Nov-2017,Fully Paid,debt_consolidation,CO,36.85,1,Jan-2003,7,0,29828.87,33.8%,17,21062.52,0.0
+10158,510158,19600.0,19600.0, 36 months,20.43%,732.71,D,D4,Administrative Assistant,< 1 year,MORTGAGE,94900.0,Verified,Sep-2017,Fully Paid,debt_consolidation,NY,27.76,0,Jan-1999,15,0,11746.85,68.2%,23,26377.56,0.0
+10656,510656,5200.0,5200.0, 60 months,6.07%,100.7,A,A4,Registered Nurse,8 years,RENT,69100.0,Not Verified,Sep-2017,Current,credit_card,TX,37.43,1,Jan-2007,3,1,3436.21,74.3%,13,2844.42,0.0
+10460,510460,18600.0,18600.0, 60 months,6.63,365.06,A,A2,Accountant,6 years,RENT,138300.0,Not Verified,Mar-2016,Current,home_improvement,IL,16.61,0,Jan-2005,13,0,38710.54,17.6%,24,15411.27,0.0
+10304,510304,21800.0,21800.0, 36 months,9.34,696.69,B,B2,Sales Associate,4 years,MORTGAGE,48500.0,Not Verified,Apr-2016,Fully Paid,debt_consolidation,MD,19.36,1,Jan-2005,17,0,22489.63,25.2%,25,25080.84,0.0
+10011,510011,34000.0,34000.0, 36 months,13.33%,1151.01,C,C4,Driver,3 years,MORTGAGE,113000.0,Not Verified,Apr-2017,Fully Paid,house,MD,10.2,2,Jan-2008,5,0,3549.2,11.1%,14,41436.36,0.0
+10459,510459,6900.0,6900.0, 60 months,10.8,149.34,B,B1,,7 years,RENT,81600.0,Verified,Jul-2017,Fully Paid,small_business,NY,26.29,1,Jan-1998,22,0,40910.82,36.9%,28,8960.4,0.0
+10032,510032,21700.0,21700.0, 36 months,33.12%,958.67,G,G1,Teacher,< 1 year,MORTGAGE,116800.0,Source Verified,Oct-2016,Charged Off,vacation,CO,15.08,0,Jan-2003,22,1,4915.89,73.6%,30,6762.51,0.0
+10434,510434,5300.0,5300.0, 36 months,8.67%,167.73,A,A3,Administrative Assistant,9 years,RENT,77800.0,Not Verified,Mar-2016,Fully Paid,major_purchase,CO,17.38,0,Jan-1991,17,0,8501.39,5.9%,24,6038.28,0.0
+10555,510555,8900.0,8900.0, 36 months,7.92,278.57,A,A3,Sales Associate,2 years,MORTGAGE,44200.0,Verified,Apr-2017,Fully Paid,home_improvement,GA,17.91,0,Jan-2002,16,0,9105.02,80.1%,20,10028.52,0.0
+10318,510318,11600.0,11600.0, 60 months,19.17,302.0,D,D5,Administrative Assistant,5 years,RENT,76600.0,Not Verified,Aug-2017,Current,moving,GA,28.57,0,Jan-2004,16,0,25119.88,29.1%,31,10393.96,0.0
+10143,510143,22600.0,22600.0, 60 months,9.47,474.31,B,B4,Director,6 years,MORTGAGE,60200.0,Verified,Sep-2017,Fully Paid,small_business,TX,20.63,0,Jan-2001,15,0,40322.05,28.9%,34,28458.6,0.0
+10431,510431,19100.0,19100.0, 60 months,8.22,389.29,A,A2,Mechanic,2 years,OWN,71100.0,Source Verified,Aug-2016,Current,house,AZ,11.36,0,Jan-2003,4,0,26214.49,16.6%,18,17342.94,0.0
+10913,510913,13100.0,13100.0, 36 months,8.84%,415.6,A,A2,Project Manager,1 year,MORTGAGE,107600.0,Verified,Jun-2017,Fully Paid,house,MI,22.25,0,Jan-2003,7,0,27144.12,10.1%,16,14961.6,0.0
+10106,510106,11100.0,11100.0, 60 months,9.68%,234.1,B,B4,Administrative Assistant,9 years,MORTGAGE,84100.0,Source Verified,Aug-2016,Current,moving,OR,25.35,0,Jan-1994,7,0,42722.64,34.9%,21,5630.22,0.0
+10419,510419,7000.0,7000.0, 60 months,9.52,147.08,B,B5,Mechanic,n/a,RENT,83400.0,Verified,Oct-2016,Current,home_improvement,IL,27.52,0,Jan-2009,23,0,32471.59,84.6%,29,6867.46,0.0
+10832,510832,13100.0,13100.0, 60 months,14.16%,305.9,C,C5,Registered Nurse,1 year,RENT,154600.0,Source Verified,Mar-2016,Fully Paid,vacation,OR,12.21,0,Jan-1997,14,0,8917.29,67.6%,28,18354.0,0.0
+10241,510241,16600.0,16600.0, 36 months,7.57%,516.9,A,A3,Sales Associate,5 years,OWN,38400.0,Verified,Apr-2016,Fully Paid,car,NY,7.84,0,Jan-1996,22,1,28511.45,67.1%,38,18608.4,0.0
+10013,510013,31100.0,31100.0, 36 months,13.72,1058.7,C,C5,Registered Nurse,n/a,MORTGAGE,74000.0,Not Verified,Nov-2017,Current,small_business,OR,37.47,0,Jan-2007,19,0,36861.13,31.9%,24,10262.25,0.0
+10390,510390,34300.0,34300.0, 36 months,6.32%,1048.45,A,A2,Registered Nurse,< 1 year,MORTGAGE,74800.0,Verified,Jun-2016,Fully Paid,house,NJ,24.43,0,Jan-1995,6,0,31670.27,82.9%,25,37744.2,0.0
+10418,510418,20800.0,20800.0, 36 months,10.01%,671.26,B,B1,,10+ years,RENT,91800.0,Verified,Feb-2016,Current,medical,TX,36.14,0,Jan-1993,14,0,43163.89,50.0%,26,18953.14,0.0
+10717,510717,3200.0,3200.0, 60 months,14.83%,75.84,C,C3,Mechanic,1 year,MORTGAGE,61100.0,Source Verified,Oct-2016,Current,moving,FL,15.78,0,Jan-1997,6,0,8221.18,60.7%,14,3219.52,0.0
+10323,510323,28500.0,28500.0, 60 months,6.87%,562.59,A,A5,Project Manager,< 1 year,OWN,141800.0,Not Verified,Oct-2017,Fully Paid,medical,CA,19.61,0,Jan-2010,19,1,4272.63,33.3%,26,33755.4,0.0
+10054,510054,33100.0,33100.0, 36 months,10.26%,1072.09,B,B3,Registered Nurse,4 years,MORTGAGE,134400.0,Not Verified,Feb-2016,Fully Paid,credit_card,NC,19.62,0,Jan-2008,22,0,12655.92,72.9%,27,38595.24,0.0
+10507,510507,12200.0,12200.0, 60 months,11.8,270.15,B,B2,Mechanic,7 years,MORTGAGE,107600.0,Verified,Jul-2017,Charged Off,medical,CO,12.46,0,Jan-2010,9,0,13624.49,67.8%,19,3978.42,0.0
+10632,510632,9700.0,9700.0, 36 months,12.16%,322.92,B,B5,Software Engineer,7 years,MORTGAGE,77300.0,Verified,Dec-2017,Fully Paid,car,OR,29.77,0,Jan-2006,11,0,30462.35,44.3%,29,11625.12,0.0
+10506,510506,5900.0,5900.0, 60 months,6.46,115.33,A,A1,Registered Nurse,n/a,RENT,92300.0,Not Verified,Mar-2017,Current,credit_card,FL,35.29,0,Jan-1997,5,0,26806.11,91.9%,12,2938.96,0.0
+10127,510127,5800.0,5800.0, 36 months,8.6,183.36,A,A1,Manager,6 years,RENT,41500.0,Verified,Feb-2016,Fully Paid,moving,WA,17.64,0,Jan-2000,4,0,41170.67,71.7%,19,6600.96,0.0
+10153,510153,14800.0,14800.0, 36 months,13.7%,503.68,C,C3,Registered Nurse,7 years,OTHER,93800.0,Verified,Nov-2016,Fully Paid,major_purchase,MO,26.06,0,Jan-1994,24,0,13858.67,20.3%,43,18132.48,0.0
+10944,510944,31400.0,31400.0, 36 months,5.32,945.6,A,A4,Manager,5 years,MORTGAGE,154300.0,Verified,Jun-2016,Fully Paid,credit_card,MA,32.59,0,Jan-1996,3,0,27846.28,9.5%,7,34041.6,0.0
+10703,510703,24300.0,24300.0, 60 months,5.4,463.04,A,A3,Mechanic,1 year,MORTGAGE,45400.0,Verified,Mar-2017,Fully Paid,major_purchase,TX,35.93,2,Jan-2004,13,0,41912.19,23.2%,27,27782.4,0.0
+10814,510814,3200.0,3200.0, 36 months,14.52%,110.18,C,C1,Driver,5 years,RENT,60000.0,Source Verified,Nov-2017,Current,home_improvement,MD,30.59,0,Jan-1996,3,0,8798.67,70.4%,20,2504.76,0.0
+10940,510940,26300.0,26300.0, 36 months,15.56,918.93,C,C5,Mechanic,6 years,RENT,68500.0,Source Verified,Feb-2016,Fully Paid,car,MA,25.92,1,Jan-2001,9,1,39687.93,73.2%,29,33081.48,0.0
+10172,510172,21900.0,21900.0, 36 months,15.43,763.79,C,C3,Teacher,< 1 year,MORTGAGE,67800.0,Not Verified,Mar-2016,Current,home_improvement,PA,29.26,0,Jan-1994,4,0,25268.64,16.7%,24,13192.76,0.0
+10161,510161,13900.0,13900.0, 60 months,8.53,285.38,A,A2,Project Manager,6 years,MORTGAGE,78800.0,Verified,Jan-2016,Fully Paid,home_improvement,PA,15.85,1,Jan-2004,22,0,33121.52,38.5%,34,17122.8,0.0
+10416,510416,16000.0,16000.0, 60 months,17.21%,399.45,D,D5,Software Engineer,3 years,RENT,90900.0,Not Verified,May-2017,Fully Paid,small_business,GA,18.98,0,Jan-2002,5,0,44017.72,16.3%,13,23967.0,0.0
+10408,510408,15300.0,15300.0, 36 months,6.99,472.35,A,A2,Administrative Assistant,9 years,RENT,110200.0,Not Verified,Apr-2016,Fully Paid,car,AZ,5.68,1,Jan-1990,23,1,6381.97,74.3%,33,17004.6,0.0
+10339,510339,2700.0,2700.0, 60 months,10.73%,58.34,B,B2,Mechanic,7 years,RENT,104500.0,Verified,Mar-2016,Default,vacation,NJ,31.68,0,Jan-1995,18,1,2137.42,49.4%,26,1243.95,416.02
+10781,510781,3900.0,3900.0, 36 months,19.38,143.71,D,D5,Manager,< 1 year,OWN,92900.0,Not Verified,Jun-2016,Charged Off,moving,FL,37.37,0,Jan-1991,13,0,4098.75,84.2%,26,2160.37,854.27
+10290,510290,27100.0,27100.0, 60 months,13.85,628.46,C,C2,Project Manager,7 years,MORTGAGE,119200.0,Not Verified,Apr-2017,Current,moving,MD,13.63,0,Jan-2004,20,0,42889.83,7.8%,35,17725.19,0.0
+10866,510866,7200.0,7200.0, 60 months,23.91%,206.75,E,E2,Director,2 years,RENT,89100.0,Verified,Aug-2017,Fully Paid,medical,MO,15.59,0,Jan-2000,20,0,8552.04,65.2%,27,12405.0,0.0
+10860,510860,21900.0,21900.0, 36 months,27.52%,900.19,F,F1,Driver,9 years,RENT,35600.0,Source Verified,Jun-2017,Charged Off,small_business,WA,22.16,0,Jan-2005,3,0,24513.27,55.0%,6,13802.77,0.0
+10291,510291,12000.0,12000.0, 36 months,7.36,372.5,A,A2,Project Manager,4 years,MORTGAGE,84800.0,Not Verified,Jan-2017,Fully Paid,moving,FL,23.77,0,Jan-2005,20,0,25963.36,47.8%,27,13410.0,0.0
+10217,510217,32300.0,32300.0, 36 months,9.48%,1034.36,B,B3,Project Manager,6 years,RENT,109800.0,Verified,Apr-2017,Fully Paid,vacation,FL,24.64,0,Jan-1993,21,0,35215.42,88.0%,33,37236.96,0.0
+10543,510543,29300.0,29300.0, 36 months,23.66%,1144.3,E,E4,Manager,2 years,MORTGAGE,32300.0,Verified,Sep-2016,Current,major_purchase,NV,27.26,0,Jan-1996,17,0,9414.75,78.9%,30,22497.04,0.0
+10359,510359,11000.0,11000.0, 60 months,6.2,213.69,A,A1,Teacher,4 years,MORTGAGE,102900.0,Not Verified,Dec-2017,Fully Paid,major_purchase,MA,18.57,0,Jan-1996,6,2,3905.75,14.5%,18,12821.4,0.0
+10645,510645,9400.0,9400.0, 36 months,9.54%,301.29,B,B3,Software Engineer,6 years,MORTGAGE,133900.0,Verified,Apr-2016,Current,house,MD,16.98,0,Jan-2002,16,0,13809.26,26.8%,33,7212.66,0.0
+10357,510357,8800.0,8800.0, 36 months,10.53,286.15,B,B1,Driver,3 years,RENT,69100.0,Not Verified,Apr-2017,Current,home_improvement,OR,23.98,0,Jan-2006,9,0,30975.2,29.8%,11,7156.89,0.0
+10399,510399,28700.0,28700.0, 36 months,13.48,973.67,C,C4,Manager,3 years,RENT,59200.0,Not Verified,Sep-2017,Charged Off,home_improvement,GA,8.98,0,Jan-2000,11,2,41844.88,43.4%,19,9215.86,949.96
+10610,510610,26100.0,26100.0, 36 months,11.64%,862.41,B,B1,,7 years,MORTGAGE,61600.0,Source Verified,Jan-2016,In Grace Period,debt_consolidation,MA,19.27,0,Jan-1996,8,1,26165.85,9.0%,12,19433.44,0.0
+10562,510562,18000.0,18000.0, 60 months,13.5,414.18,C,C4,Administrative Assistant,6 years,OWN,121200.0,Verified,Jun-2016,Charged Off,medical,CA,8.68,0,Jan-1998,19,0,25441.6,73.1%,38,3239.9,1067.5
+10736,510736,14800.0,14800.0, 36 months,11.1,485.23,B,B3,Sales Associate,< 1 year,MORTGAGE,61300.0,Verified,Dec-2017,Fully Paid,home_improvement,CA,9.65,0,Jan-1995,4,0,16601.1,19.6%,13,17468.28,0.0
+11062,511062,0,23100.0, 36 months,11.38%,760.43,B,B5,Software Engineer,7 years,MORTGAGE,81400.0,Not Verified,Jun-2016,Fully Paid,vacation,CO,23.16,0,Jan-1994,12,0,37988.91,34.4%,14,27375.48,0.0
+10575,510575,8800.0,8800.0, 36 months,12.84,295.83,C,C5,Sales Associate,6 years,MORTGAGE,143300.0,Verified,Oct-2017,Fully Paid,medical,PA,37.57,1,Jan-2008,14,1,18387.16,19.0%,23,10649.88,0.0
+10911,510911,25100.0,25100.0, 36 months,9.88%,808.49,B,B1,Accountant,n/a,RENT,95000.0,Not Verified,Aug-2017,Current,vacation,NY,7.65,0,Jan-1993,4,1,9838.62,87.7%,21,18922.38,0.0
+10017,510017,30900.0,30900.0, 60 months,13.95%,718.19,C,C5,Software Engineer,n/a,OWN,58300.0,Source Verified,Feb-2016,Fully Paid,credit_card,OR,19.34,0,Jan-2003,13,0,44298.5,15.4%,33,43091.4,0.0
+10904,510904,33500.0,33500.0, 60 months,6.92%,662.08,A,A4,Registered Nurse,5 years,RENT,69300.0,Source Verified,Sep-2017,Fully Paid,home_improvement,IL,37.29,0,Jan-1997,10,0,13843.14,79.3%,12,39724.8,0.0
+10128,510128,24200.0,24200.0, 36 months,11.18%,794.34,B,B1,Sales Associate,n/a,RENT,58300.0,Verified,Jan-2017,Fully Paid,credit_card,MI,33.58,0,Jan-2009,12,0,25112.57,5.7%,20,28596.24,0.0
+10093,510093,11100.0,11100.0, 36 months,13.66%,377.54,C,C2,Manager,8 years,RENT,39100.0,Not Verified,Jan-2016,Fully Paid,major_purchase,OH,7.22,0,Jan-1996,17,0,31796.24,9.4%,20,13591.44,0.0
+10527,510527,31200.0,31200.0, 36 months,20.01,1159.66,D,D1,,8 years,RENT,108800.0,Not Verified,Nov-2017,Fully Paid,debt_consolidation,MI,20.87,0,Jan-2010,12,0,37359.69,70.3%,15,41747.76,0.0
+10231,510231,12200.0,12200.0, 60 months,19.95%,322.89,D,D2,Registered Nurse,9 years,MORTGAGE,67400.0,Verified,Jul-2016,Charged Off,debt_consolidation,OR,30.26,0,Jan-2009,18,0,24685.8,5.5%,35,5623.8,0.0
+10338,510338,31500.0,31500.0, 60 months,7.79%,635.55,A,A1,,< 1 year,RENT,114900.0,Not Verified,Sep-2017,Current,credit_card,MO,6.02,1,Jan-1993,24,0,5991.99,92.5%,38,11680.59,0.0
+10906,510906,13600.0,13600.0, 60 months,11.64%,300.06,B,B4,Registered Nurse,10+ years,RENT,151000.0,Source Verified,Mar-2016,Fully Paid,vacation,MI,34.17,0,Jan-1995,20,0,38603.54,29.3%,31,18003.6,0.0
+10711,510711,33800.0,33800.0, 36 months,11.37,1112.5,B,B4,Registered Nurse,9 years,MORTGAGE,106300.0,Source Verified,Jun-2016,Fully Paid,major_purchase,MO,18.25,0,Jan-1992,9,0,43758.88,21.8%,25,40050.0,0.0
+10289,510289,33400.0,33400.0, 60 months,18.09,849.78,D,D4,Teacher,6 years,MORTGAGE,86700.0,Source Verified,Apr-2016,Fully Paid,credit_card,NC,21.15,0,Jan-2009,7,0,33332.03,79.7%,24,50986.8,0.0
+10620,510620,33300.0,33300.0, 36 months,19.7,1232.46,D,D2,Project Manager,1 year,MORTGAGE,50100.0,Not Verified,Aug-2017,Charged Off,vacation,CA,19.46,0,Jan-1992,16,0,23870.3,67.4%,35,9386.65,0.0
+10571,510571,5300.0,5300.0, 36 months,7.49%,164.84,A,A2,Software Engineer,5 years,OTHER,95900.0,Source Verified,Mar-2017,Current,house,AZ,30.87,2,Jan-1991,24,0,15556.31,37.9%,33,4014.11,0.0
+10766,510766,28200.0,28200.0, 36 months,9.28,900.43,B,B2,,6 years,RENT,70300.0,Verified,Sep-2016,Fully Paid,vacation,GA,15.92,0,Jan-2004,12,0,38673.81,82.7%,17,32415.48,0.0
+10293,510293,4200.0,4200.0, 60 months,11.25,91.84,B,B3,Accountant,1 year,MORTGAGE,51600.0,Not Verified,Nov-2016,Charged Off,debt_consolidation,MI,26.71,0,Jan-1996,19,1,12364.54,67.6%,39,1808.19,146.59
+10327,510327,22700.0,22700.0, 36 months,33.16,1003.36,G,G5,Teacher,7 years,MORTGAGE,72400.0,Not Verified,Jul-2017,Charged Off,home_improvement,AZ,22.15,0,Jan-1996,13,0,9068.71,75.1%,29,15581.68,93.29
+10924,510924,13800.0,13800.0, 36 months,27.84,569.63,F,F4,Manager,2 years,RENT,61800.0,Not Verified,May-2017,Fully Paid,moving,OR,6.72,1,Jan-1991,3,0,23507.06,89.3%,17,20506.68,0.0
+10141,510141,14400.0,14400.0, 60 months,24.98%,422.49,E,E4,Registered Nurse,5 years,RENT,118600.0,Not Verified,Aug-2016,Charged Off,home_improvement,MI,7.43,1,Jan-2009,12,0,12120.18,14.4%,24,9957.09,0.0
+10605,510605,15100.0,15100.0, 60 months,14.15,352.53,C,C3,Director,8 years,RENT,84900.0,Not Verified,Feb-2017,Fully Paid,house,TX,6.32,0,Jan-1995,9,0,22370.19,36.4%,13,21151.8,0.0
+10646,510646,13000.0,13000.0, 60 months,18.35,332.59,D,D2,Registered Nurse,1 year,MORTGAGE,52100.0,Source Verified,Jan-2017,Fully Paid,vacation,OH,18.38,1,Jan-1992,12,0,36301.56,35.3%,24,19955.4,0.0
+10280,510280,24700.0,24700.0, 36 months,6.85%,760.97,A,A3,,9 years,RENT,38300.0,Source Verified,Mar-2016,Fully Paid,vacation,WA,24.18,0,Jan-1990,11,0,21683.81,67.5%,16,27394.92,0.0
+10831,510831,27700.0,27700.0, 36 months,11.99%,919.9,B,B4,Director,6 years,MORTGAGE,63900.0,Source Verified,Jul-2017,Charged Off,car,NJ,17.59,0,Jan-2001,22,0,2930.04,7.5%,35,6014.47,0.0
+10264,510264,22100.0,22100.0, 36 months,10.61,719.45,B,B4,Accountant,10+ years,RENT,95200.0,Not Verified,Mar-2016,Late (16-30 days),small_business,WA,18.82,0,Jan-1996,9,0,24093.86,13.6%,22,13067.28,0.0
+10330,510330,4200.0,4200.0, 36 months,5.33,126.5,A,A4,Teacher,n/a,RENT,78100.0,Not Verified,Mar-2017,Fully Paid,medical,AZ,20.68,0,Jan-2000,22,0,6664.24,62.3%,38,4554.0,0.0
+10678,510678,25100.0,25100.0, 36 months,17.12,896.38,D,D2,,< 1 year,RENT,87300.0,Verified,Feb-2017,Current,house,TX,29.35,0,Jan-1990,8,0,44677.46,35.4%,11,21465.23,0.0
+10303,510303,6400.0,6400.0, 36 months,18.52,233.05,D,D3,Registered Nurse,7 years,RENT,105400.0,Source Verified,Jul-2016,Current,credit_card,CO,17.13,0,Jan-1996,15,1,39853.19,25.2%,17,4832.33,0.0
+10505,510505,34500.0,34500.0, 60 months,12.33%,773.2,B,B3,,8 years,OWN,87100.0,Source Verified,Feb-2017,Fully Paid,debt_consolidation,TX,11.37,0,Jan-2003,7,0,4236.61,44.9%,17,46392.0,0.0
+10835,510835,28900.0,28900.0, 60 months,16.11%,704.48,C,C3,Driver,1 year,MORTGAGE,78500.0,Source Verified,Nov-2016,Fully Paid,home_improvement,OH,11.63,0,Jan-1996,7,0,10902.9,17.3%,13,42268.8,0.0
+10358,510358,21000.0,21000.0, 36 months,12.26%,700.11,B,B5,Administrative Assistant,2 years,OWN,67300.0,Source Verified,Dec-2016,Fully Paid,small_business,AZ,25.23,0,Jan-2008,8,0,8491.23,60.6%,23,25203.96,0.0
+10475,510475,7900.0,7900.0, 60 months,22.53%,220.58,E,E5,Software Engineer,8 years,RENT,65100.0,Verified,Sep-2017,Fully Paid,home_improvement,IL,33.75,0,Jan-1997,10,0,2213.33,66.6%,26,13234.8,0.0
+10884,510884,3200.0,3200.0, 60 months,19.98,84.74,D,D3,Manager,n/a,RENT,149300.0,Not Verified,Mar-2016,Charged Off,house,MA,11.78,0,Jan-1990,23,0,43300.13,25.0%,32,1474.27,376.6
+10137,510137,29600.0,29600.0, 60 months,21.79,813.99,E,E5,Software Engineer,< 1 year,MORTGAGE,89700.0,Verified,Mar-2016,Charged Off,debt_consolidation,GA,24.85,0,Jan-1994,18,0,41346.38,23.1%,24,20559.91,0.0
+10031,510031,5400.0,5400.0, 36 months,11.41,177.84,B,B2,Driver,4 years,MORTGAGE,92900.0,Source Verified,Nov-2016,Fully Paid,home_improvement,NY,13.33,1,Jan-1992,6,0,18331.48,11.7%,9,6402.24,0.0
+10441,510441,11800.0,11800.0, 60 months,14.52%,277.76,C,C3,Registered Nurse,3 years,RENT,85000.0,Verified,Dec-2016,Fully Paid,vacation,FL,5.97,0,Jan-2001,3,0,44712.55,82.5%,18,16665.6,0.0
+10547,510547,19100.0,19100.0, 36 months,5.97%,580.8,A,A2,Registered Nurse,2 years,RENT,106300.0,Verified,Aug-2017,Current,major_purchase,NJ,17.27,0,Jan-1990,8,0,8271.37,51.7%,14,6460.17,0.0
+10734,510734,30900.0,30900.0, 60 months,11.49%,679.42,B,B1,Director,2 years,MORTGAGE,116900.0,Source Verified,Jun-2016,Fully Paid,credit_card,TX,14.39,0,Jan-1994,24,0,23854.33,88.0%,26,40765.2,0.0
+11065,511065,-5000,6700.0, 36 months,8.29,210.85,A,A3,Project Manager,n/a,MORTGAGE,101900.0,Source Verified,Aug-2017,Fully Paid,debt_consolidation,NV,7.97,1,Jan-1991,10,0,11564.66,21.4%,20,7590.6,0.0
+10051,510051,16900.0,16900.0, 36 months,24.29%,665.61,E,E5,,5 years,RENT,77800.0,Source Verified,Feb-2017,Current,credit_card,VA,19.08,0,Jan-1994,14,1,31063.54,47.7%,18,6180.72,0.0
+10043,510043,17900.0,17900.0, 36 months,9.86%,576.41,B,B3,Sales Associate,3 years,MORTGAGE,75000.0,Source Verified,Nov-2017,Current,small_business,CA,37.27,0,Jan-2009,11,0,38995.5,75.0%,14,14519.38,0.0
+10402,510402,31200.0,31200.0, 36 months,16.67,1107.25,D,D1,Sales Associate,8 years,MORTGAGE,59600.0,Verified,Mar-2016,Fully Paid,house,OR,16.32,0,Jan-2001,9,0,7338.42,16.5%,24,39861.0,0.0
+10192,510192,15000.0,15000.0, 36 months,8.18%,471.29,A,A3,Project Manager,9 years,RENT,87300.0,Verified,Mar-2016,Fully Paid,house,NJ,28.96,0,Jan-1990,21,0,43366.3,29.9%,29,16966.44,0.0
+10845,510845,22000.0,22000.0, 36 months,23.52%,857.59,E,E3,Project Manager,3 years,RENT,101500.0,Verified,May-2016,Fully Paid,vacation,NJ,8.86,0,Jan-2004,16,0,7247.75,33.6%,36,30873.24,0.0
+10665,510665,28900.0,28900.0, 36 months,15.21,1004.8,C,C3,Administrative Assistant,3 years,MORTGAGE,155800.0,Not Verified,Feb-2016,Fully Paid,major_purchase,GA,29.58,0,Jan-1993,24,0,43452.29,29.9%,29,36172.8,0.0
+10589,510589,13100.0,13100.0, 60 months,10.09,278.92,B,B3,Administrative Assistant,4 years,RENT,113200.0,Source Verified,Oct-2017,Current,credit_card,VA,23.19,0,Jan-2002,22,0,26027.54,32.2%,30,3708.35,0.0
+10115,510115,3000.0,3000.0, 36 months,10.89%,98.06,B,B4,Software Engineer,n/a,MORTGAGE,67700.0,Not Verified,Oct-2016,Current,home_improvement,MI,23.67,0,Jan-2004,18,0,5537.89,15.3%,37,2448.4,0.0
+10879,510879,25800.0,25800.0, 60 months,22.12%,714.33,E,E1,Driver,2 years,MORTGAGE,92300.0,Verified,Aug-2017,Charged Off,debt_consolidation,CA,25.68,0,Jan-2001,16,0,28662.68,31.3%,25,10900.69,877.17
+10237,510237,19200.0,19200.0, 60 months,12.44%,431.37,B,B4,Project Manager,2 years,MORTGAGE,91000.0,Not Verified,Oct-2017,Fully Paid,medical,WA,7.19,0,Jan-2009,3,0,17198.21,53.1%,10,25882.2,0.0
+10376,510376,23700.0,23700.0, 60 months,10.46,508.94,B,B2,Accountant,10+ years,RENT,87000.0,Verified,Sep-2017,Fully Paid,medical,CA,25.91,1,Jan-1993,13,0,10893.36,48.6%,17,30536.4,0.0
+10612,510612,12600.0,12600.0, 60 months,7.99,255.42,A,A3,Teacher,5 years,RENT,77200.0,Source Verified,Mar-2017,Fully Paid,medical,NJ,9.87,0,Jan-2001,18,0,18648.25,91.5%,22,15325.2,0.0
+10713,510713,31100.0,31100.0, 60 months,14.08,724.93,C,C2,Mechanic,6 years,MORTGAGE,114000.0,Not Verified,Aug-2017,Current,medical,MI,23.78,0,Jan-2004,6,0,40539.62,20.8%,18,13463.41,0.0
+10479,510479,32100.0,32100.0, 60 months,9.85,679.66,B,B3,Mechanic,1 year,RENT,63800.0,Source Verified,Aug-2016,Fully Paid,moving,VA,29.69,0,Jan-2001,10,0,43113.58,41.9%,14,40779.6,0.0
+10583,510583,30500.0,30500.0, 60 months,22.75%,855.43,E,E5,Mechanic,6 years,MORTGAGE,74400.0,Source Verified,May-2016,Fully Paid,moving,FL,22.91,0,Jan-1995,22,0,9373.73,35.4%,29,51325.8,0.0
+11094,511094,15100.0,15100.0, 60 months,150.0%,358.44,C,C2,,8 years,MORTGAGE,123600.0,Source Verified,Jan-2016,Current,vacation,GA,34.44,0,Jan-1994,12,0,14373.24,53.6%,14,16213.07,0.0
+10776,510776,31100.0,31100.0, 60 months,12.49%,699.53,B,B1,Teacher,1 year,OWN,81400.0,Not Verified,Jul-2017,Fully Paid,house,PA,17.54,0,Jan-2004,5,0,760.07,89.9%,25,41971.8,0.0
+10472,510472,26900.0,26900.0, 60 months,8.76,555.27,A,A3,,10+ years,OWN,142900.0,Not Verified,Jul-2016,Fully Paid,debt_consolidation,VA,28.95,0,Jan-1999,16,0,41821.21,72.7%,21,33316.2,0.0
+10786,510786,20600.0,20600.0, 36 months,12.55%,689.64,B,B3,Mechanic,6 years,RENT,94900.0,Source Verified,Nov-2016,Late (16-30 days),credit_card,NY,21.28,0,Jan-1993,3,0,27203.93,85.1%,8,11857.89,0.0
+10205,510205,25600.0,25600.0, 60 months,10.7%,552.78,B,B5,Registered Nurse,2 years,MORTGAGE,124700.0,Verified,Feb-2017,Fully Paid,major_purchase,MD,30.23,1,Jan-1994,24,0,29356.34,52.9%,34,33166.8,0.0
+10706,510706,5000.0,5000.0, 60 months,21.24%,135.94,E,E1,Mechanic,3 years,RENT,136600.0,Verified,Apr-2016,Charged Off,major_purchase,NC,22.14,2,Jan-1993,8,0,15636.12,79.7%,24,3511.6,0.0
+10162,510162,15900.0,15900.0, 36 months,11.6%,525.08,B,B4,Administrative Assistant,n/a,RENT,51500.0,Verified,Jun-2016,Fully Paid,credit_card,CO,35.07,0,Jan-1994,21,0,8566.09,39.2%,34,18902.88,0.0
+10348,510348,8500.0,8500.0, 36 months,15.76%,297.83,C,C3,Mechanic,9 years,OWN,127100.0,Verified,Oct-2017,Fully Paid,home_improvement,AZ,26.61,1,Jan-2003,13,1,14075.72,26.6%,26,10721.88,0.0
+10269,510269,5200.0,5200.0, 60 months,15.62,125.41,C,C4,Software Engineer,7 years,RENT,63600.0,Verified,Nov-2017,In Grace Period,car,OH,9.38,0,Jan-2004,23,2,1208.89,65.2%,30,4878.74,0.0
+10623,510623,19900.0,19900.0, 36 months,10.53,647.08,B,B2,Project Manager,< 1 year,MORTGAGE,55100.0,Not Verified,May-2016,Current,credit_card,MA,21.94,3,Jan-2000,21,0,28398.87,42.2%,34,10339.08,0.0
+10024,510024,25900.0,25900.0, 60 months,7.77,522.31,A,A3,Manager,7 years,OWN,142100.0,Not Verified,Jan-2016,Fully Paid,car,NV,23.62,0,Jan-2000,23,0,39074.89,21.4%,33,31338.6,0.0
+10139,510139,21400.0,21400.0, 36 months,15.54%,747.51,C,C5,Driver,3 years,RENT,74700.0,Source Verified,May-2016,Fully Paid,home_improvement,CA,36.31,2,Jan-2010,15,0,34801.95,56.1%,22,26910.36,0.0
+10374,510374,4100.0,4100.0, 36 months,5.63%,124.04,A,A3,Sales Associate,7 years,MORTGAGE,94100.0,Not Verified,Apr-2016,Current,debt_consolidation,NY,13.78,2,Jan-2005,24,0,44449.04,13.7%,42,2286.5,0.0
+10147,510147,7700.0,7700.0, 60 months,11.18%,168.11,B,B4,,10+ years,RENT,54900.0,Not Verified,Jan-2017,Charged Off,debt_consolidation,AZ,34.36,0,Jan-1993,10,0,21647.21,29.2%,23,2231.38,737.43
+10030,510030,5900.0,5900.0, 36 months,9.59%,189.24,B,B2,Software Engineer,< 1 year,RENT,59500.0,Source Verified,Dec-2017,Fully Paid,vacation,MD,24.69,3,Jan-2007,9,0,16559.21,32.2%,28,6812.64,0.0
+10655,510655,19600.0,19600.0, 60 months,18.72,505.42,D,D1,Administrative Assistant,4 years,RENT,117300.0,Source Verified,Jun-2017,Charged Off,medical,PA,22.99,0,Jan-2003,24,0,15130.48,27.1%,41,12122.93,986.19
+10243,510243,17800.0,17800.0, 36 months,9.39%,569.27,B,B1,Driver,6 years,MORTGAGE,66900.0,Not Verified,May-2016,Fully Paid,house,FL,18.39,0,Jan-1997,6,0,29400.59,76.3%,25,20493.72,0.0
+10759,510759,28100.0,28100.0, 60 months,6.28%,546.92,A,A4,Director,4 years,RENT,69500.0,Source Verified,Mar-2017,Current,medical,MO,34.45,0,Jan-2002,12,0,43431.72,22.3%,30,9139.48,0.0
+10825,510825,21300.0,21300.0, 60 months,5.85%,410.3,A,A1,Mechanic,10+ years,RENT,127000.0,Source Verified,Jan-2017,Current,small_business,NJ,23.58,0,Jan-2003,12,0,32138.01,5.1%,27,9445.98,0.0
+10061,510061,4800.0,4800.0, 60 months,26.42,144.91,F,F4,Teacher,2 years,MORTGAGE,100300.0,Verified,Oct-2017,Current,house,TX,26.32,0,Jan-1992,14,0,14244.54,90.6%,26,2920.74,0.0
+10169,510169,26700.0,26700.0, 60 months,18.35,683.1,D,D2,,10+ years,RENT,127100.0,Source Verified,Nov-2017,Fully Paid,house,OH,11.63,0,Jan-2000,12,0,41493.03,16.9%,19,40986.0,0.0
+10122,510122,4900.0,4900.0, 36 months,24.14,192.6,E,E5,Administrative Assistant,4 years,MORTGAGE,54500.0,Not Verified,Jan-2017,Current,medical,CO,15.38,0,Jan-1996,11,0,11543.43,59.1%,22,4914.09,0.0
+10607,510607,28600.0,28600.0, 36 months,17.32%,1024.23,D,D2,Director,3 years,RENT,60200.0,Not Verified,Oct-2016,Charged Off,major_purchase,NV,31.99,0,Jan-2005,4,0,10726.55,85.1%,14,3869.53,0.0
+10045,510045,30700.0,30700.0, 36 months,25.35%,1226.32,E,E4,Administrative Assistant,5 years,MORTGAGE,82700.0,Verified,Oct-2017,Fully Paid,car,MO,17.07,0,Jan-1993,3,0,5999.7,38.2%,13,44147.52,0.0
+10601,510601,16000.0,16000.0, 36 months,13.78,545.13,C,C5,Sales Associate,3 years,MORTGAGE,68200.0,Source Verified,Jan-2016,Current,debt_consolidation,CO,7.6,0,Jan-2009,7,0,17499.87,19.1%,23,7145.96,0.0
+10222,510222,11400.0,11400.0, 60 months,9.31%,238.36,B,B5,Project Manager,8 years,RENT,43100.0,Verified,Mar-2016,Fully Paid,car,NC,26.88,1,Jan-1993,14,0,1348.99,83.1%,28,14301.6,0.0
+10881,510881,22600.0,22600.0, 60 months,5.6,432.73,A,A4,Manager,6 years,MORTGAGE,152900.0,Verified,Nov-2016,Charged Off,house,NJ,18.52,0,Jan-1994,14,1,2167.57,65.2%,33,4818.81,729.91
+10012,510012,20700.0,20700.0, 60 months,13.08,471.84,C,C5,Driver,1 year,MORTGAGE,145900.0,Not Verified,Nov-2016,Fully Paid,major_purchase,NC,18.06,0,Jan-1992,12,0,41841.32,89.2%,14,28310.4,0.0
+10124,510124,10700.0,10700.0, 36 months,16.57%,379.2,D,D1,Teacher,8 years,OWN,142900.0,Source Verified,May-2017,Charged Off,small_business,MD,30.31,0,Jan-2000,15,0,24377.13,60.4%,25,6393.81,0.0
+10602,510602,2600.0,2600.0, 36 months,11.23%,85.4,B,B2,Director,9 years,RENT,131400.0,Source Verified,May-2016,Fully Paid,medical,AZ,23.15,0,Jan-2008,23,0,8420.93,60.2%,26,3074.4,0.0
+10559,510559,29700.0,29700.0, 36 months,12.94%,999.85,C,C4,Administrative Assistant,n/a,MORTGAGE,93000.0,Verified,Dec-2016,Current,vacation,OR,18.92,0,Jan-2003,4,0,35572.07,81.7%,24,15809.39,0.0
+10639,510639,9100.0,9100.0, 36 months,10.88,297.41,B,B3,Manager,7 years,RENT,81000.0,Not Verified,May-2016,Fully Paid,small_business,AZ,13.07,0,Jan-1994,10,1,11754.94,40.9%,26,10706.76,0.0
+11095,511095,14600.0,14600.0, 36 months,150.0%,440.27,A,A5,Mechanic,8 years,RENT,115600.0,Verified,Aug-2016,Fully Paid,house,WA,35.21,0,Jan-1990,15,0,12902.2,92.5%,17,15849.72,0.0
+10858,510858,20300.0,20300.0, 60 months,14.49,477.52,C,C4,Sales Associate,7 years,RENT,68900.0,Source Verified,Jun-2017,Current,medical,OR,33.07,0,Jan-2006,11,0,23153.12,77.2%,29,13673.1,0.0
+10273,510273,19200.0,19200.0, 36 months,10.91,627.77,B,B2,Driver,5 years,OWN,67800.0,Not Verified,May-2016,Current,moving,WA,18.86,0,Jan-2010,3,0,3301.25,83.5%,12,9074.38,0.0
+10440,510440,27800.0,27800.0, 36 months,9.24%,887.14,B,B5,Director,6 years,MORTGAGE,140300.0,Source Verified,Feb-2016,Fully Paid,house,MD,6.29,0,Jan-1992,5,0,37428.33,42.4%,16,31937.04,0.0
+10649,510649,23600.0,23600.0, 60 months,20.77%,635.41,D,D3,,5 years,OWN,78100.0,Source Verified,Oct-2017,Charged Off,medical,OH,12.94,0,Jan-2008,7,0,3114.29,83.8%,13,6089.67,1155.55
+10663,510663,19900.0,19900.0, 60 months,23.2%,563.28,E,E1,Project Manager,< 1 year,OWN,56400.0,Verified,Mar-2016,Default,medical,PA,11.11,1,Jan-2006,6,0,1249.62,24.7%,12,15057.49,0.0
+10090,510090,31800.0,31800.0, 36 months,5.73,963.53,A,A5,Project Manager,7 years,MORTGAGE,92700.0,Source Verified,May-2017,Fully Paid,moving,FL,27.45,0,Jan-2008,18,0,23211.7,77.8%,34,34687.08,0.0
+10657,510657,27900.0,27900.0, 60 months,10.86,604.67,B,B1,Director,2 years,MORTGAGE,118700.0,Source Verified,Jul-2016,Fully Paid,house,NC,28.94,1,Jan-2006,22,0,35802.29,12.8%,26,36280.2,0.0
+10909,510909,24300.0,24300.0, 60 months,6.18%,471.82,A,A4,Registered Nurse,1 year,RENT,85600.0,Verified,Dec-2017,Fully Paid,credit_card,MD,22.05,0,Jan-1991,16,0,44691.72,41.5%,18,28309.2,0.0
+10544,510544,29900.0,29900.0, 36 months,9.25,954.29,B,B1,Accountant,1 year,OWN,89500.0,Source Verified,Nov-2016,Fully Paid,major_purchase,OH,11.66,0,Jan-2002,11,0,41434.58,74.5%,13,34354.44,0.0
+10749,510749,31800.0,31800.0, 36 months,11.28%,1045.31,B,B2,Director,6 years,RENT,82200.0,Not Verified,Oct-2017,Fully Paid,moving,NY,13.82,0,Jan-1991,10,0,12009.99,76.1%,30,37631.16,0.0
+10133,510133,6300.0,6300.0, 60 months,8.37,128.86,A,A1,Director,1 year,RENT,74200.0,Not Verified,Mar-2016,Fully Paid,vacation,NV,13.54,0,Jan-1991,3,2,9299.89,63.1%,9,7731.6,0.0
+10046,510046,20500.0,20500.0, 36 months,12.88,689.54,C,C4,Mechanic,6 years,RENT,100700.0,Source Verified,Nov-2017,Charged Off,small_business,CO,8.85,0,Jan-2008,4,0,22421.8,13.7%,23,9139.85,0.0
+10380,510380,24400.0,24400.0, 36 months,17.93%,881.26,D,D4,,< 1 year,RENT,87500.0,Verified,Apr-2016,Charged Off,car,CA,22.76,0,Jan-2009,7,0,13708.65,24.7%,23,12652.83,0.0
+10009,510009,5200.0,5200.0, 60 months,12.01%,115.7,B,B4,Accountant,3 years,MORTGAGE,72700.0,Not Verified,Feb-2016,Fully Paid,credit_card,NY,18.29,0,Jan-1992,6,0,8964.3,45.4%,21,6942.0,0.0
+10850,510850,18900.0,18900.0, 36 months,10.15%,611.18,B,B1,Registered Nurse,n/a,RENT,48600.0,Source Verified,May-2016,Fully Paid,car,NV,25.11,2,Jan-2007,11,0,23944.64,63.7%,29,22002.48,0.0
+10445,510445,30900.0,30900.0, 36 months,28.55%,1287.33,F,F5,Registered Nurse,< 1 year,OWN,63600.0,Verified,Sep-2016,Charged Off,debt_consolidation,MA,26.84,0,Jan-2010,11,0,24988.54,36.9%,19,14050.11,408.88
+10245,510245,18300.0,18300.0, 36 months,15.49%,638.78,C,C5,Administrative Assistant,4 years,RENT,48700.0,Not Verified,Sep-2017,Fully Paid,debt_consolidation,IL,26.81,0,Jan-2003,12,0,26217.95,22.6%,24,22996.08,0.0
+,511105,12800.0,12800.0, 60 months,34.82%,452.8,G,G2,Project Manager,3 years,MORTGAGE,142900.0,Verified,May-2016,Charged Off,car,TX,29.42,0,Jan-1991,7,0,36676.48,86.6%,9,7077.64,1218.9
+10406,510406,13700.0,13700.0, 60 months,11.37%,300.41,B,B1,Driver,10+ years,OWN,58100.0,Not Verified,Oct-2017,Current,vacation,FL,28.85,0,Jan-2002,23,0,28367.22,59.4%,31,6511.86,0.0
